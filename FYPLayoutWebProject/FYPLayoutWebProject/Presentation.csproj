@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C3C5955-A146-4AB1-9FA6-C72EC278A9D8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FYPLayoutWebProject</RootNamespace>
+    <AssemblyName>FYPLayoutWebProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LinqToTwitter.AspNet, Version=3.2.0.30483, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\linqtotwitter.4.1.0\lib\net45\LinqToTwitter.AspNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LinqToTwitter.net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=957107be965c25d9, processorArchitecture=MSIL">
+      <HintPath>..\packages\linqtotwitter.4.1.0\lib\net45\LinqToTwitter.net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.1.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.1.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.1.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.1.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MongoDB.Bson, Version=2.4.0.70, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Bson.2.4.0\lib\net45\MongoDB.Bson.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.4.0.70, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.2.4.0\lib\net45\MongoDB.Driver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.4.0.70, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.4.0\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Legacy, Version=2.4.0.70, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\mongocsharpdriver.2.4.0\lib\net45\MongoDB.Driver.Legacy.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Reactive.Core, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rx-Core.2.2.5\lib\net45\System.Reactive.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\net45\System.Reactive.Interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Linq, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rx-Linq.2.2.5\lib\net45\System.Reactive.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rx-PlatformServices.2.2.5\lib\net45\System.Reactive.PlatformServices.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfontba72.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\img\1.png" />
+    <Content Include="assets\img\2.png" />
+    <Content Include="assets\img\3.png" />
+    <Content Include="assets\img\4.png" />
+    <Content Include="assets\img\backgrounds\1.jpg" />
+    <Content Include="assets\img\backgrounds\2.jpg" />
+    <Content Include="assets\img\backgrounds\3.jpg" />
+    <Content Include="assets\img\blog.png" />
+    <Content Include="assets\img\find_user.png" />
+    <Content Include="assets\img\find_user1.jpg" />
+    <Content Include="assets\img\home.png" />
+    <Content Include="assets\img\iphone.png" />
+    <Content Include="assets\img\pattern.jpg" />
+    <Content Include="assets\img\pencil.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\jquery-1.10.2.js" />
+    <Content Include="assets\js\jquery-1.8.2.min.js" />
+    <Content Include="assets\js\jquery.backstretch.min.js" />
+    <Content Include="assets\js\jquery.metisMenu.js" />
+    <Content Include="assets\js\scripts.js" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\img\backgrounds\Thumbs.db" />
+    <Content Include="assets\img\Thumbs.db" />
+    <Content Include="RegisterForm.Master" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfontba72.eot" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfontba72.ttf" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfontba72.woff" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="MainMasterAdmin.master" />
+    <Content Include="ForgottenPassword.aspx" />
+    <Content Include="MainMasterUser.Master" />
+    <Content Include="User-ConfirmEmail.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="Admin-AllTrends.aspx" />
+    <Content Include="Admin-CatTrends.aspx" />
+    <Content Include="Admin-Tweets.aspx" />
+    <Content Include="Admin-AddAdmin.aspx" />
+    <Content Include="Admin-Dashboard.aspx" />
+    <Content Include="Admin-User.aspx" />
+    <Content Include="User-Dashboard.aspx" />
+    <Content Include="User.Master" />
+    <Content Include="UserDashboard.aspx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ViewModel\InfluencerViewModel.cs" />
+    <Compile Include="MainMasterAdmin.master.cs">
+      <DependentUpon>MainMasterAdmin.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMasterUser.Master.cs">
+      <DependentUpon>MainMasterUser.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMasterUser.Master.designer.cs">
+      <DependentUpon>MainMasterUser.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterForm.Master.cs">
+      <DependentUpon>RegisterForm.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Master.designer.cs">
+      <DependentUpon>RegisterForm.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgottenPassword.aspx.cs">
+      <DependentUpon>ForgottenPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgottenPassword.aspx.designer.cs">
+      <DependentUpon>ForgottenPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User-ConfirmEmail.aspx.cs">
+      <DependentUpon>User-ConfirmEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User-ConfirmEmail.aspx.designer.cs">
+      <DependentUpon>User-ConfirmEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-AllTrends.aspx.cs">
+      <DependentUpon>Admin-AllTrends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin-AllTrends.aspx.designer.cs">
+      <DependentUpon>Admin-AllTrends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-CatTrends.aspx.cs">
+      <DependentUpon>Admin-CatTrends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin-CatTrends.aspx.designer.cs">
+      <DependentUpon>Admin-CatTrends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-Tweets.aspx.cs">
+      <DependentUpon>Admin-Tweets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin-Tweets.aspx.designer.cs">
+      <DependentUpon>Admin-Tweets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-AddAdmin.aspx.cs">
+      <DependentUpon>Admin-AddAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin-AddAdmin.aspx.designer.cs">
+      <DependentUpon>Admin-AddAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-Dashboard.aspx.cs">
+      <DependentUpon>Admin-Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin-Dashboard.aspx.designer.cs">
+      <DependentUpon>Admin-Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-User.aspx.cs">
+      <DependentUpon>Admin-User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin-User.aspx.designer.cs">
+      <DependentUpon>Admin-User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User-Dashboard.aspx.cs">
+      <DependentUpon>User-Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User-Dashboard.aspx.designer.cs">
+      <DependentUpon>User-Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserDashboard.aspx.cs">
+      <DependentUpon>UserDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserDashboard.aspx.designer.cs">
+      <DependentUpon>UserDashboard.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\bootstrap\" />
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\js\dataTables\" />
+    <Folder Include="assets\js\morris\" />
+    <Folder Include="assets\user\css\" />
+    <Folder Include="assets\user\fonts\" />
+    <Folder Include="assets\user\images\" />
+    <Folder Include="assets\user\img\" />
+    <Folder Include="assets\user\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\TextPreProcessing\TextPreProcessing\BuisnessLogic.csproj">
+      <Project>{81e85786-a65a-4326-9b64-a21f039cda11}</Project>
+      <Name>BuisnessLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51365</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51365/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

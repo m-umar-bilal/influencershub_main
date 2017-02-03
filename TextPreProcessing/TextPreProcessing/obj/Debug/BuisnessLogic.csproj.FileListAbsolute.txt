@@ -1,0 +1,52 @@
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\big.txt
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.exe.config
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.exe
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.pdb
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\LinqToTwitter.AspNet.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\LinqToTwitter.net.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Bson.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Core.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Linq.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.xml
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Bson.xml
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.xml
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Core.xml
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Linq.xml
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\obj\Debug\BuisnessLogic.csprojResolveAssemblyReference.cache
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\obj\Debug\TextPreProcessing.exe
+C:\Users\UmarBilal\documents\visual studio 2015\Projects\TextPreProcessing\TextPreProcessing\obj\Debug\TextPreProcessing.pdb
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\big.txt
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.exe.config
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.exe
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.pdb
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\LinqToTwitter.AspNet.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\LinqToTwitter.net.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Bson.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Core.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Linq.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.xml
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Bson.xml
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.xml
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Core.xml
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Linq.xml
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\obj\Debug\BuisnessLogic.csprojResolveAssemblyReference.cache
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\obj\Debug\TextPreProcessing.exe
+C:\Users\UmarBilal\Documents\twitterdata\TextPreProcessing\TextPreProcessing\obj\Debug\TextPreProcessing.pdb

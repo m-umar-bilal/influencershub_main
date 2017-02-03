@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="FYPLayoutWebProject.User" %>
+
+<!doctype html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>iHub - <%=Session["FName"].ToString() + Session["LName"].ToString()%></title>
+
+<!-- Fonts Online -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<!-- Style Sheet -->
+<link rel="stylesheet" href="assets/user/css/owl.carousel.css">
+<link rel="stylesheet" href="assets/user/css/main-style.css">
+<link rel="stylesheet" href="assets/user/css/style.css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <form id="form1" runat="server">
+<div id="main-wrapper"> 
+  
+  <!-- Top Toolbar -->
+  <div class="toolbar"> <!-- end .uou-block-1a --> 
+  </div>
+  <!-- end toolbar -->
+  
+  <div class="box-shadow-for-ui">
+<!-- end .uou-block-2b --> 
+  </div>
+  <!-- end .uou-block-2b --> 
+  
+  <!-- SUB Banner -->
+  <div class="profile-bnr sub-bnr user-profile-bnr">
+    <div class="position-center-center">
+      <div class="container">
+        <h2>User Dashboard</h2>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Compny Profile -->
+  <div class="compny-profile"> 
+    
+    <!-- Profile Company Content -->
+    <div class="profile-company-content" data-bg-color="fff">
+      <div class="container">
+        <div class="row"> 
+          
+          <!-- SIDE BAR -->
+          <div class="col-md-4"> 
+            <!-- Company Information -->
+            <div class="sidebar">
+              <h5 class="main-title">Mike Tomlinson</h5>
+              <div class="sidebar-thumbnail"> <img src="assets/user/images/avatar.jpg" alt=""> </div>
+              <div class="sidebar-information">
+                <div class="profile-usermenu">
+                  <ul class="nav nav-links">
+                    <li class="active"> <a href="#."> <i class="fa fa-heart-o"></i> Network </a> </li>
+                    <li> <a href="#."> <i class="fa fa-group"></i> Bookmarks </a> </li>
+                    <li> <a href="#."> <i class="fa fa-plus-circle"></i> Upgrade My Account </a> </li>
+                    <li> <a href="#."> <i class="fa fa-cog"></i> Account Settings </a> </li>
+                    <li> <a href="#."> <i class="fa fa-sign-out"></i> Sign out </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Tab Content -->
+          <div class="col-md-8">
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                  
+              </asp:ContentPlaceHolder>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+<!-- end .uou-block-4e -->
+
+<div class="uou-block-4a secondary dark">
+  <div class="container">
+    <ul class="links">
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms &amp; Conditions</a></li>
+    </ul>
+    <p>Copyright &copy; 2015 <a href="#">UOUAPPS</a>. All Rights reserved.</p>
+  </div>
+</div>
+<!-- end .uou-block-4a -->
+
+<div class="uou-block-11a">
+  <h5 class="title">Menu</h5>
+  <a href="#" class="mobile-sidebar-close">&times;</a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index-2.html">Index</a></li>
+      <li><a href="listing-filter.html">Professionals</a> </li>
+      <li><a href="index-2.html">Pages</a>
+      <li><a href="profile_company.html">Profile Company</a></li>
+      <li><a href="profile_company-no-tabs.html">Profile Company No Tabs</a></li>
+      <li class="active"><a href="user-dashboard(connections)(hotkeys-disabled).html">User Dashboard 1</a></li>
+      <li><a href="user-dashboard(connections)(hotkeys-enabled).html">User Dashboard 2</a></li>
+      <li><a href="user-dashboard(followers).html">User Dashboard 3</a></li>
+      <li><a href="user-dashboard(following).html">User Dashboard 4</a></li>
+      <li><a href="blog-post.html">Blog Post</a></li>
+      <li> <a href="user-profile(layout-1).html">User Profile</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="gui-kit.html">GUI KIT</a></li>
+    </ul>
+  </nav>
+  <hr>
+</div>
+
+<!-- Scripts --> 
+<script src="https://maps.googleapis.com/maps/api/js"></script> 
+<script src="assets/user/js/jquery-2.1.3.min.js"></script> 
+<script src="assets/user/js/bootstrap.js"></script> 
+<script src="assets/user/js/plugins/superfish.min.js"></script> 
+<script src="assets/user/js/jquery.ui.min.js"></script> 
+<script src="assets/user/js/plugins/rangeslider.min.js"></script> 
+<script src="assets/user/js/plugins/jquery.flexslider-min.js"></script> 
+<script src="assets/user/js/uou-accordions.js"></script> 
+<script src="assets/user/js/uou-tabs.js"></script> 
+<script src="assets/user/js/plugins/select2.min.js"></script> 
+<script src="assets/user/js/owl.carousel.min.js"></script> 
+<script src="assets/user/js/gmap3.min.js"></script> 
+<script src="assets/user/js/scripts.js"></script>
+     </form>
+</body>
+
+
+</html>
