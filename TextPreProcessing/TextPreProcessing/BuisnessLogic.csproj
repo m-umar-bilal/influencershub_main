@@ -94,6 +94,7 @@
     <Compile Include="BLL\UserAccess\Login.cs" />
     <Compile Include="BLL\TextClassification\Categories.cs" />
     <Compile Include="BLL\TextPreprocessing\Encryption.cs" />
+    <Compile Include="BLL\UserAccess\Scrore.cs" />
     <Compile Include="BLL\UserAccess\User.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="BLL\DBAccess\DBConnector.cs" />
@@ -110,10 +111,19 @@
     <Compile Include="BLL\TwitterAccess\Trends.cs" />
     <Compile Include="BLL\TwitterAccess\Tweets.cs" />
     <Compile Include="BLL\TwitterAccess\TwitterDeveloper.cs" />
+    <Compile Include="Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="big.txt">

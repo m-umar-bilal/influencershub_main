@@ -14,11 +14,13 @@ namespace Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lblError.Text = "";
+           
+            
         }
         protected void loginbtn(object sender, EventArgs e)
         {
-
+            lblError.Text = "";
+           
 
             UserAccess.Login login = new UserAccess.Login();
             String email = Request.Form["email"];
@@ -31,8 +33,9 @@ namespace Views
                 {
                    u = await login.getLogin(email, password);
 
-              
 
+                    Influencer i = new Influencer();
+                    i.FillInfluencers();
                 }
                 catch (Exception ex)
                 {
