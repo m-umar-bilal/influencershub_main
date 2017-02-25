@@ -34,7 +34,7 @@ namespace UserAccess
 
         public bool addAdmin(string fName, string lName, string email, string password)
         {
-            password = TextPreProcessing.StringCipher.Encrypt(password,PassSalt);
+            password = UserAccess.StringCipher.Encrypt(password,PassSalt);
             Admin newAdmin = new Admin { FirstName = fName, LastName = lName, Email = email, Password = password };
 
             bool u = false;

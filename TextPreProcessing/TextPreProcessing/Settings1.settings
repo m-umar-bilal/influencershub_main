@@ -2,8 +2,26 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TextPreProcessing" GeneratedClassName="Settings1">
   <Profiles />
   <Settings>
-    <Setting Name="TweetsCount" Type="System.Int32" Scope="User">
+    <Setting Name="TweetsCount" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="Weightage_Fav" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="Weightage_TotalFav" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="Weightage_Friends" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="Weightage_Statuses" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="Weightage_Followers" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="Weightage_Retweets" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">15</Value>
     </Setting>
   </Settings>
 </SettingsFile>

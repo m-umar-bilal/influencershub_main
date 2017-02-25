@@ -21,7 +21,38 @@ namespace FYPLayoutWebProject
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            RegisterAsyncTask(new PageAsyncTask(LoadInfluencers));     
+            try
+            {
+                if (Session["Type"].Equals("User"))
+                {
+
+                    if (Session["EmailConfirm"].Equals("true"))
+                    {
+                        RegisterAsyncTask(new PageAsyncTask(LoadInfluencers));
+                    }
+                    else
+                    {
+
+                        // Response.Redirect("/User-ConfirmEmail.aspx");
+                        Response.Redirect("/User-ConfirmEmail.aspx", false);
+                        Context.ApplicationInstance.CompleteRequest();
+
+
+                    }
+
+                }
+                else
+                {
+                    Response.Redirect("/SignIn.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
+            }
+            catch (Exception ee)
+            {
+                Response.Redirect("/SignIn.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+                
         }
 
         private async Task LoadInfluencers()

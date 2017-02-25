@@ -38,7 +38,7 @@ namespace UserAccess
 
         public bool addUser(string fName, string lName, string email, string password)
         {
-            password = TextPreProcessing.StringCipher.Encrypt(password, PassSalt);
+            password = UserAccess.StringCipher.Encrypt(password, PassSalt);
             User newUser = new User { FirstName = fName, LastName = lName, Email = email, Password = password };
 
             bool u = false;

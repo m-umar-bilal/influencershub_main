@@ -41,13 +41,13 @@ public static byte[] GetHash(string inputString)
 new SingleUserInMemoryCredentialStore
       {
                 ConsumerKey =
-TextPreProcessing.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["ConsumerKey"], passPhrase),
+UserAccess.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["ConsumerKey"], passPhrase),
                 ConsumerSecret =
-TextPreProcessing.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["ConsumerSecret"], passPhrase),
+UserAccess.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["ConsumerSecret"], passPhrase),
                 AccessToken =
-TextPreProcessing.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["AccessToken"], passPhrase),
+UserAccess.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["AccessToken"], passPhrase),
                 AccessTokenSecret =
-TextPreProcessing.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["AccessTokenSecret"], passPhrase)
+UserAccess.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["AccessTokenSecret"], passPhrase)
 }
    };
             return authorizer;

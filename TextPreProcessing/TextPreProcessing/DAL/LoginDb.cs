@@ -30,7 +30,7 @@ namespace DAL
                         {
                             BsonSerializer.Deserialize<User>(document);
                            
-                            if (password.Equals(TextPreProcessing.StringCipher.Decrypt(document["Password"].ToString(), User.PassSalt)))
+                            if (password.Equals(UserAccess.StringCipher.Decrypt(document["Password"].ToString(), User.PassSalt)))
                             {
                                 User user = new User();
                                 user.FirstName = document["FirstName"].ToString();
@@ -67,7 +67,7 @@ namespace DAL
                         foreach (var document in batch)
                         {
                             BsonSerializer.Deserialize<User>(document);
-                            if (password.Equals(TextPreProcessing.StringCipher.Decrypt(document["Password"].ToString(), Admin.PassSalt)))
+                            if (password.Equals(UserAccess.StringCipher.Decrypt(document["Password"].ToString(), Admin.PassSalt)))
                             {
                                 Admin user = new Admin();
                                 user.FirstName = document["FirstName"].ToString();
@@ -108,7 +108,7 @@ namespace DAL
                             user.FirstName = document["FirstName"].ToString();
                             user.LastName = document["LastName"].ToString();
                             user.Email = document["Email"].ToString();
-                            user.Password = TextPreProcessing.StringCipher.Decrypt(document["Password"].ToString(), User.PassSalt);
+                            user.Password = UserAccess.StringCipher.Decrypt(document["Password"].ToString(), User.PassSalt);
                             {
                                 // Send Email to User 
 

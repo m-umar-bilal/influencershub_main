@@ -7,6 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using UserAccess;
 using TweetsAndTrends;
+using TextPreProcessing.BLL.UserAccess;
 
 namespace Views
 {
@@ -34,17 +35,20 @@ namespace Views
                    u = await login.getLogin(email, password);
 
 
-                    Influencer i = new Influencer();
-                    i.FillInfluencers();
-                }
-                catch (Exception ex)
-                {
+                  //  Influencer inf = new Influencer();
+                   // inf.FillInfluencers();
                     
                 }
 
+                catch (Exception ex) {
+                    
+                }
+               Influencer i = new Influencer();
+               i.UpdateAllInfluencersScore();
             }).Wait();
 
-            if(u != null)
+            
+            if (u != null)
             {
                 
                 Session["FName"] = u.FirstName;

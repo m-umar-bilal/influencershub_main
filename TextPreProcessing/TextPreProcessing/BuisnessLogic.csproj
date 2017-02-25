@@ -94,9 +94,8 @@
     <Compile Include="BLL\UserAccess\Login.cs" />
     <Compile Include="BLL\TextClassification\Categories.cs" />
     <Compile Include="BLL\TextPreprocessing\Encryption.cs" />
-    <Compile Include="BLL\UserAccess\Scrore.cs" />
+    <Compile Include="BLL\UserAccess\Score.cs" />
     <Compile Include="BLL\UserAccess\User.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="BLL\DBAccess\DBConnector.cs" />
     <Compile Include="BLL\TextClassification\NaiveBayes.cs" />
     <Compile Include="BLL\TextPreprocessing\TextCleaner.cs" />

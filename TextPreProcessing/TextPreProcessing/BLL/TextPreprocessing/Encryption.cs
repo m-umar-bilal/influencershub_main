@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.IO;
 using System.Linq;
 
-namespace TextPreProcessing
+namespace UserAccess
 {
 
         public static class StringCipher

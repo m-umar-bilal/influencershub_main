@@ -8,6 +8,7 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using TweetsAndTrends;
 using TwitterHandler;
+using TextPreProcessing.BLL.UserAccess;
 
 namespace UserAccess
 {
@@ -18,10 +19,13 @@ namespace UserAccess
 
         public String Category { get; set; }
 
+        public int Score { get; set; }
+        
+
         public static async void AddInfluencerToDb(string screenname, string category)
         {
             Influencer tempInfluencer = null;
-            tempInfluencer = new Influencer() { Category = category, ScreenName = screenname };
+            tempInfluencer = new Influencer() { Category = category, ScreenName = screenname, Score = 0 };
             var Client = new MongoClient();
             var db = Client.GetDatabase("InfluencersHub");
             var Collec = db.GetCollection<Influencer>("Influencers");
@@ -53,19 +57,34 @@ namespace UserAccess
 
 
 
-        public static List<Influencer> GetInfluencersByCategory(string category)
+        public static  List<Influencer> GetInfluencersByCategory(string category)
         {
             var Client = new MongoClient();
             var db = Client.GetDatabase("InfluencersHub");
 
-            var Collec = db.GetCollection<Influencer>("Influencers");
-            var inf = Collec.Find(x => x.Category == category);
-          //  inf = inf.Limit(1);
-            var result = inf.ToList();
-            return result;
+            var Collec = db.GetCollection<BsonDocument>("Influencers");
+            var filter = Builders<BsonDocument>.Filter.Eq("Category", category);
+            List<BsonDocument> inf = new List<BsonDocument>();
+            Task.Run(async () =>
+            {
+                inf = await Collec.Find(filter).ToListAsync();
+            }).Wait();
+            List<Influencer> infList = new List<Influencer>();
+
+            foreach (var document in inf)
+            {
+                Influencer tempInf = new Influencer();
+                tempInf.ScreenName = Convert.ToString(document["ScreenName"]);
+                tempInf.Category = Convert.ToString(document["Category"]);
+                tempInf.Score = Convert.ToInt32(document["Score"]);
+                infList.Add(tempInf);
+            }
+            return infList;
+
+
         }
 
-      
+
 
 
         public async void FillInfluencers()
@@ -103,6 +122,44 @@ namespace UserAccess
 
             }
 
+        }
+        public void UpdateAllInfluencersScore()
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+
+            var Collec = db.GetCollection<BsonDocument>("Influencers");
+            List<BsonDocument> inf = new List<BsonDocument>();
+            Task.Run(async () =>
+            {
+                inf = await Collec.Find(new BsonDocument()).ToListAsync();
+            }).Wait();
+            List<Influencer> infList = new List<Influencer>();
+
+            foreach (var document in inf)
+            {
+                Influencer tempInf = new Influencer();
+                Score score = new Score();
+               // Task.Run(async () =>
+                //{
+                    score.getScoreofInfluencer(Convert.ToString(document["ScreenName"]));
+                //}).Wait();
+
+            }
+           
+        }
+
+        
+
+        public async void UpdateInluencerScore(String InfluencerName, Score score)
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+            var collection = db.GetCollection<BsonDocument>("Influencers");
+            var builder = Builders<BsonDocument>.Filter;
+            var filter = builder.Eq("ScreenName", InfluencerName);
+            var update = Builders<BsonDocument>.Update.Set("Score", score.CombinedScore).Set("result.favourites", score.Favourites).Set("result.retweets", score.Retweets).Set("result.totalFav", score.TotalFav).Set("result.followers", score.Followers).Set("result.statuses", score.Statuses).Set("result.friends", score.Friends);
+            var result = await collection.UpdateManyAsync(filter, update);
         }
     }
 }
