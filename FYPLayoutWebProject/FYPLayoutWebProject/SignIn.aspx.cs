@@ -23,7 +23,7 @@ namespace Views
             lblError.Text = "";
            
 
-            UserAccess.Login login = new UserAccess.Login();
+             UserAccess.Login login = new UserAccess.Login();
             String email = Request.Form["email"];
             String password = Request.Form["password"];
 
@@ -43,8 +43,8 @@ namespace Views
                 catch (Exception ex) {
                     
                 }
-               Influencer i = new Influencer();
-               i.UpdateAllInfluencersScore();
+               //Influencer i = new Influencer();
+              // i.UpdateAllInfluencersScore();
             }).Wait();
 
             
@@ -54,12 +54,14 @@ namespace Views
                 Session["FName"] = u.FirstName;
                 Session["LName"] = u.LastName;
                 Session["Email"] = u.Email;
-              
+                Session["Category"] = u.Category;
+                Session["Token"] = u.OauthToken;
+                Session["TokenSecret"] = u.OauthTokenSecret;
                 Session["EmailConfirm"] = u.EmailConfirm;
                 Session["Type"] = "User";
 
-
-                Response.Redirect("~/UserDashboard.aspx", false);
+              //  Response.Redirect("~/User-AttachTwitter.aspx", false);
+               Response.Redirect("~/UserDashboard.aspx", false);
                 Context.ApplicationInstance.CompleteRequest();
             }
             else

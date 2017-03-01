@@ -184,7 +184,6 @@
     <Content Include="assets\fonts\glyphicons-halflings-regulard41d.eot" />
     <Content Include="MainMasterAdmin.master" />
     <Content Include="ForgottenPassword.aspx" />
-    <Content Include="MainMasterUser.Master" />
     <Content Include="User-ConfirmEmail.aspx" />
     <Content Include="Admin.aspx" />
     <Content Include="Admin-AllTrends.aspx" />
@@ -193,9 +192,10 @@
     <Content Include="Admin-AddAdmin.aspx" />
     <Content Include="Admin-Dashboard.aspx" />
     <Content Include="Admin-User.aspx" />
-    <Content Include="User-Dashboard.aspx" />
     <Content Include="User.Master" />
     <Content Include="UserDashboard.aspx" />
+    <Content Include="User-AttachTwitter.aspx" />
+    <Content Include="User-SelectCategory.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -211,13 +211,6 @@
     <Compile Include="MainMasterAdmin.master.cs">
       <DependentUpon>MainMasterAdmin.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MainMasterUser.Master.cs">
-      <DependentUpon>MainMasterUser.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MainMasterUser.Master.designer.cs">
-      <DependentUpon>MainMasterUser.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterForm.Master.cs">
@@ -304,13 +297,6 @@
     <Compile Include="Admin-User.aspx.designer.cs">
       <DependentUpon>Admin-User.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User-Dashboard.aspx.cs">
-      <DependentUpon>User-Dashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User-Dashboard.aspx.designer.cs">
-      <DependentUpon>User-Dashboard.aspx</DependentUpon>
-    </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -324,6 +310,20 @@
     </Compile>
     <Compile Include="UserDashboard.aspx.designer.cs">
       <DependentUpon>UserDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User-AttachTwitter.aspx.cs">
+      <DependentUpon>User-AttachTwitter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User-AttachTwitter.aspx.designer.cs">
+      <DependentUpon>User-AttachTwitter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User-SelectCategory.aspx.cs">
+      <DependentUpon>User-SelectCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User-SelectCategory.aspx.designer.cs">
+      <DependentUpon>User-SelectCategory.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

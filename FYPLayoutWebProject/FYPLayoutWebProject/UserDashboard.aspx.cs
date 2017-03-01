@@ -26,21 +26,40 @@ namespace FYPLayoutWebProject
                 if (Session["Type"].Equals("User"))
                 {
 
-                    if (Session["EmailConfirm"].Equals("true"))
+
+                    if (!Session["Category"].Equals("false"))
                     {
-                        RegisterAsyncTask(new PageAsyncTask(LoadInfluencers));
+                        if(!Session["Token"].Equals("false"))
+                        {
+                            if (Session["EmailConfirm"].Equals("true"))
+                            {
+                                // RegisterAsyncTask(new PageAsyncTask(LoadInfluencers));
+                                Task.Run(async () =>
+                                {
+                                    await LoadInfluencers(Session["Category"].ToString());
+                                }).Wait();
+                            }
+                            else
+                            {
+                                Response.Redirect("/User-ConfirmEmail.aspx", false);
+                                Context.ApplicationInstance.CompleteRequest();
+                            }
+
+                        }
+                        else
+                        {
+                            Response.Redirect("/User-AttachTwitter.aspx", false);
+                            Context.ApplicationInstance.CompleteRequest();
+                        }
                     }
                     else
                     {
-
-                        // Response.Redirect("/User-ConfirmEmail.aspx");
-                        Response.Redirect("/User-ConfirmEmail.aspx", false);
+                        Response.Redirect("/User-SelectCategory.aspx", false);
                         Context.ApplicationInstance.CompleteRequest();
+                    }
 
 
                     }
-
-                }
                 else
                 {
                     Response.Redirect("/SignIn.aspx", false);
@@ -55,9 +74,9 @@ namespace FYPLayoutWebProject
                 
         }
 
-        private async Task LoadInfluencers()
+        private async Task LoadInfluencers(String Category)
         {
-            foreach (var item in UserAccess.Influencer.GetInfluencersByCategory("Politics"))
+            foreach (var item in UserAccess.Influencer.GetInfluencersByCategory(Category))
             {
                 
 

@@ -30,7 +30,13 @@ namespace DAL
                 {"LastName",user.LastName},
                 {"Email",user.Email},
                 {"Password",user.Password},
-                { "EmailConfirm",user.EmailConfirm}
+                { "EmailConfirm",user.EmailConfirm},
+                { "Category","false"},
+                { "OauthToken" ,"false" },
+                { "OauthTokenSecret" , "false"}
+
+
+
 
             };
             try
@@ -59,6 +65,28 @@ namespace DAL
             var Collec = db.GetCollection<BsonDocument>("User");
             var filter = Builders<BsonDocument>.Filter.Eq("Email", Email);
             var update = Builders<BsonDocument>.Update.Set("EmailConfirm", "true");
+            var result = await Collec.UpdateOneAsync(filter, update);
+
+        }
+
+        public async Task AddTwitterAccountToDB(String Email,String oauthToken,String oauthTokenSecret)
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+            var Collec = db.GetCollection<BsonDocument>("User");
+            var filter = Builders<BsonDocument>.Filter.Eq("Email", Email);
+            var update = Builders<BsonDocument>.Update.Set("OauthToken",oauthToken).Set("OauthTokenSecret", oauthTokenSecret);
+            var result = await Collec.UpdateOneAsync(filter, update);
+
+        }
+
+        public async Task AddCategoryTODb(String Email, String Category)
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+            var Collec = db.GetCollection<BsonDocument>("User");
+            var filter = Builders<BsonDocument>.Filter.Eq("Email", Email);
+            var update = Builders<BsonDocument>.Update.Set("Category", Category);
             var result = await Collec.UpdateOneAsync(filter, update);
 
         }

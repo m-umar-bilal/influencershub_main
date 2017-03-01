@@ -38,6 +38,9 @@ namespace DAL
                                 user.Email = document["Email"].ToString();
                                 // user.Password = document["Password"].ToString();
                                 user.EmailConfirm = (document["EmailConfirm"].ToString());
+                                user.Category = (document["Category"].ToString());
+                                user.OauthToken = (document["OauthToken"].ToString());
+                                user.OauthTokenSecret = (document["OauthTokenSecret"].ToString());
                                 return user;
                             }
                         }

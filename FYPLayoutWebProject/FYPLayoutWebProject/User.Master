@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>iHub - <%=Session["FName"].ToString() + Session["LName"].ToString()%></title>
+<title></title>
 
 <!-- Fonts Online -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
@@ -28,24 +28,13 @@
 </head>
 
 <body>
-  <form id="form1" runat="server">
-<div id="main-wrapper"> 
-  
-  <!-- Top Toolbar -->
-  <div class="toolbar"> <!-- end .uou-block-1a --> 
-  </div>
-  <!-- end toolbar -->
-  
-  <div class="box-shadow-for-ui">
-<!-- end .uou-block-2b --> 
-  </div>
-  <!-- end .uou-block-2b --> 
-  
+
+<div id="main-wrapper">   
   <!-- SUB Banner -->
   <div class="profile-bnr sub-bnr user-profile-bnr">
     <div class="position-center-center">
       <div class="container">
-        <h2>User Dashboard</h2>
+        <h2>Influencers' Hub!</h2>
       </div>
     </div>
   </div>
@@ -67,9 +56,9 @@
               <div class="sidebar-information">
                 <div class="profile-usermenu">
                   <ul class="nav nav-links">
-                    <li class="active"> <a href="#."> <i class="fa fa-heart-o"></i> Network </a> </li>
-                    <li> <a href="#."> <i class="fa fa-group"></i> Bookmarks </a> </li>
-                    <li> <a href="#."> <i class="fa fa-plus-circle"></i> Upgrade My Account </a> </li>
+                    <li class="active"> <a href="#."> <i class="fa fa-heart-o"></i> Influencers' List</a> </li>
+                    <li> <a href="#."> <i class="fa fa-group"></i> Bookmarked Influencers </a> </li>
+                    <li> <a href="#."> <i class="fa fa-plus-circle"></i> My Account </a> </li>
                     <li> <a href="#."> <i class="fa fa-cog"></i> Account Settings </a> </li>
                     <li> <a href="#."> <i class="fa fa-sign-out"></i> Sign out </a> </li>
                   </ul>
@@ -78,20 +67,23 @@
             </div>
           </div>
           
-          <!-- Tab Content -->
-          <div class="col-md-8">
               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                   
               </asp:ContentPlaceHolder>
           </div>
-        </div>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-
+<div class="uou-block-4e">
+  <div class="container">
+    <div class="row">
+      
+    </div>
+  </div>
+</div>
 <!-- end .uou-block-4e -->
 
 <div class="uou-block-4a secondary dark">
@@ -100,32 +92,13 @@
       <li><a href="#">Privacy Policy</a></li>
       <li><a href="#">Terms &amp; Conditions</a></li>
     </ul>
-    <p>Copyright &copy; 2015 <a href="#">UOUAPPS</a>. All Rights reserved.</p>
+    <p>Copyright Influencers' Hub! &copy; 2017. All Rights reserved.</p>
   </div>
 </div>
 <!-- end .uou-block-4a -->
 
 <div class="uou-block-11a">
-  <h5 class="title">Menu</h5>
-  <a href="#" class="mobile-sidebar-close">&times;</a>
-  <nav class="main-nav">
-    <ul>
-      <li><a href="index-2.html">Index</a></li>
-      <li><a href="listing-filter.html">Professionals</a> </li>
-      <li><a href="index-2.html">Pages</a>
-      <li><a href="profile_company.html">Profile Company</a></li>
-      <li><a href="profile_company-no-tabs.html">Profile Company No Tabs</a></li>
-      <li class="active"><a href="user-dashboard(connections)(hotkeys-disabled).html">User Dashboard 1</a></li>
-      <li><a href="user-dashboard(connections)(hotkeys-enabled).html">User Dashboard 2</a></li>
-      <li><a href="user-dashboard(followers).html">User Dashboard 3</a></li>
-      <li><a href="user-dashboard(following).html">User Dashboard 4</a></li>
-      <li><a href="blog-post.html">Blog Post</a></li>
-      <li> <a href="user-profile(layout-1).html">User Profile</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="gui-kit.html">GUI KIT</a></li>
-    </ul>
-  </nav>
-  <hr>
+ 
 </div>
 
 <!-- Scripts --> 
@@ -142,7 +115,7 @@
 <script src="assets/user/js/owl.carousel.min.js"></script> 
 <script src="assets/user/js/gmap3.min.js"></script> 
 <script src="assets/user/js/scripts.js"></script>
-     </form>
+   
 </body>
 
 

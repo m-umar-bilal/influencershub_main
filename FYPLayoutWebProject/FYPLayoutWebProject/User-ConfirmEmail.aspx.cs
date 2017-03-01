@@ -17,7 +17,24 @@ namespace Views
             {
                 if (Session["Type"].Equals("User"))
                 {
-                    
+                    if (!Session["Category"].Equals("false"))
+                    {
+                        if (!Session["Token"].Equals("false"))
+                        {
+
+                        }
+                        else
+                        {
+                            Response.Redirect("/User-AttachTwitter.aspx", false);
+                            Context.ApplicationInstance.CompleteRequest();
+                        }
+                    }
+                    else
+                    {
+                        Response.Redirect("/User-SelectCategory.aspx", false);
+                        Context.ApplicationInstance.CompleteRequest();
+                    }
+
                 }
                 else
                 {
@@ -42,7 +59,7 @@ namespace Views
             {
                 try
                 {
-                  answer =  await u.ConfirmEmail("muhammad.abdullah5678@gmail.com", code);
+                  answer =  await u.ConfirmEmail(Session["Email"].ToString(), code);
                 }
                 catch (Exception eee)
                 {
@@ -54,13 +71,15 @@ namespace Views
 
             if (answer)
             {
+                Session["Email"] = true;
                 ConfirmMessage.Text = "Your Email Is Confirmed";
                 //ConfirmMessage.ApplyStyle =
 
                 ConfirmCode.Visible = false;
                 Button1.Visible = false;
                 EnterCode.Visible = false;
-
+                Response.Redirect("/UserDashboard.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
             }
             else
             {

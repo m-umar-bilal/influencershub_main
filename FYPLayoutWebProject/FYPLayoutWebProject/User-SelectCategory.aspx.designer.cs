@@ -10,15 +10,24 @@
 namespace FYPLayoutWebProject {
     
     
-    public partial class User {
+    public partial class WebForm2 {
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// Cat_List control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.DropDownList Cat_List;
+        
+        /// <summary>
+        /// btn_Select control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Select;
     }
 }

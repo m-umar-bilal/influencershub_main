@@ -1,13 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainMasterUser.Master" AutoEventWireup="true" CodeBehind="User-ConfirmEmail.aspx.cs" Inherits="Views.WebForm6" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <div id="page-wrapper" >
-            <div id="page-inner">
-                <div class="row">
-                    <div class="col-md-12">
-                     <h2>Confirm Your Email</h2>   
-                        <h5>Email Is sent on your Email ID. kindly Enter the code to verfiy your email address. </h5>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="User-ConfirmEmail.aspx.cs" Inherits="Views.WebForm6" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+      <div class="col-md-8">
+            
+             
+                     <h4>Step 3 of 3 : Confirm Your Email</h4>   
+                        <p>Email Is sent on your Email ID. kindly Enter the code to verfiy your email address. </p>
                         
                          <div class="form-group has-success">
                              <div style="width:30%" >
@@ -16,19 +14,20 @@
 
                             &nbsp;&nbsp; 
                              </div>
+                             <form runat="server">
                                         &nbsp;<asp:Button ID="Button1" runat="server" Text="Enter" OnClick="Button1_Click" />
                              <asp:Label ID="ConfirmMessage" runat="server" Text=""></asp:Label>
+                                 </form>
                              </div>
                        
                     </div>
-                </div>
+               
                  <!-- /. ROW  -->
                  <hr />
                
-    </div>
-             <!-- /. PAGE INNER  -->
-            </div>
+                <!-- /. PAGE INNER  -->
+           
          <!-- /. PAGE WRAPPER  -->
-        </div>
+      
      <!-- /. WRAPPER  -->
 </asp:Content>

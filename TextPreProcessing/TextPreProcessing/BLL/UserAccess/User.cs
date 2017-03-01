@@ -23,6 +23,10 @@ namespace UserAccess
 
        public String EmailConfirm { get; set; }
 
+        public String Category { get; set; }
+
+        public String OauthToken { get; set; }
+        public String OauthTokenSecret { get; set; }
         public static string PassSalt
         {
             get
@@ -39,7 +43,8 @@ namespace UserAccess
         public bool addUser(string fName, string lName, string email, string password)
         {
             password = UserAccess.StringCipher.Encrypt(password, PassSalt);
-            User newUser = new User { FirstName = fName, LastName = lName, Email = email, Password = password };
+            User newUser = new User { FirstName = fName, LastName = lName, Email = email, Password = password , Category="false", OauthToken = "false" , OauthTokenSecret ="false" };
+            
 
             bool u = false;
             Task.Run(async () =>
@@ -65,13 +70,7 @@ namespace UserAccess
             
         }
 
-        public async Task<bool> ConfirmEmailDB(String Email, String Code)
-        {
-            UserDb ub = new UserDb();
-           return await ub.ConfirmEmailDB(Email, Password);
-        }
-
-
+      
 
         public static String generateEmailCode()
         {
@@ -100,8 +99,19 @@ namespace UserAccess
             return await ub.ConfirmEmailDB(Email,Code);
         }
 
+        public async Task AddTwitterAccount(String Email, String oauthToken, String oauthTokenSecret)
+        {
+            UserDb ub = new UserDb();
+            await ub.AddTwitterAccountToDB(Email, oauthToken, oauthTokenSecret);
+        }
 
-    }
+        public async Task AddCategory(String Email, String Category)
+        {
+            UserDb ub = new UserDb();
+            await ub.AddCategoryTODb(Email, Category);
+        }
+
+        }
 }
 
 
