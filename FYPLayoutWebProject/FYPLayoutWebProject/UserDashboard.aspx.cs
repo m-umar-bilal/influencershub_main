@@ -33,11 +33,12 @@ namespace FYPLayoutWebProject
                         {
                             if (Session["EmailConfirm"].Equals("true"))
                             {
-                                // RegisterAsyncTask(new PageAsyncTask(LoadInfluencers));
-                                Task.Run(async () =>
+                              //  /RegisterAsyncTask(new PageAsyncTask(LoadInfluencers(Session["Category"].ToString())));
+                              /*  Task.Run(async () =>
                                 {
                                     await LoadInfluencers(Session["Category"].ToString());
                                 }).Wait();
+                                */
                             }
                             else
                             {

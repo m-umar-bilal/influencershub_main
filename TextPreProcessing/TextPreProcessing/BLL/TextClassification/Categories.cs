@@ -11,7 +11,7 @@ namespace TextClassification
     {
         string name;
         static HashSet<string> categories = new HashSet<string>();
-        public static string[] categorylist = { "Politic", "TvMovies", "ScienceTechnlogy", "SportsGaming", "ArtDesign", "Fashion", "Health", "Music", "Religion" };
+        public static string[] categorylist = { "Politics", "TvMovies", "ScienceTechnlogy", "SportsGaming", "ArtDesign", "Fashion", "Health", "Music", "Religion" };
         public static HashSet<string> Categories
         {
             get

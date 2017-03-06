@@ -37,16 +37,19 @@ namespace Views
             string password = Request.Form["password"];
 
             User u = new User();
-
-            if(u.addUser(fname, lname, email, password))
+            u = u.addUser(fname, lname, email, password);
+            if(u !=null)
             {
+
                 Session["FName"] = u.FirstName;
                 Session["LName"] = u.LastName;
                 Session["Email"] = u.Email;
-              
+                Session["Category"] = "false";
+                Session["Token"] = "false";
+                Session["TokenSecret"] = "false";
                 Session["EmailConfirm"] = u.EmailConfirm;
                 Session["Type"] = "User";
-                Response.Redirect("/User-ConfirmEmail.aspx", false);
+                Response.Redirect("/UserDashboard.aspx", false);
                 Context.ApplicationInstance.CompleteRequest();
             }
             else

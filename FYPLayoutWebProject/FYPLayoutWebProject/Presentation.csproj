@@ -204,9 +204,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="User_InfluencerProfile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="User_InfluencerProfile.aspx.cs">
+      <DependentUpon>User_InfluencerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_InfluencerProfile.aspx.designer.cs">
+      <DependentUpon>User_InfluencerProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\InfluencerViewModel.cs" />
     <Compile Include="MainMasterAdmin.master.cs">
       <DependentUpon>MainMasterAdmin.master</DependentUpon>
