@@ -35,7 +35,7 @@ namespace Views
                    u = await login.getLogin(email, password);
 
 
-                  //  Influencer inf = new Influencer();
+                  //Influencer inf = new Influencer();
                    // inf.FillInfluencers();
                     
                 }

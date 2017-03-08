@@ -142,6 +142,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin-Settings.aspx" />
     <Content Include="assets\font-awesome\fonts\fontawesome-webfontba72.svg" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="assets\img\1.png" />
@@ -208,6 +209,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin-Settings.aspx.cs">
+      <DependentUpon>Admin-Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin-Settings.aspx.designer.cs">
+      <DependentUpon>Admin-Settings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User_InfluencerProfile.aspx.cs">
       <DependentUpon>User_InfluencerProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
