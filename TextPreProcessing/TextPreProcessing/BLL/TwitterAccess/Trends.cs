@@ -13,6 +13,7 @@ using TwitterHandler;
 using TextClassification;
 using DBHandler;
 using DAL;
+using TextPreProcessing.BLL.TextClassification;
 
 namespace TweetsAndTrends
 {
@@ -222,6 +223,33 @@ namespace TweetsAndTrends
 
         }
 
+        public static List<TrendsCategory> GetTrendsOfCurrentWeekThatAreClassified()
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+            var collection = db.GetCollection<TrendsCategory>("TrendsCategory");
+           // var collection = DBConnector.Database.GetCollection<BsonDocument>("TrendsCategory");
+            var builder = Builders<TrendsCategory>.Filter;
+            var prevweekdate = DateTime.Today.AddDays(-7).Date.ToString("M/d/yyyy");
+            var filter = builder.Regex("timestamp", "/"+prevweekdate+"/")|builder.Regex("timestamp", "/"+ DateTime.Today.AddDays(-6).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+ DateTime.Today.AddDays(-5).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+DateTime.Today.AddDays(-4).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+DateTime.Today.AddDays(-3).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+ DateTime.Today.AddDays(-2).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+DateTime.Today.AddDays(-1).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+ DateTime.Today.AddDays(0).Date.ToString("M/d/yyyy")+ "/");
+            List<TrendsCategory> result=null;
+
+            try
+            {
+                result = collection.Find(filter).ToList();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            } 
+            
+           // Console.WriteLine(DateTime.Today.AddDays(-1).Date.ToString("M/d/y"));
+
+
+            return result;
+
+        }
         private string CategorizeTrend(string text, List<string> temptweet, NaiveBayes n)
         {
             return n.ClassifyTrend(text, temptweet);

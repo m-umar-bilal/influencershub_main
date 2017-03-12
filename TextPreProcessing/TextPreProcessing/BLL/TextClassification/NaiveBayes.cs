@@ -352,8 +352,16 @@ namespace TextClassification
             return winner[p];
 
         }
-   
-        static void Main(string[] args)
+
+        public static void StartProcess()
+        {
+            var timer = new System.Threading.Timer(
+     e => Classify(),
+     null,
+     TimeSpan.Zero,
+     TimeSpan.FromMinutes(5));
+        }
+        public static void Classify()
         {
 
             /* NaiveBayes t = new NaiveBayes();
@@ -371,12 +379,15 @@ namespace TextClassification
              TextWriter oldOut = Console.Out;
              try
              {
-                 ostrm = new FileStream("./Redirect.txt", FileMode.OpenOrCreate, FileAccess.Write);
+                string dateAndTime = DateTime.Now.ToShortDateString() + "-" + DateTime.Now.ToShortTimeString();
+                dateAndTime = dateAndTime.Replace('/', '-');
+                dateAndTime = dateAndTime.Replace(':', '-');
+                ostrm = new FileStream("./"+ dateAndTime + "_LogFile.txt", FileMode.OpenOrCreate, FileAccess.Write);
                  writer = new StreamWriter(ostrm);
              }
              catch (Exception e)
              {
-                 Console.WriteLine("Cannot open Redirect.txt for writing");
+                 Console.WriteLine("Cannot open logfile.txt for writing");
                  Console.WriteLine(e.Message);
                  return;
              }
@@ -398,8 +409,8 @@ namespace TextClassification
              Console.SetOut(oldOut);
              writer.Close();
              ostrm.Close();
-             Console.WriteLine("Done");
-              Console.ReadLine();
+             Console.WriteLine("Done LogFile Generated");
+             
             /*  using (StreamWriter outputFile = new StreamWriter(@"c:\WriteLines.txt"))
               {
 

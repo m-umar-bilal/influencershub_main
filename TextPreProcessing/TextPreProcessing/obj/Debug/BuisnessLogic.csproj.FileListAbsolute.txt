@@ -76,3 +76,29 @@ C:\Users\Abdullah\Documents\code\TextPreProcessing\TextPreProcessing\bin\Debug\S
 C:\Users\Abdullah\Documents\code\TextPreProcessing\TextPreProcessing\obj\Debug\BuisnessLogic.csprojResolveAssemblyReference.cache
 C:\Users\Abdullah\Documents\code\TextPreProcessing\TextPreProcessing\obj\Debug\TextPreProcessing.exe
 C:\Users\Abdullah\Documents\code\TextPreProcessing\TextPreProcessing\obj\Debug\TextPreProcessing.pdb
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\big.txt
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.exe.config
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.exe
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\TextPreProcessing.pdb
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\LinqToTwitter.AspNet.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\LinqToTwitter.net.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Bson.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Core.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Bson.xml
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.xml
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Core.xml
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\obj\Debug\BuisnessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\obj\Debug\TextPreProcessing.exe
+C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\obj\Debug\TextPreProcessing.pdb

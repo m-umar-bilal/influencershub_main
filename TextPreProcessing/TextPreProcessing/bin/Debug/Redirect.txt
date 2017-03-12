@@ -1,1510 +1,1570 @@
 
 
-********************  Classifying Trend "Nankana Sahib" Wait  ********************
+********************  Classifying Trend "Details Here" Wait  ********************
 
 
-Classifying "#COAS directs special search effort for victims of capsized boat near Nankana Sahib. Army divers team moved for search operation. #QamarBaj…"
-Tweet is categorized as Politics
+Classifying "#Hiring Data Scientist - Click here for job details : https://t.co/X4hKK4oB6s"
+Tweet is categorized as Music
 
 
-Classifying "#KarachiKings
-#دعا_ہے_اللہ_پاک_سے
-#WeStandWithHafizSaeed
-#IAmSoldierOfIK
-@SajidaBalouch
-Nankana Sahib
-Kashmiris
-https://t.co/Mu0Yvk1ilV"
-Tweet is categorized as FoodDrink
-
-
-Classifying "Candidate for vice chairman district nankana sahib also one of them who affected in boat incident near syed wala."
-Tweet is categorized as Politics
-
-
-Classifying "RT @OfficialDGISPR: #COAS directs special search effort for victims of capsized boat near Nankana Sahib. Army divers team moved for search…"
-Classification skipped due to use of invalid characters
-Classifying "RT @RadioPakistan: Army Chief directs special search operation to help and rescue the victims of capsized boat near Nankana Sahib."
-Tweet is categorized as Politics
-
-
-Classifying "RT @SAMAATV: COAS General Qamar Javed Bajwa directed a special operation to search victims of capsized boat near Nankana Sahib.
- https://t.…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @sharelaugh: #KarachiKings
-#دعا_ہے_اللہ_پاک_سے
-#WeStandWithHafizSaeed
-#IAmSoldierOfIK
-@SajidaBalouch
-Nankana Sahib
-Kashmiris
-https://t.c…"
-Tweet is categorized as Religion
-
-
-Classifying "Rawalpindi: Army Chief General Qamar Javed Bajwa Ki Nankana Sahib Kashti Hadsay Par Har Mumkin Iqdamaat Ki Hadayat, DG ISPR:"
-Tweet is categorized as Politics
-
-
-Classifying "Rawalpindi: Army Chief General Qamar Javed Bajwa Ki Nankana Sahib Kashti Hadsay Par Har Mumkin Iqdamaat Ki Hidayat. #DG ISPR"
-Tweet is categorized as Politics
-
-
-Nankana Sahib is categorized as Politics
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "Silk Road" Wait  ********************
-
-
-Classifying "Amid Beijing's "Silk Road" splurge, Chinese firms eye Pakistan https://t.co/lBWi5f2n6H"
-Tweet is categorized as Politics
-
-
-Classifying "Amid Beijing’s ‘Silk Road’ splurge, Chinese firms eye Pak ...
-Read more:  https://t.co/5XYPytGJQW https://t.co/rlbapMIBQV"
-Tweet is categorized as Politics
-
-
-Classifying "Chinese firms eye Pakistan amid Beijing's 'Silk Road' splurge"
-Tweet is categorized as Politics
-
-
-Classifying "Chinese firms eye business, land in Pakistan amid Beijing's 'Silk Road' splurge
-
-https://t.co/4BouZwFlaU"
-Tweet is categorized as Politics
-
-
-Classifying "Game-Changers Ahead on the (Long) Maritime Silk Road https://t.co/uFhkZnyYng https://t.co/jUGrvxLeyn"
-Tweet is categorized as ScienceTechnology
-
-
-Classifying "RT @DailyTimes_DT: #Silk Road will ‘reroute’ isolationism: #China
-https://t.co/PKAyjxKyWM https://t.co/6vQVK9daU3"
-Tweet is categorized as Politics
-
-
-Classifying "RT AstuteNews: Game-Changers Ahead on the (Long) Maritime Silk Road https://t.co/d9m7VsX1hI https://t.co/WzJcAvIsmo"
-Tweet is categorized as ScienceTechnology
-
-
-Silk Road is categorized as Politics
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "BREAKING NEWS" Wait  ********************
-
-
-Classifying "#Breaking "We woke up in 1989": Romanian graft decree turns back the clock Read More : https://t.co/rKLaRdJj9Z"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking 'El Chapo' lawyers complain about strict New York jail conditions Read More : https://t.co/cuPAwRkc1s"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking 10 Super Bowl ads to watch: Sexy Mr. Clean; John Malkovich Read More : https://t.co/jOcFSxjXH4"
-Tweet is categorized as TvMovies
-
-
-Classifying "#Breaking AP FACT CHECK: Cosmetic companies didn't resume animal tests Read More : https://t.co/wknaqLW32E"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking BMW to recall 230,117 vehicles that may have Takata air bags Read More : https://t.co/CwTEussjl2"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking France's Fillon would not make runoff vote in presidential elections - Ifop poll Read More : https://t.co/hv89Ae4BXv"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking Harbhajan Singh reveals the reason behind Ashish Nehra's longevity in the game Read More : https://t.co/NKGS8Pq3OP"
-Tweet is categorized as SportsGaming
-
-
-Classifying "#Breaking Judge dismisses gun case against Trump adviser Read More : https://t.co/vyvKn71SqB"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking Liberty House mulls partial public listing in London by 2018 Read More : https://t.co/2AxtfInWzg"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking Proposed fine against Dakota Access company to get hearing Read More : https://t.co/k8geHdbDE2"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking RBS to pay $85 million penalty over attempted benchmark manipulation Read More : https://t.co/uvbB0qlRMw"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking Raf Simons salutes New York, talks politics at Fashion week Read More : https://t.co/uIWxQt9TJW"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking Russia's Lavrov, EU's Mogherini discuss Ukraine by phone, agree to meet Read More : https://t.co/qc7dCkeRS9"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking Russian embassy in Damascus shelled twice, no one hurt - statement Read More : https://t.co/Zq9ldcq9v1"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking Trump administration imposes new Iran sanctions, warns more may follow Read More : https://t.co/0HLUzKgwfp"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking US women's soccer team, federation hope for new CBA by April Read More : https://t.co/84ruJNpLEI"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking_News Jason Hoppy: I Will Destroy You, Bethenny Frankel! https://t.co/l1uwWyIMdE via #Indilens"
-Tweet is categorized as Politics
-
-
-Classifying "#Breaking_News Kendall Jenner: All Skin and Bones for New Photo Shoot https://t.co/sRGCy99GDD via #Indilens"
-Tweet is categorized as TvMovies
-
-
-Classifying "#Indilens #Breaking_News :  Bachelor Pad? Forget That! 5 Things to Have in a Bachelorette Pad https://t.co/NSRwxqsYCJ"
-Classification skipped due to use of invalid characters
-Classifying "Breaking News: @rahulkanwal &amp; @IndiaToday expose Congress party distributing liqour for votes https://t.co/7Bc0aqSRsW"
-Tweet is categorized as Politics
-
-
-Classifying "Exclusive Breaking- https://t.co/TH9LcO8BNl @asadowaisi @digvijaya_28"
-Tweet is categorized as Politics
-
-
-Classifying "RT @AaravRohan: @NavinBajaj @bani_j @imanveergurjar breaking news bani fans became mental😂😂and need councilling😂😃 https://t.co/5SYMr87yZ3"
-Tweet is categorized as Politics
-
-
-Classifying "RT @RoyaNews: #عاجل .. واشنطن بوست: إلغاء أكثر من 100 ألف تأشيرة بعد قرارات ترامب بشأن الهجرة https://t.co/6cgHAGEiwL"
+Classifying "#Hiring IBM Integration Architect - Click here for job details : https://t.co/M1b7I1zRFR"
 Tweet is categorized as Fashion
 
 
-Classifying "RT @delhidefence: BREAKING NEWS : Australian PM's staffer suspended indefinitely over anti-Trump propaganda. Via Australian local media"
+Classifying "@cheers2wisdom Hey Amit, sorry about the hassle here. We have reviewed your trip details and you weren't charged for this."
 Tweet is categorized as Politics
 
 
-Classifying "RT @wamtimes: يلدرم: دعم واشنطن للاتحاد الديمقراطي ينعكس بالسلب على العلاقات بين البلدين  https://t.co/RXcpCqXY7W https://t.co/lzu02mzsVL"
-Tweet is categorized as FoodDrink
+Classifying "Here's Tata Nexon's Launch Details Before You're Suppose To Know It https://t.co/IghCr5hfc2 via @DriveSpark… https://t.co/X0jrmU7AyZ"
+Tweet is categorized as Music
 
 
-Classifying "عاجل : مقتل ثمانية من الشرطة الأفغانية برصاص زميل لهم انضم إلى طالبان  https://t.co/G2uYKIDNqG https://t.co/Ksg6rv06w0"
-Classification skipped due to use of invalid characters
-Classifying "عاجل الفرنسية: منفذ اعتداء باريس دخل فرنسا عن طريق دبي وقدم نفسه على أنه مصر  https://t.co/GsYd0XNJy3 https://t.co/TwMNy5g5Ec"
-Classification skipped due to use of invalid characters
-Classifying "नेपाली मिडियामा नआईकन बिश्वास गर्दिन। यो समचार सत्य नहोस।https://t.co/9rLZwkMChS"
-Classification skipped due to use of invalid characters
-Classifying "พ่อเซลส์แมนมั่นใจ ลูกยังมีชีวิตอยู่ พาลูกสะใภ้รุดดูค้นบึงน้ำ ตร.ยุติการค้นหา 3 ชั่วโมงยังไม่พบ https://t.co/C2Sy8Ptmg8"
-Classification skipped due to use of invalid characters
-BREAKING NEWS is categorized as Politics
-
-####################################################################
-####################################################################
+Classifying "Here's Tata Nexon's Launch Details Before You're Suppose To Know It https://t.co/Ta6j9qXJiS #AutoNews #Cars #Bikes https://t.co/yKtKHjOYBu"
+Tweet is categorized as Music
 
 
-
-********************  Classifying Trend "Dubai" Wait  ********************
-
-
-Classifying "Dubai Desert Classic suspended by strong wind https://t.co/DxbTi5ePx7 via the @FoxNews Android app @30secio"
-Tweet is categorized as ScienceTechnology
+Classifying "Here's Tata Nexon's Launch Details Before You're Suppose To Know It https://t.co/YVKIvmK6wr #AutoNews #Cars #Bikes https://t.co/hAzYU2XvwW"
+Tweet is categorized as Music
 
 
-Classifying "RT @lahoreqalandars: #Qalandars team meeting before the action begins. The lads are in Dubai, the action is near.🏏👊
+Classifying "Here's Tata Nexon's Launch Details Before You're Suppose To Know It https://t.co/cHoSeG88qM via @DriveSpark… https://t.co/9OCDyEJhEb"
+Tweet is categorized as Music
 
-#DamaDamMast #AbKhelJa…"
+
+Classifying "Here's Tata Nexon's Launch Details Before You're Suppose To Know It https://t.co/cezJQQDqSS via @DriveSpark… https://t.co/7u0UTL8lF1"
+Tweet is categorized as Music
+
+
+Classifying "Here's Tata Nexon's Launch Details Before You're Suppose To Know It https://t.co/rM9d4Es3yo via @DriveSpark… https://t.co/EtZNxKvVuZ"
+Tweet is categorized as Music
+
+
+Classifying "Hyundai to stop production of i10 hatchback in India
+Details here: https://t.co/u8V9Yiu9GZ https://t.co/AdOx8eWEQh"
+Tweet is categorized as Religion
+
+
+Classifying "IBPS CWE RRB V Cut Off and Post Details
+आईबीपीएस cwe v को बंद और पोस्ट विवरण
+Click here: https://t.co/j34OGOvSGC https://t.co/40NZQ0fzQ6"
 Tweet is categorized as Politics
 
 
-Classifying "RT @tur7eylive: جوديڤا كافيه  #دبي
-GODIVA CAFE JBR
-لعشاق الحلويات والقهوة المميزة يستحق الزيارة 
-👇📌
-https://t.co/dZ5rVWJU5D https://t.co/sh…"
-Tweet is categorized as FoodDrink
-
-
-Classifying "Tiger Woods withdraws from the Dubai Desert Classic https://t.co/jONcOWQBXC via the @FoxNews Android app Interesting@30secio"
+Classifying "Maruti Suzuki will launch 4 new products in India by 2018
+Details here: https://t.co/1rYFuaDSS5 https://t.co/lhZInZoKHC"
 Tweet is categorized as ScienceTechnology
 
 
-Dubai is categorized as ScienceTechnology
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "Ramiz Raja" Wait  ********************
+Classifying "More Videos please click here to download Android App:
+https://t.co/6UlAZ70dxS
+please like or follow page https://t.co/2lsy9OLb42"
+Tweet is categorized as ScienceTechnology
 
 
-Classifying "@gauravsabnis shouldn't it be "like a one day inningS"? Isn't "Inning" singular a Ramiz Raja invention?"
+Classifying "More Videos please click here to download Android App:
+https://t.co/6UlAZ70dxS
+please like or follow page https://t.co/JiFM29tt3i"
+Tweet is categorized as ScienceTechnology
+
+
+Classifying "More Videos please click here to download Android App:
+https://t.co/6UlAZ70dxS
+please like or follow page https://t.co/WMUjk2DvDk"
+Tweet is categorized as ScienceTechnology
+
+
+Classifying "RT @IndiaToday: Hyundai to stop production of i10 hatchback in India
+Details here: https://t.co/u8V9Yiu9GZ https://t.co/AdOx8eWEQh"
+Tweet is categorized as Religion
+
+
+Classifying "RT @IndiaToday: Maruti Suzuki will launch 4 new products in India by 2018
+Details here: https://t.co/1rYFuaDSS5 https://t.co/lhZInZoKHC"
+Tweet is categorized as ScienceTechnology
+
+
+Classifying "RT @JaejahRanger: [OVERSEA FANS] You can see the successfully ring holder now ☺️ More details &amp; Order here https://t.co/eZ4GDKOdt4 #김재중  #T…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @PitchVision: After the huge success of our first girls cricket camp, here are the details for the next one. @MdpMinx22 https://t.co/otu…"
 Tweet is categorized as SportsGaming
 
 
-Classifying "HBLPSL2
-Camentetors
-Team
+Classifying "RT @manju4eva: Happy to be a part of @helpify_here , download it on google play store https://t.co/N2OH3miPLt, and start helping the world."
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @toisports: 10th winner for #VoteTOISA2017 #Contest: Congratulations, @Potterhead_Mee. Please check your DM for further details."
+Tweet is categorized as ScienceTechnology
+
+
+Classifying "Ramcharan movie with maniratnam is a huge multistarrer movie in south india??? Click here to view more details ---&gt;
+https://t.co/naetFSHetw"
+Tweet is categorized as TvMovies
+
+
+Classifying "We have successfully completed 3 years of Summer Camps. Here we go 4..For more info visit... https://t.co/dlIGXqxTvl https://t.co/9Gn1ImV8xT"
+Tweet is categorized as Health
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:57 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:57 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 19:14 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 19:14 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Details Here is categorized as Music
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "1st Test" Wait  ********************
+
+
+Classifying ""STuMPs"
+1sT_TEsT
+SL_v_BAN
+DaY_4
+BAN_67/0
+OvEr_15.
+T IQBaL_13*
+S SaRKaR_53*
+TaRGeT_457
++
+#GM_SaSoLi"
+Tweet is categorized as Politics
+
+
+Classifying ""STuMPs"
+1sT_TEsT
+SL_v_BAN
+DaY_4
+BAN_67/0
+OvEr_15.
+T IQBaL_13*
+S SaRKaR_53*
+TaRGeT_457
++
+#Salman"
+Tweet is categorized as Politics
+
+
+Classifying "1sT_TesT
+NZ_vs_SA
+Stumps_Day_3
 -
-Ramiz Raja
-
-Bazid KHaN
-
-Ian BisHop
-
-DannY Morisan
-
-Alan Wilkins
-
-Mel Jones
-
-AWAl_AFRIDI"
-Tweet is categorized as Politics
-
-
-Classifying "Mahira Khan &amp;
-Katrina Kaif will star
-opposite Sanjay Dutt in
-Ramiz Raja's film about
-spreading the message
-of peace through cricket
+SA_308
+NZ_337
 -
-Muk..."
+SA_38/1
+OvEr_18.
+H Amla_23*
+D Elgar_12*
+S Cook_0
+#Salman"
+Tweet is categorized as SportsGaming
+
+
+Classifying "1st Test: BAN 67/0 (15.0 ov, T Iqbal 13*, S Sarkar 53*) - Stumps, Day 4 #SLvBAN"
+Tweet is categorized as SportsGaming
+
+
+Classifying "1st Test: Bangladesh Openers, Bad Light Keep Sri Lanka At Bay https://t.co/DKAaoFrNCt https://t.co/IK72c0MrWy"
+Tweet is categorized as SportsGaming
+
+
+Classifying "1st Test: Bangladesh Openers, Bad Light Keep Sri Lanka At Bay https://t.co/WLnoxK2f7F https://t.co/soHjOOOzP1"
+Tweet is categorized as SportsGaming
+
+
+Classifying "1st Test: Bangladesh Openers, Bad Light Keep Sri Lanka At Bay https://t.co/geH5tvgNRR https://t.co/yHd3wBwoki"
+Tweet is categorized as SportsGaming
+
+
+Classifying "1st Test: Bangladesh Openers, Bad Light Keep Sri Lanka At Bay https://t.co/mMEMLiA8UA https://t.co/Q56v9pFo3c"
+Tweet is categorized as SportsGaming
+
+
+Classifying "1st Test: Bangladesh Openers, Bad Light Keep Sri Lanka At Bay https://t.co/rBSpm8uJRD"
+Tweet is categorized as SportsGaming
+
+
+Classifying "RT @CricCrazyNIKS: Mitchell Starc ruled out of Test series. Looked ginger in Bangalore, apart from that 1 spell. Made impact with the bat m…"
+Tweet is categorized as SportsGaming
+
+
+Classifying "RT @toisports: #NZvSA Fire alarm prompts evacuation in Dunedin
+
+https://t.co/pnO3RUx2Ks https://t.co/cILkFZgdOX"
 Tweet is categorized as Politics
 
 
-Classifying "RT @omar_quraishi: What's this about Ramiz Raja saying he will now make a movie - Janab kindly focus on your commentary skills, or lack the…"
+Classifying "RT @toisports: #SLvBAN 
+
+1st Test: @BCBtigers begin tough chase after Tharanga ton
+
+https://t.co/52eoLThKhD https://t.co/pA8faWjyzF"
+Tweet is categorized as SportsGaming
+
+
+Classifying "Soumya Sarkar drills one past Dinesh Chandimal, Sri Lanka v Bangladesh, 1st Test, Galle, 4th day, March 10, 2017 https://t.co/AVx4qYhQy6"
+Tweet is categorized as SportsGaming
+
+
+Classifying "Upul Tharanga helped Sri Lanka off to a solid start in their second innings. https://t.co/Bd4YpwIZqR via @cricbuzz"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:57 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:57 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 19:14 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 19:14 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+1st Test is categorized as SportsGaming
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "South Korean" Wait  ********************
+
+
+Classifying "Does Indian Apex Court match this  courage? South Korean court removes president over scandal https://t.co/crBDGKLl78"
+Tweet is categorized as Politics
+
+
+Classifying "RT @AmirHussainPTI: Awaiting Pakistan Supreme Courts decision on Panama Papers case after South Korean president impeached from office on c…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @BabarAwanPK: South Korean constitutional court upholds President's impeachment on "Khurd burd" ہم دیکھیں گے!"
+Tweet is categorized as Politics
+
+
+Classifying "RT @Diwa0kar: Corrupt South Korean women president sacked by top court https://t.co/3tAAfcjkkw @amit_mra @ExplorAdven @royala11 @TaurusRetr…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @ImranKhanPTI: South Korean court upholds President Park’s impeachment, removing her from office https://t.co/ReuAc0l7b2"
+Tweet is categorized as Politics
+
+
+Classifying "RT @MoeedNj: Pakistani surprise on South Korean Court removing President Park on charges of corruption. How is it even possible?😂 https://t…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @OneDaystone: China is safe, the South Korean president was dismissed! https://t.co/mJiKGwHuBs"
+Tweet is categorized as Politics
+
+
+Classifying "RT @The_Nation: South Korean court throws president out of office, two die in protest
+https://t.co/BAm5Adc0nq https://t.co/29RXNFMa0x"
+Tweet is categorized as Politics
+
+
+Classifying "RT @ameerabbas84: Should SC broadcast live Panama decision  ?
+
+South Korean court’s verdict to impeach president was broadcast live
+
+https:…"
+Classification skipped due to use of invalid characters
+Classifying "RT @arsched: Court Removes South Korean President. 
+Decision by #SupremeCourtPakistan is awaited.
+#Pakistan  
+
+https://t.co/QJJsIZ7uwN"
+Tweet is categorized as Politics
+
+
+Classifying "RT @madni31: https://t.co/A8RYr7OKwf 
+South Korean court upholds President Park’s impeachment, removing her from office https://t.co/cBnZNA…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @vinodkudre: Breaking: South Korean President Park Geun-hye removed from office, snap... https://t.co/IKaTXdz5bu by #sanamchoure22 via @…"
+Tweet is categorized as Politics
+
+
+Classifying "Retweeted Emily Flitter (@FlitterOnFraud):
+
+South Korean court throws president out of office, two die in protest... https://t.co/lWhtBYdQB7"
+Tweet is categorized as Politics
+
+
+Classifying "South Korean Stores Feel China’s Wrath as U.S. Missile System Is Deployed https://t.co/CXUhRk3M8g"
+Tweet is categorized as Politics
+
+
+Classifying "South Korean court throws president out of office, two die in protest
+https://t.co/BAm5Adc0nq https://t.co/29RXNFMa0x"
+Tweet is categorized as Politics
+
+
+Classifying "South Korean president impeached https://t.co/eB39Sm7iru #kashmirtelegraph"
+Tweet is categorized as Politics
+
+
+Classifying "The removal of South Korean president Park Geun-hye from office could rewrite relations... https://t.co/lO4NkgcHf8 by #CNN via @c0nvey"
+Tweet is categorized as Politics
+
+
+Classifying "দ: কোরিয়ার প্রেসিডেন্ট ক্ষমতাচ্যূতির কারণ কুকুর? https://t.co/C3GHX35EN6 https://t.co/dFyVTI6o2b"
+Classification skipped due to use of invalid characters
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 19:14 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 19:14 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+South Korean is categorized as Politics
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "Waqass Goraya" Wait  ********************
+
+
+Classifying "BBC News - Pakistan activist Waqass Goraya: The state tortured me https://t.co/duXkw0yJoj"
+Tweet is categorized as Politics
+
+
+Classifying "BBC News - Pakistan activist Waqass Goraya: The state tortured me https://t.co/lwwglsJ7Il;"
+Tweet is categorized as Politics
+
+
+Classifying "RT @AmirKhanzada: BBC News - Pakistan activist Waqass Goraya: The state tortured me https://t.co/duXkw0yJoj"
+Tweet is categorized as Politics
+
+
+Classifying "Retweeted Asfandyar Bhittani (@BhittaniKhannnn):
+
+Such an "innocent coincidence" that Waqass Goraya, Tarek Fatah... https://t.co/3jW1DdALIf"
 Tweet is categorized as TvMovies
 
 
-Classifying "Ramiz Raja &amp; Sanjay Dutt join hands for an unusual Partnership for the first time ever
+Classifying "Top story: Pakistan activist Waqass Goraya: The state tortured me - BBC News https://t.co/yUI3HPhSX4, see more https://t.co/Bvez6d65MT"
+Tweet is categorized as Politics
 
-#DailyAAJUpdates https://t.co/LgYYepCvGr"
+
+Classifying "⒍ Details Here
+⒎ National Assembly
+⒏ 1st Test
+⒐ South Korean
+⒑ Waqass Goraya
+
+2017/3/10 17:36 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ National Assembly
+⒏ 1st Test
+⒐ South Korean
+⒑ Waqass Goraya
+
+2017/3/10 17:36 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ National Assembly
+⒎ 1st Test
+⒏ South Korean
+⒐ Waqass Goraya
+⒑ Wagah
+
+2017/3/10 17:16 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ National Assembly
+⒎ 1st Test
+⒏ South Korean
+⒐ Waqass Goraya
+⒑ Wagah
+
+2017/3/10 17:16 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Wagah
+⒎ PML-N
+⒏ 1st Test
+⒐ South Korean
+⒑ Waqass Goraya
+
+2017/3/10 16:35 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Waqass Goraya is categorized as SportsGaming
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "Serial Killer" Wait  ********************
+
+
+Classifying "*#Kejriwal hiding from a serial Killer*
+He: OMG I am gonna die if he finds me
+
+Killer: ye रायता kisne failaya hai
+
+He: hamne failaya hai ji😯"
+Classification skipped due to use of invalid characters
+Classifying "*@ROFLaaLa   hiding from a serial killer*
+
+He: omg I am gonna die if he finds me
+
+killer: mere pass Sharab hai
+
+He: Gale lag jaa bhai 😍"
+Classification skipped due to use of invalid characters
+Classifying "*Gormint aunty hiding from serial killer*
+
+Killer- Sab milkar humko pagal bana rahe hai.
+Gormint aunty- Yeh ********** k bacche.
+Fuck.
+😂 😂 😂"
+Classification skipped due to use of invalid characters
+Classifying "*HIDING FROM A SERIAL KILLER*
+Killer:OH yaaayh oh yaaeaH...
+Honey singh fan:QATAL KARE TERA BOMB FIGURE...
+*DEAD*...
+#SerialKiller"
+Tweet is categorized as ScienceTechnology
+
+
+Classifying "*Hiding from a serial killer*
+
+Killer : Can I kiss you baby
+
+Girl : Bola na shaadi se pehle kuch nahi..😐"
+Classification skipped due to use of invalid characters
+Classifying "*Hiding from a serial killer*
+
+Me: I need to stay quiet.
+Serial Killer : Yeh bik gai hai gormint.
+Me: Yeh sub patheecher ho gai hien."
+Classification skipped due to use of invalid characters
+Classifying "*Hiding from a serial killer* 
+
+Me: I'm gonna die if he finds me.
+
+Killer: Aj meri Birthday hai.
+
+Me: Treat?"
+Classification skipped due to use of invalid characters
+Classifying "*Maharashtrian Boy Hiding From serial killer*
+
+Serial Killer : Tuzi Chimni Uddali Phurr Phurr
+
+Maharashtrian Boy : Maza Popaat Psatla"
+Classification skipped due to use of invalid characters
+Classifying "*hiding from a serial killer*
+
+Me: "omg I'm gonna die if he finds me"
+Killer: "Mokambo Khush Hua"
+Me: *HAHAHAHAHAHAHA*"
+Classification skipped due to use of invalid characters
+Classifying "*hiding from a serial killer*
+
+Me: omg I'm gonna die if he finds me
+
+Him: who let the dogs out
+
+Me: WOOF, WOOF WOOF WOOF"
+Classification skipped due to use of invalid characters
+Classifying "*hiding from a serial killer*
+
+Rajdeep: If he finds me, i m dead.
+
+Killer: 2002.....
+
+Rajdeep: MODI is responsible."
+Classification skipped due to use of invalid characters
+Classifying "@amira_farooq another serial killer lameness."
+Tweet is categorized as TvMovies
+
+
+Classifying "Engineer is hiding from a serial killer..
+
+Serial killer : Mechanical Engineering ma Chhokari,
+
+Engineer : 🔔 bi nahi hoti  😪😂😂"
+Classification skipped due to use of invalid characters
+Classifying "Hiding from a serial killer in office.
+Me: Silent with all colleagues
+Killer : Pizza delivery for the tean
+Me: I orderer rajma chawal
+Shit"
+Classification skipped due to use of invalid characters
+Classifying "RT @AyeshaKaleem12: now these serial killer jokes are getting out of hands ok 😊"
 Tweet is categorized as Music
 
 
-Classifying "Ramiz Raja Ka Cricket Pr Film Banane Ka Elaan, Bollywood Star Sanjay Dutt Ko Cast Kr Lia, Heroin K Liye Katrina Kaif Ya Mahira Khan Zere Gor"
-Tweet is categorized as SportsGaming
-
-
-Classifying "Ramiz Raja announces filmmaking, to begin with Sanjay Dutt https://t.co/5Z9kEYYMHB #RamizRaja #filmmaking #SanjayDutt #Sanju @alamulkhabar"
+Classifying "RT @Baba_Chu: *Hiding frm a serial killer*
+Sanjeev Kapoor: OMG I'm gonna die if he finds me
+Killer: Daal me namak kitna dalna h
+SK: Namak S…"
 Classification skipped due to use of invalid characters
-Classifying "Ramiz Raja is making a film about cricket and it will star Sanjay Dutt!
-https://t.co/zMZAQlsVyj"
-Tweet is categorized as SportsGaming
-
-
-Classifying "Reports Mahira Khan &amp; Katrina Kaif will star opposite Sanjay Dutt in Ramiz Raja's film about spreading the message of peace through cricket"
-Tweet is categorized as Politics
-
-
-Classifying "https://t.co/In1H7evE5T Ramiz Raja (@iramizraja) is making a cricket film that will star Sanjay Dutt (@duttsanjay). Hmmm … Interesting."
-Tweet is categorized as SportsGaming
-
-
-Classifying "ರಮೀಜ್ ರಾಜಾ ಸಿನೆಮಾಕ್ಕೆ ಭಾರತದ ಈ ನಟ-ನಟಿಯರೇ ಅಭಿನಯಿಸಬೇಕಂತೆ..!  https://t.co/UkjiQzzMrk #RamizRaja #filmproduction https://t.co/VUBDW1WurD"
-Tweet is categorized as FoodDrink
-
-
-Ramiz Raja is categorized as SportsGaming
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "Maryam" Wait  ********************
-
-
-Classifying "9 people followed me and 7 people unfollowed me // automatically checked by https://t.co/U5lKlsklXB"
-Tweet is categorized as TvMovies
-
-
-Classifying "@Matiullahjan919 He was called Daaghi by Maryam Nawaz :)"
-Tweet is categorized as Politics
-
-
-Classifying "@SanamBalochfans Every picture have new style but feeling proud to watch ik thi Maryam its outstanding awesome. https://t.co/BqEjotgBRl"
-Tweet is categorized as TvMovies
-
-
-Classifying "@maryam_shzdi"
-Tweet is categorized as FoodDrink
-
-
-Classifying "Maryam Mirzakhani is the first woman to win the 'Nobel Prize of math' https://t.co/awORc2yRQw"
-Tweet is categorized as SportsGaming
-
-
-Classifying "Meet Maryam Mirzakhani The First Woman To Win The Fields Medal The Nobel Prize Of Mathematics  https://t.co/gqReH5pWLz"
-Tweet is categorized as SportsGaming
-
-
-Classifying "Meet the first woman to win the "Nobel Prize of Mathematics" https://t.co/ehS2pqQjhU via @MotherJones"
-Tweet is categorized as SportsGaming
-
-
-Classifying "RT @Rawaby_5: للي يفكرون وقت الصلاة👇🏻 https://t.co/wVb2wBJd69"
-Tweet is categorized as FoodDrink
-
-
-Classifying "RT @arsched: PTI’s new documents purport to show Maryam owns flats https://t.co/ga3pBDugd5"
-Tweet is categorized as TvMovies
-
-
-Classifying "RT @asifakramvohra: @MaryamNSharif @maryam_aurangzb https://t.co/biuqmUVAQ6"
-Tweet is categorized as Religion
-
-
-Classifying "RT @siasatpk: مریم نواز ہی لندن فلیٹس کی اصل مالک ہیں
-تحریک انصاف کی لیگل ٹیم کو مریم نواز سے متعلق نئی مزید دستاویزات مل گئیں،
-https://t.c…"
-Tweet is categorized as FoodDrink
-
-
-Maryam is categorized as FoodDrink
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "Lahore High Court" Wait  ********************
-
-
-Classifying "#BaaghiTV: Lahore High Court Bar Association’s tribute to Justice Retd. Malik Saeed Hassan https://t.co/yT01R0IgyD"
-Tweet is categorized as Politics
-
-
-Classifying "LAHORE: High Court Nay Jaali Stent Case Main Punjab Hukumat Kay Khilaf Karrwai Ki Darkhwast Mustard Kar Di.
-RP_Imam Afzal"
-Tweet is categorized as Politics
-
-
-Classifying "Lahore High Court restrains Punjab government from taking action against taxi service providers https://t.co/Wh9pTBDpWl"
-Tweet is categorized as Politics
-
-
-Classifying "Lahore High Court verdict in Faisal Saleh Hayat PFF case 
-https://t.co/Mx21BVhGER https://t.co/ovHzswThck"
-Tweet is categorized as Politics
-
-
-Classifying "Lahore High Court verdict on petition to suspend ban on Indian TV Channels 
-https://t.co/PNXENeNelS https://t.co/tpGY9faTbq"
-Tweet is categorized as Politics
-
-
-Classifying "Lahore: High Court Nay Jaali Stent Case Main Punjab Hukumat Kay Khilaf Karrwai Ki Darkhwast Mustard Kar Di."
-Tweet is categorized as Politics
-
-
-Classifying "Lahore:High Court Nay Jaali Stent Case Main Punjab Hukumat Kay Khilaf Karrwai Ki Darkhwast Mustard Kar Di"
-Tweet is categorized as Politics
-
-
-Classifying "RT @BaaghiTV: #BaaghiTV: Lahore High Court Bar Association’s tribute to Justice Retd. Malik Saeed Hassan https://t.co/yT01R0IgyD"
+Classifying "RT @Baba_Chu: *Hiding from a serial killer*
+Ravi Shastri: OMG I'm gonna die if he finds me
+Killer: Edged
+Shastri: and taken
+SHIT"
 Classification skipped due to use of invalid characters
-Classifying "RT @Majid_Agha: PMLN Ministers blatantly lying over Hafiz Saeed issue. #PPP arrested Hafiz Saeed in 2009, but Lahore High Court ordered Gov…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @thebriefintl: Lahore High Court restrains Punjab government from taking action against taxi service providers https://t.co/Wh9pTBDpWl"
-Tweet is categorized as Politics
-
-
-Classifying "Uber - Careem Ban: Lahore High Court gives verdict on petition 
-https://t.co/mJAJyADM83 https://t.co/OLmKek5pRJ"
-Tweet is categorized as Politics
-
-
-Lahore High Court is categorized as Politics
-
-####################################################################
-####################################################################
-
- joins Peshawar Zalmi in Dubai. https://t.co/DNP2FC74L6"
-Tweet is categorized as SportsGaming
-
-
-Classifying "RT @paksuperIeague: Javed Afridi presents Peshawar Zalmi's jacket to Imran Khan. #psl2017 https://t.co/Gycw5SXYg0"
-Tweet is categorized as Politics
-
-
-Classifying "Thank you #khpalFans for your love and support for #khpalTeam #PeshawarZalmi
-#ZalmiKitLaunchWithSKMCH https://t.co/f7eoRqxKax"
-Tweet is categorized as SportsGaming
-
-
-Peshawar Zalmi is categorized as SportsGaming
-
-####################################################################
-####################################################################
-
-ategorized as FoodDrink
-
-
-Classifying "@itsme1_n_only is week nitibhaa jaag rhi hai"
+Classifying "RT @BerryAneurysm: Plot twist : there really is a serial killer and his pattern of killing would be all those tweeting the serial killer jo…"
 Tweet is categorized as Fashion
 
 
-Classifying "Ashiquee jaag rhi hai."
+Classifying "RT @DaBiryaniGuy: *Hiding from a serial killer*
+Me: l'm gonna die if he finds me 
+
+Killer: Where is you?
+
+Me: where are you* Jaahil Admi"
+Classification skipped due to use of invalid characters
+Classifying "RT @Dishasatra: Priyanka chopra - *Hiding*
+i'll die if he finds me
+
+Serial Killer - daant dukh raha hai aaa
+
+PC - kya aapke toothpaste me n…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @Faizii_CA: *Hiding from a serial killer*
+Me : OMG He Is Gonna Kill Me If He Finds Me.
+Killer : 0900 
+Me :78601 Telefunnn Telefun 😂"
+Classification skipped due to use of invalid characters
+Classifying "RT @GentleBhakt: @Ra_Bies [Kejriwal hiding from a serial killer]
+
+Kejri : If he finds me I'm ded
+
+Killer: Mo...
+
+K: Di is a ambani agent, a…"
+Classification skipped due to use of invalid characters
+Classifying "RT @Hiraliciouss: *hiding from a serial killer*
+
+Me: I'm gonna die if he finds me
+
+Killer: Imran Khan kon hai ?
+
+Me: Phateechar -"
+Classification skipped due to use of invalid characters
+Classifying "RT @ItsaymenAymen: Ab jinko serial killer ki story nahi patta wu b lame joke post kr rahay hein.
+Sigh.
+😕"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @MHussainnn: Wese tou roz marne ki baatein karte ho aaj serial killer se chup rahe ho sab ke sab chutiye ho"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @RTAluvzAfridi: *Hiding from a serial killer*
+
+Me: Omg I'm gonna die if he finds me 
+Killer: Wingardium Leviosaa
+
+Me: IT'S LeviOsa NOT L…"
+Classification skipped due to use of invalid characters
+Classifying "RT @Ra_Bies: [Barkha hiding from a serial killer]
+
+Barkha: If he finds me I'm ded
+
+Killer: A terrorist is killed in valley  
+
+B: HE WAS A M…"
+Classification skipped due to use of invalid characters
+Classifying "RT @Ra_Bies: [Kejriwal hiding from a serial killer]
+
+Kejriwal: If he finds me I'm dead
+
+Killer: Modi is a psychopath 
+
+Kejriwal: AAP mein a…"
+Classification skipped due to use of invalid characters
+Classifying "RT @SheIsNotBoring: *Himanta biswa Sharma hiding from a serial killer* 
+Killer: notun asoni akhon . . . . . . . .
+Himanta: Asoni? Ason . .…"
+Classification skipped due to use of invalid characters
+Classifying "RT @TweetErrant: [Feminist Hiding from a serial killer]
+
+Feminist: OMG if he finds me i m ded
+
+Killer: Muje dahej chaiye
+
+Feminist: chup ba…"
+Classification skipped due to use of invalid characters
+Classifying "RT @Vishj05: *Hiding from a serial killer
+Badshah - I m gonna die if he finds me
+SK: Chumma Chumma
+Badshah:Check kar mitran da Chumma Billo…"
+Classification skipped due to use of invalid characters
+Classifying "RT @WEEKAAY: serial killer: untag me"
 Tweet is categorized as ScienceTechnology
 
 
-Classifying "EK Tery KhuwaBo Ka ShoQ
-EK Teri Yad Ka Maza
-.
-SaGaR
-.
-Tu Hi Bata
-So Kr terA DeDaar KAru
-.
-Ya
-JaaG kr Tujhy Yad karun
-.
-Good.Night"
+Classifying "RT @WallahSuperboy: *hiding from a serial killer*
+
+Me: omg I'm gonna die if he finds me
+serial killer: let me order biryani now
+me: buy me…"
 Classification skipped due to use of invalid characters
-Classifying "RT @JaagAlerts: #Breaking: Family of tortured Tayyaba pardons judge watch Jaag now https://t.co/W2ee67bFHB"
-Tweet is categorized as TvMovies
+Classifying "RT @ZainabSidd: *Param Hiding from a serial killer*
 
-
-Classifying "RT @imIshwan: Ubalte huye khoon ki rawani h modi Es desh ke yuva ki jawani hai modi, Soye huye the jo ab tak hindustani, Unke jaag uthne ki…"
+Killer - Aaj phir
+Param - Tum par pyaar aaya hai, behadh aur beshumaar aaya hai 🤐
+Hars…"
 Classification skipped due to use of invalid characters
-Classifying "RT @syedaAqsaGilani: #__ Zameer Jaag To Jata Hai Agr Zinda Ho #IQBAL..**
-*
-#__ Kabhi Gunah Se Pehle, Kabh Gunah Ke Bad..**
-"""
-Tweet is categorized as Music
-
-
-Classifying "Retweeted JAAG TV (@JaagAlerts):
-
-#Breaking: One dead in firing at Punjab Bus Stop at Sohrab Goth #Karachi, identified as Zaheer"
-Tweet is categorized as Politics
-
-
-Classifying "Very well said on Jaag TV programme @FaisalJavedKhan bhai👍"
-Tweet is categorized as TvMovies
-
-
-Classifying "رن ڈون - منگل 03 جنوری 2017 - موجودہ نظام۔۔۔۔ https://t.co/2XFxRTKL1n"
+Classifying "RT @bittu7664: *Hiding from a serial killer* 
+Dayaben : I am gonna die if he finds me.
+Killer : Dholi taro dhol baje dhol baje....
+Dayaben…"
 Classification skipped due to use of invalid characters
-Jaag is categorized as TvMovies
+Classifying "RT @enigmayon: @Ra_Bies *Hiding From a Serial Killer*
 
-####################################################################
-####################################################################
-
-ICIJ
-⒊ Sharifs
-⒋ #BadGovVsSKMCHP
-⒌ 15th Match
-
-2017/1/3 16:15 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ 15th Match
-⒎ Sharifs
-⒏ #سچاھاشمی_جھوٹاکپتان
-⒐ Jahangir Tareen
-⒑ #PanamaCase
-
-2017/1/3 17:36 PKT https://t.co/V71IHDvL8r"
-Tweet is categorized as SportsGaming
+Kanhaiya: OMG I'm gonna die if he finds me
+Killer: Afzal hum sharminda hai
+KK: Tere…"
+Classification skipped due to use of invalid characters
+Classifying "RT @hawashmi: *hiding from a serial killer*
+Killer: Girl changed her display pic!
+Me: Nice dp! 💓"
+Classification skipped due to use of invalid characters
+Classifying "RT @hiraheadquarter: *hiding from serial killer*
+Qasim Zaidi: OMG I'll die if he finds me..
+Serial Killer: Nara e Haidery
+Qasim Zaidi: YAA…"
+Classification skipped due to use of invalid characters
+Classifying "RT @htlifeandstyle: #BookExcerpt: How serial killer Vijay Palande planned the Tikku murder and almost got away. https://t.co/jRnceRlWlw htt…"
+Tweet is categorized as FoodDrink
 
 
-15th Match is categorized as SportsGaming
+Classifying "RT @iamvaishali6: [hiding from a serial killer]
 
-####################################################################
-####################################################################
+Hrithik- He will kill me if he finds me
+Killer- Haaila
+Hrithik- Jadu..........oh shit"
+Classification skipped due to use of invalid characters
+Classifying "RT @kitAnurag: [Hiding from a serial killer]
 
+Me: I'm dead if he finds me.
+Killer: Swaad sugandh ka raja
+Me: Badshah banaye badhiya khaana…"
+Classification skipped due to use of invalid characters
+Classifying "RT @muradsaeedd: *hiding from a serial killer*
 
+Me: omg I'm gonna die if he finds me
 
-********************  Classifying Trend "Kashmiris" Wait  ********************
+Him: who let the dogs out
 
+Me: WOOF, WOOF WOOF WOOF"
+Classification skipped due to use of invalid characters
+Classifying "RT @raNahaMad315: Hiding from serial killer*
 
-Classifying "Let be decide Kashmiris there on faith https://t.co/tZXWuLOIHV"
+ Killer: Gen. Raheel Shareef !!
+Me: We are proud of u ❤"
+Classification skipped due to use of invalid characters
+Classifying "RT @shahmeerkhan_: "Hiding from a serial killer"
+She:omg I'm gonna die if he finds me 
+Serial killer: hey 
+She:sorry I have a boyfriend"
+Classification skipped due to use of invalid characters
+Classifying "RT @za_marah: *sees a serial killer*
+
+PMLN WORKER :"omg I'm gonna die if he finds me" 
+
+Killer: *dheko dheko kon aaya*
+
+PmLN W: "sher aaya…"
+Classification skipped due to use of invalid characters
+Classifying "Serial Killer.. https://t.co/k1yoccQFpP"
 Tweet is categorized as ScienceTechnology
 
 
-Classifying "RT @Ahmed_ali4761: Kashmir is a humanitarian issue we all need to join hands for liberating Kashmiris
- #JoyceForKashmir https://t.co/hJM3Y0…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @AkeilaNawaz: Kashmiris want their right to live. Is it too much to ask for ? @UN 
-#KashmirWantsAttention"
-Tweet is categorized as Politics
-
-
-Classifying "RT @Arslan_Sadiq: Kashmiris are striving for their right to self determination.
-#KashmirWantsAttention https://t.co/X7BwdB5OY4"
-Tweet is categorized as Politics
-
-
-Classifying "RT @Arslan_Sadiq: Voice of kashmiris
-Stop threating us with guns
-#kashmirwantsattention"
-Tweet is categorized as Music
-
-
-Classifying "RT @AyishaBaloch: #JoyceForKashmir glad to see tht British govt has shown concerns over use of pellets against Kashmiris @JoyceAnelay https…"
-Tweet is categorized as ScienceTechnology
-
-
-Classifying "RT @RuhidaPTI: Its a great step we appriciate but Kashmiris need more than this 
-
-#JoyceForKashmir https://t.co/uihZFz90U2"
-Tweet is categorized as Music
-
-
-Classifying "RT @SafaatOfficial: Indian forces using pellets, tear shells, bullets to stop unarmed Kashmiris from peaceful protests 
-#JoyceForKashmir
-#K…"
+Classifying "What's the heck.. ?! Everyone is posting serial killer joke..!!!😈🐸"
 Tweet is categorized as FoodDrink
 
 
-Classifying "RT @SafaatOfficial: Minister of state at British Foreign office for asking India  about pellets guns use on Kashmiris
-#JoyceForKashmir
-#Kas…"
-Tweet is categorized as Politics
+Classifying "[Barkha hiding from a serial killer]
 
+Barkha: If he finds me I'm ded
 
-Classifying "RT @SofiaDarr: Since 1989, 93,274 innocent Kashmiris martyred,6,969 custodial killings,117,345 arrests n105,861 houses destructed. #Kashmir…"
-Tweet is categorized as FoodDrink
+Killer: A terrorist is killed in valley  
 
-
-Classifying "RT @abdullahgps: Kashmiris await justice! 
-But civilized world have no time for #kashmir 
-#KashmirWantsAttention https://t.co/K9uyT3jKxC"
-Tweet is categorized as Politics
-
-
-Classifying "RT @faujitweets: 6th episode of fake Mumbai Attack after failed Pathankot #UpcomingIndianFalseFlag target Kashmiris and blaming Pakistan @m…"
-Tweet is categorized as FoodDrink
-
-
-Classifying "RT @faujitweets: India plans to kill Kashmiris in yet another false flag. Israel making ground https://t.co/FPG5DftWFc @mehdirhasan #Upcomi…"
-Tweet is categorized as FoodDrink
-
-
-Kashmiris is categorized as Politics
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "Sharifs" Wait  ********************
-
-
-Classifying "@MaryamNSharif Allah Sharifs par Rahim Karey !!!"
-Tweet is categorized as FoodDrink
-
-
-Classifying "@UmarCheema1 @AsadKharal @salimbokhari @WaseemBadami @Kashifabbasiary @arsched Judges&amp;COAS R in pocket of sharifs no one can catch coward NS"
-Tweet is categorized as Politics
-
-
-Classifying "@shayestalodhi @faiza_PTI Judges, Police, Bearucracy &amp; #COAS are in pockets of coward, bastards sharifs So no one can punish sharifs"
-Tweet is categorized as Politics
-
-
-Classifying "RT @ARYVideos: Don’t miss Arshad Sharif’s important analysis on @ImranKhanPTI presser
-@arsched @Maria_Memon @PTIofficial 
-
-Watch: https://t…"
-Tweet is categorized as TvMovies
-
-
-Classifying "RT @AsadUsmani6: https://t.co/Hd4XGHfFUK https://t.co/ZQvHWsDp2L"
-Tweet is categorized as Religion
-
-
-Classifying "RT @KismatZimri: Sharifs have already destroyed their case after giving contradictory statements on Media, and then in SC: @AmirMateen2 @Kl…"
-Tweet is categorized as FoodDrink
-
-
-Classifying "RT @KismatZimri: Sharifs in hot waters:
-Change of counsel by PM,kids indicate problems of Sharif family: @KlasraRauf @AmirMateen2 @sarwatva…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @KlasraRauf: Atleast PTI tried...and brought "House of Sharifs" in court room.. when all state institutions ganged up to save 
-The King.…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @MaryamNSharlf_: یس RT muskanTweets_: New Lawyer of Sharif Salman Akram Raja said Burden of PROOF on SHARIFs. Must RT https://t.co/KcCVd…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @MehrTarar: Imran Khan is doing nothing wrong presenting stuff about financial wrongdoings of the Sharifs.
-
-Over to Sharifs to repudiate…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @RehmanRashid123: All proof against Sharifs
-Sharifs admitted they dont have any proofs
-NOW if court controlled nai NO way sharif can sur…"
+B: HE WAS A MISGUIDED YOUTH"
 Classification skipped due to use of invalid characters
-Classifying "RT @RehmanRashid123: I think dats over for da kingdom of sharifs
-#IKexposeNS"
+Classifying "[hiding from a serial killer]
+
+Hrithik- He will kill me if he finds me
+Killer- Haaila
+Hrithik- Jadu..........oh shit"
+Classification skipped due to use of invalid characters
+Serial Killer is categorized as FoodDrink
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "Parliament" Wait  ********************
+
+
+Classifying "#LokSabha passes bill to raise paid maternity leave to six months
+https://t.co/ZNKanqtBC5
+
+#maternitybill… https://t.co/uGimpWnTpR"
+Tweet is categorized as Music
+
+
+Classifying "@IndiaToday The trial is in the Courts , not in Parliament or in Govt offices."
+Tweet is categorized as Politics
+
+
+Classifying "China stealth jet enters service, navy building 'first class' fleet https://t.co/YpdCLi88C8 via @Reuters"
+Tweet is categorized as Politics
+
+
+Classifying "DrArathyMenon has been selected to present her research  at the UK Parliament. Arathy, who hails from Kochi, would present on the Monsoon."
+Tweet is categorized as Politics
+
+
+Classifying "Pakistan's Hindu marriage bill passed by both houses of Parliament
+https://t.co/nh1mhhuNL4"
+Tweet is categorized as Politics
+
+
+Classifying "RT @24x7Politics: In 2009 National Elections are an eg on how most Exit Polls got it wrong: DrAMSinghvi AICC Press Briefing from Parliament…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @ArtofLiving: Gurudev @SriSri addressed the members of Ukraine Parliament in Kiev, Ukraine today https://t.co/6SiQXETGKK"
+Tweet is categorized as Politics
+
+
+Classifying "RT @BJP_RSS: Lok Sabha passes bill to raise paid maternity leave to six months. @narendramodi #TransformingIndia 
+https://t.co/239Wx6mW0v v…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @INCIndia: In 2009 National Elections are an eg on how most Exit Polls got it wrong: @DrAMSinghvi AICC Press Briefing from Parliament"
+Tweet is categorized as Politics
+
+
+Classifying "RT @INCIndia: Watch recording of AICC Press Briefing by @DrAMSinghvi from Parliament
+
+https://t.co/je1g4E3B0O"
+Tweet is categorized as Politics
+
+
+Classifying "RT @ImranKhanPTI: Hypocrisy &amp; a fake sense of morality are clearly the hallmark of the PMLN. Their disrespect for women is visible inside &amp;…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @KalrajMishra: लोकसभा में पास हुआ मैटरनिटी लीव विधेयक, गर्भवती महिलाओं को मिलेगा वेतन सहित छह माह का मातृत्व अवकाश
+https://t.co/Tz9gTvr8…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @KanchanGupta: Campus fracas is now grist for Parliament debate? Done with all national issues? Is BJP seeking a debate on killings by #…"
+Classification skipped due to use of invalid characters
+Classifying "RT @KanchanGupta: When was the last time Parliament discussed migration, its causes and consequences, with majority of MPs attending? Did i…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @PMOIndia: Lok Sabha passes #MaternityBill. 
+https://t.co/uNVlIqGxfx
+
+via NMApp https://t.co/JfDygYM11n"
+Tweet is categorized as Music
+
+
+Classifying "RT @PTI_News: We hope for a breakthrough on #GST, says PM @narendramodi ahead of Parliament session."
+Tweet is categorized as Politics
+
+
+Classifying "RT @Prof_HariOm: After murdering, converting, expelling Hindus &amp; raping Hindu women, Pak passes Hindu Marriage Act. 
+Just Ridiculous.
+https…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @RRK_official: लोकसभा में पास हुआ मैटरनिटी लीव विधेयक, गर्भवती महिलाओं को मिलेगा वेतन सहित छह माह का मातृत्व अवकाश
+https://t.co/Q9EpHa1G…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @Ra_THORe: Lok Sabha passes bill to raise paid maternity leave to six months
+https://t.co/yqrsCekZxS
+
+#maternitybill #maternityleave htt…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @SriSri: Addressed the members of the Ukrainian parliament at a round table conference in Kiev. https://t.co/T87L15XHxh"
+Tweet is categorized as Politics
+
+
+Classifying "RT @SriSri: On a 2-day visit to Ukraine. Got a warm welcome at the airport. Will be addressing the parliament today. https://t.co/h7kn3zaR4o"
+Tweet is categorized as Politics
+
+
+Classifying "RT @SriSriOnTour: Moments from Gurudev @SriSri addressing the members of Ukraine Parliament in a round table conference at Kiev, Ukraine. h…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @SwarajyaMag: Pak Parliament passed the landmark Hindu marriage bill yesterday; President's signature will make it law. #Replug:
+
+https:…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @TCGEHLOT: लोकसभा में पास हुआ मैटरनिटी लीव विधेयक, गर्भवती महिलाओं को मिलेगा वेतन सहित छह माह का मातृत्व अवकाश
+https://t.co/SKsJBQQV2h h…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @ajit_ranade: Pakistan Parliament passes landmark Hindu Marriage Bill https://t.co/yPcyuvH1pk via @IndianExpress"
+Tweet is categorized as Politics
+
+
+Classifying "RT @drharshvardhan: Lok Sabha passes bill to raise paid maternity leave to six months
+https://t.co/CrcDhzfhVB
+
+via NMApp https://t.co/LehEO…"
+Tweet is categorized as Health
+
+
+Classifying "RT @gauravcsawant: In US Ted Poe wants Pak to be declared terror state &amp; India, biggest victim dithers. Parliament hit by Pak terror can't…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @gauravcsawant: Parliament pays lip service to victims of Pak sponsored terror every December 13. Only lip service."
+Tweet is categorized as Politics
+
+
+Classifying "RT @ghaziusama: "Javed Latif" this is disgusting,talking about families in vulgar language outside parliament PMLN must take action. Shamef…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @htTweets: Pakistan’s Hindu marriage bill passed by both houses of Parliament https://t.co/0JtgiwWaxN https://t.co/Lutl6n9A4J"
+Tweet is categorized as Politics
+
+
+Classifying "RT @jgopikrishnan70: Privilege only inside the Floor of the Parliament or Assembly...rest invite Defamation https://t.co/l52ot2wuzK"
+Tweet is categorized as Politics
+
+
+Classifying "RT @manojsinhabjp: लोकसभा में पास हुआ मैटरनिटी लीव विधेयक, गर्भवती महिलाओं को मिलेगा वेतन सहित छह माह का मातृत्व अवकाश
+https://t.co/M6n0WCZ…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @ndtv: Maternity Leave Raised To 26 Weeks As Parliament Clears Landmark Bill https://t.co/ocmtaYT9o9 #NDTVNewsBeeps https://t.co/cpuGlpV…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @ravibhadoria: Lok Sabha passes bill to raise paid maternity leave to six months
+https://t.co/2CUnq0OSeK
+
+via NMApp https://t.co/EPiZbUj…"
+Tweet is categorized as Health
+
+
+Classifying "RT SriSri: On a 2-day visit to Ukraine. Got a warm welcome at the airport. Will be addressing the parliament today… https://t.co/m8dA6HcetB"
+Tweet is categorized as Politics
+
+
+Classifying "Shaukat Aziz Siddiqui use #blasphemy 4 emotional blackmailing #Pakistan when his corruption in review Case made… https://t.co/BsJZDRIvoi"
+Tweet is categorized as FoodDrink
+
+
+Classifying "Swiss parliament’s upper house rejects bill to ban burqas #MiddleEastZone"
+Tweet is categorized as FoodDrink
+
+
+Classifying "UP 2017 Chunav Jitkar 2019 Parliament election me dobara Jitenge confirm karne ke liye @narendramodi @narendramodi_in ko advance me Bhadhai"
+Tweet is categorized as Politics
+
+
+Parliament is categorized as Politics
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "Shah Rukh Khan" Wait  ********************
+
+
+Classifying "How Shah Rukh Khan (@iamsrk) Changed A Man's Life Will Double Your Respect For Him
+
+https://t.co/LYfUlTz1Wl"
+Tweet is categorized as Politics
+
+
+Classifying "Pic: SRK, Farah Khan from ‘Main Hoon Na’ days https://t.co/JR8kNhYB0a https://t.co/I4vrS2Jvye"
+Tweet is categorized as Politics
+
+
+Classifying "Pic: SRK, Farah Khan from ‘Main Hoon Na’ days https://t.co/L0b5KhuKBC https://t.co/y18ZdQgX7L"
+Tweet is categorized as Politics
+
+
+Classifying "Pic: SRK, Farah Khan from ‘Main Hoon Na’ days https://t.co/e339LQtbrx https://t.co/mkXJaLYHAj"
+Tweet is categorized as Politics
+
+
+Classifying "RT @AnotherSRKian: RT If You Feel Proud To Be A FAN of @iamsrk .
+
+BHARAT KI SHAAN SHAH RUKH KHAN https://t.co/XZdAbm73dR"
+Tweet is categorized as Politics
+
+
+Classifying "RT @HTMumbai: #25YearsOfSRK: How many times will #KaranArjun come back?, @iamsrk tells @SinghhPrashant in @htcafe https://t.co/e69DU2kVdg h…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @MissKyra12: .@iamsrk talks about his equation with @BeingSalmanKhan 
+https://t.co/dvIU4YNEAd"
+Tweet is categorized as Politics
+
+
+Classifying "RT @SRKFC1: Shah Rukh Khan Talks About Daughter Suhana's Bollywood Debut https://t.co/qSNkO0RlEe
+@iamsrk https://t.co/pLbNSeVfxt"
+Tweet is categorized as Politics
+
+
+Classifying "RT @Showbiz_IT: #Rekha to #ShahRukhKhan, you can't unsee these celebs in their vintage photoshoots
+https://t.co/9eyLntRfRo https://t.co/1vr…"
 Tweet is categorized as Fashion
 
 
-Classifying "RT @RehmanRashid123: IK to the Sharifs today #MaryamPakriGai https://t.co/xwDfdQni43
-#IKexposeNS"
+Classifying "RT @bollybubble: #ShahRukhKhan underwent another surgery and shared the news with an amusing picture
+
+https://t.co/mqCUlCSyoZ
+@iamsrk https…"
 Tweet is categorized as Politics
 
 
-Classifying "RT @RehmanRashid123: January 3, 2016 - The day that destroyed Maryam Nawaz' chances of ever becoming a PM; undeniable proofs sinks Sharifs…"
-Tweet is categorized as Politics
+Classifying "RT @filmfare: .@iamsrk's forthcoming film sold at a huge price
 
-
-Classifying "RT @RehmanRashid123: New Lawyer of Sharif Salman Akram Raja said Burden of PROOF on SHARIFs. Must RT https://t.co/alcQCkqDQq
-#IKexposeNS"
-Tweet is categorized as Politics
-
-
-Classifying "RT @RehmanRashid123: The most important question they answered was the company is affiliated with NO TRUST.
-This sums the case against Shar…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @XIApk: #MaryamPakriGai Can Sharifs take ICIJ to court in UK? https://t.co/tdERM96ZEI"
-Tweet is categorized as Politics
-
-
-Classifying "RT @XIApk: All proof against Sharifs
-Sharifs admitted they dont have any proofs
-NOW if court controlled nai NO way sharif can survive 
-#Mar…"
-Classification skipped due to use of invalid characters
-Classifying "RT @XIApk: New Lawyer of Sharif Salman Akram Raja said Burden of PROOF on SHARIFs. Must RT #PanamaLeaks https://t.co/wc49KRTz5M"
-Tweet is categorized as Politics
-
-
-Classifying "RT @mohsinmalvi19: @NoumiS5 Thrashed Twice before in 98 by Sharifs now escaped @javaidShaikh @HAAQ786 @MuhamadAfzalECP ... https://t.co/kPU…"
+https://t.co/8u8Q0JEY8d"
 Tweet is categorized as Music
 
 
-Classifying "RT @sehrishmaan1: mush's atorny gen now sharifs counsel
-میرؔ کیا سادہ ہیں، بیمار ہوئے جس کے سبب​
-اُسی عطّار کےلونڈے سے دوا لیتے ہیں​
-@Klasr…"
+Classifying "RT @gqindia: .@iamsrk spotted again in this cult sneaker brand. See: https://t.co/DMy4NcNaU3 https://t.co/f7L716Pvgy"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @indicine: #BadrinathKiDulhania has opened very well at the box office on Friday. At several centres, best since Shah Rukh Khan's Raees."
+Tweet is categorized as Fashion
+
+
+Classifying "RT @ndtv: How Shah Rukh Khan changed a man's life will double your respect for him @iamsrk https://t.co/aV9FKJXWkg https://t.co/DCK0AFkYes"
 Tweet is categorized as Politics
 
 
-Classifying "⒈ #IKServedNawazLooted
-⒉ #ترقی_کےرنگ_نوازشریف_کےسنگ
-⒊ 15th Match
-⒋ ICIJ
-⒌ Sharifs
-
-2017/1/3 16:35 PKT"
-Tweet is categorized as SportsGaming
+Classifying "The most charismatic superstar Shah Rukh Khan( @iamsrk ) https://t.co/6QrymG5pJ8"
+Tweet is categorized as Politics
 
 
-Classifying "⒈ #IKServedNawazLooted
-⒉ ICIJ
-⒊ Sharifs
-⒋ #BadGovVsSKMCHP
-⒌ 15th Match
-
-2017/1/3 16:15 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as SportsGaming
+Classifying "https://t.co/RBDtAubUcL"
+Tweet is categorized as FoodDrink
 
 
-Sharifs is categorized as Politics
+Shah Rukh Khan is categorized as Politics
 
 ####################################################################
 ####################################################################
 
 
 
-********************  Classifying Trend "Jahangir Tareen" Wait  ********************
+********************  Classifying Trend "Kolkata Knight Riders" Wait  ********************
 
 
-Classifying "Meeting with Imran Khan and Jahangir Tareen along with MPA's regarding Party issues https://t.co/Is8ENsYWF4"
+Classifying "I was scouted at the IPL in 2009 and became Miss Kolkata Knight Riders :) https://t.co/Kr5hrN6NZd"
+Tweet is categorized as FoodDrink
+
+
+Classifying "Maiza Hameed following on twitter #ShameOnHer #tz
+ Link:   Kolkata Knight Riders 16 https://t.co/fmhA5rNhsl"
+Tweet is categorized as Music
+
+
+Classifying "Maiza Hameed following on twitter #ShameOnHer #tz
+ Link:   Kolkata Knight Riders 8 https://t.co/Vf1qz4M09S"
+Tweet is categorized as Music
+
+
+Classifying "Pmln aunty follwing #tz
+ Link:   Kolkata Knight Riders 14 https://t.co/P4lueoWmEa"
 Tweet is categorized as Politics
 
 
-Classifying "RT @ImaanZHazir: Have 2 appreciate the hard work Jahangir Tareen has put into getting all this new info! Chain of emails,docs. Must've take…"
+Classifying "RT @HELLO_Pak: We Will Not Witness Kolkata Knight Riders Playing Against Peshawar Zalmi @KKRiders @PeshawarZalmi 
+https://t.co/cmYGuEWnkP h…"
+Tweet is categorized as SportsGaming
+
+
+Classifying "RT @vikrantgupta73: And, just because you were dying for the origin of info: 
+https://t.co/kvMtBJBwjs
+https://t.co/pymSarthyW
+https://t.co/…"
 Tweet is categorized as ScienceTechnology
 
 
-Classifying "RT @MAsimKhanPTI: Meeting with Imran Khan and Jahangir Tareen along with MPA's regarding Party issues https://t.co/Is8ENsYWF4"
+Classifying "RT @vikrantgupta73: Even @iamsrk didn't claim. This came from Pak papers @JAfridi10 
+https://t.co/kvMtBJBwjs
+https://t.co/pymSarthyW
+https:…"
 Tweet is categorized as Politics
 
 
-Classifying "RT FaisalJavedKhan: VIDEO: Full press conference by Imran Khan and Jahangir Tareen on PANAMA. Qatri letter killed … https://t.co/Mm5NAsCKr2"
-Tweet is categorized as Politics
-
-
-Classifying "RT FaisalJavedKhan: VIDEO: Full press conference by Imran Khan and Jahangir Tareen on PANAMA. Qatri letter killed … https://t.co/f3RHwi5iy2"
-Tweet is categorized as Politics
-
-
-Classifying "RTPTIofficial: RT FaisalJavedKhan: VIDEO: Full press conference by Imran Khan and Jahangir Tareen on PANAMA. Qatri… https://t.co/InxgFX1EU4"
-Tweet is categorized as Politics
-
-
-Classifying "Wow...Khan took stand against Jahangir Tareen nd Aleem Khan etc. ??? #KhanVsCorruptMafia
-#PTI 
-#PMLN"
-Tweet is categorized as Politics
-
-
-Classifying "⒈ #IKServedNawazLooted
-⒉ #IKPressCon
-⒊ Sharifs
-⒋ #BadGovVsSKMCHP
-⒌ Jahangir Tareen
-
-2017/1/3 15:55 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as FoodDrink
-
-
-Classifying "⒍ Jahangir Tareen
-⒎ #BadGovVsSKMCHP
-⒏ #ReformsNow
-⒐ Renshaw 167
-⒑ #BanvNz
-
-2017/1/3 16:35 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as FoodDrink
-
-
-Classifying "⒍ Jahangir Tareen
-⒎ #BadGovVsSKMCHP
-⒏ #سچاھاشمی_جھوٹاکپتان
-⒐ Renshaw 167
-⒑ #BanvNz
-
-2017/1/3 16:50 PKT"
-Tweet is categorized as FoodDrink
-
-
-Classifying "⒍ Jahangir Tareen
-⒎ #ReformsNow
-⒏ Renshaw 167
-⒐ #BanvNz
-⒑ 1st Session - SL
-
-2017/1/3 16:15 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as FoodDrink
-
-
-Jahangir Tareen is categorized as Politics
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "Punjab Assembly" Wait  ********************
-
-
-Classifying "#Pakistan #News #Pakistan #News #Punjab For legislation: Hate speech bill submitted to assembly speaker: Proposal seeks supervisory role…"
-Tweet is categorized as Politics
-
-
-Classifying "AAP Punjab Incharge .@SanjayAzadSln at Traders Dialogue in Kharar assembly today.
-Traders of Punjab are ready for c… https://t.co/m0I8MVjfWM"
-Classification skipped due to use of invalid characters
-Classifying "APP will provide third front to Punjab voters in upcoming assembly elections: Chhotepur | @AAPPunjab2017 | https://t.co/iqReEMtOUC"
-Tweet is categorized as Politics
-
-
-Classifying "Brave man #SalmanTaseer when he was deputy opposition leader in Punjab Assembly with #PM #BenazirBhutto https://t.co/zlY2gmKLDv"
-Tweet is categorized as Politics
-
-
-Classifying "RT @AzadOffice: AAP Punjab Incharge .@SanjayAzadSln at Traders Dialogue in Kharar assembly today.
-Traders of Punjab are ready for change !…"
-Classification skipped due to use of invalid characters
-Classifying "RT @DhamaVishal: U give assembly tickets to those who hurls shoes at other people. 
-
-May be that person must be wanting a Punjab Assmb. Tic…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @HTPunjab: SYL row: Congress MLAs’ status in Punjab assembly ‘unclear’ | @capt_amarinder | https://t.co/fbFb3CY3Og"
-Tweet is categorized as Politics
-
-
-Classifying "RT @SherEPunjab11: Congress declares @RajaBrar_INC as the candidate from Gidderbaha Constitute assembly
-#PunjabDaCaptain
-Chaunda hai Punjab…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @hinaparvezbutt: Submitted the Prohibition of Hate Speech bill in the Punjab Assembly https://t.co/ByFbSK8vek"
-Tweet is categorized as Politics
-
-
-Classifying "RT @omar_quraishi: Provincial lawmaker in Pakistan Hina Butt moves resolution in Punjab assembly seeking ban on Indian films and dramas on…"
-Tweet is categorized as Politics
-
-
-Classifying "SYL row: Congress MLAs’ status in Punjab assembly ‘unclear’ | @capt_amarinder https://t.co/fbFb3CGspG"
-Tweet is categorized as Politics
-
-
-Punjab Assembly is categorized as Politics
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "Javed Hashmi" Wait  ********************
-
-
-Classifying "#عمران_اپنا_ڈوپ_ٹیسٹ_کراو
-Cox we believe in Javed Hashmi's sensibility whereas 😯 https://t.co/pM7Saf1E7Y"
-Classification skipped due to use of invalid characters
-Classifying "@karachikhatmal javed hashmi can if he chage lucman in UK...."
-Tweet is categorized as Politics
-
-
-Classifying "Aapas ki Baat 2 January 2017   Javed Hashmi Allegations   Geo News https://t.co/gb30qpRRpJ"
-Tweet is categorized as Politics
-
-
-Classifying "Ajkal Javed Hashmi Bolne K mod Main Hain. https://t.co/daKqXZqChZ"
-Tweet is categorized as Politics
-
-
-Classifying "Ali Haider Telling About The Allegations On Javed Hashmi.. https://t.co/Z8j1Msbnt8"
-Tweet is categorized as Politics
-
-
-Classifying "Capital Talk with Hamid Mir 2 January 2017 Javed Hashmi - Asma Jehangir https://t.co/VQV0adefZD via @YouTube"
-Tweet is categorized as Politics
-
-
-Classifying "Classic piece by @KlasraRauf on Javed Hashmi gives a glaring pic of politics in #Multan, epic center of political vulture in #Punjab.#2013"
-Tweet is categorized as Politics
-
-
-Classifying "Did Mariyum Nawaz Called Javed Hashmi https://t.co/yxBl9PacAq"
-Tweet is categorized as Politics
-
-
-Classifying "Dual Face Of Javed Hashmi Against Imran Khan https://t.co/aLD3dsOB25 https://t.co/wNphHXQbJ3"
-Tweet is categorized as Politics
-
-
-Classifying "Gen RGhulam Mustafa Telling Why Javed Hashmi Gave Statements Against Imran Khan - https://t.co/2gtLyMoPFK https://t.co/pFD1U4F1zc"
-Tweet is categorized as Politics
-
-
-Classifying "Gen tariq shouldnt give explanations again and again its done once for all also Javed Hashmi is playing dirty in hands of Noon"
-Tweet is categorized as Politics
-
-
-Classifying "Imran Khan Sheikh Rasheed Press Conference 3 January 2017 Javed Hashmi Maryam Nawaz Scandal Exposed https://t.co/0ZQxnukI5s"
-Tweet is categorized as Politics
-
-
-Classifying "Javed Hashmi Imran Khan Par Ilzamat Kyun Laga Rahe Hain Shahid Masood https://t.co/Li04DTv9bf"
-Tweet is categorized as Politics
-
-
-Classifying "Javed Hashmi Introduced Viagra Tablets in Pakistan Only A News https://t.co/jnCmmsWNns"
-Tweet is categorized as Politics
-
-
-Classifying "Javed hashmi ws former servant employ of @ImranKhanPTI nw he is barking against his ex boss or ex owner this is not… https://t.co/3TUShcQgXr"
-Tweet is categorized as Politics
-
-
-Classifying "Last night Hamid Mir did a planted show against @ImranKhanPTI  wd the guests of asma jahangir &amp; javed hashmi.PTI shud bycott GEO.It's biased"
-Tweet is categorized as Politics
-
-
-Classifying "Nawaz Sharif Kamzoor Army Chief Talash Kar Ke Lagate Hain – Javed Hashmi https://t.co/01fATD5KNV https://t.co/1J2o0whBNx"
-Tweet is categorized as Politics
-
-
-Classifying "Panama k case k din qareeb aye to javed hashmi bhi active ab, blasphemy ki kahani bhi agyi..khan ne piche phr bhi nhi hatna.. In Sha Allah.."
-Tweet is categorized as Politics
-
-
-Classifying "RT @AVCShahidLatif: Javed Hashmi is suffering from hysteria, he claims he support his Army on contrary he has been accusing Army of backing…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @AVCShahidLatif: Javed Hashmi served as Health Minister in Gen Zia's Cabinet, now he claims he was against Martial Laws. He is one hell…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @AltafBe: Javed Hashmi talks gibberish no TV &amp; Maryam rephrases the same on Twitter. Dirtly teamwork is more obvious than foundation on…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @BillTCAS: There was one Dharna and already we have  5 Javed Hashmi versions of it."
-Tweet is categorized as Politics
-
-
-Classifying "RT @DunyaNews: I am wrongfully being involved by Javed Hashmi to conspire for a coup, the way he tells is very childish and impractical: Ge…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @Engr_Naveed111: Message by Lieutenant Tariq Khan to oxymoron &amp; Psychopath Javed Hashmi https://t.co/Z0NpfOD6A1"
-Tweet is categorized as Politics
-
-
-Classifying "RT @FatimahLove92: Such press conferences of Javed Hashmi, reminds me that there is someone who is cheaper than #NS and #SS."
-Tweet is categorized as Politics
-
-
-Classifying "RT @HamidMirGEO: Who says Javed Hashmi is a liar? https://t.co/U2FhBBj5WW"
-Tweet is categorized as Politics
-
-
-Classifying "RT @JaagAlerts: Mental Condition of Javed Hashmi is not well says IK, Watch details in 5pm bulletin now https://t.co/hwkyXiUA1Q"
-Tweet is categorized as Politics
-
-
-Classifying "RT @Kamran2007: #MQM Convenor Nadeem Nusrat comments on disclosure of Javed Hashmi regarding Judicial Martial Law @nadeem_nusrat @WasayJali…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @Kamran2007: #MQM Convenor Nadeem Nusrat demands inquiry of revelations of Makhdoom Javed Hashmi https://t.co/oKGGgRIk3E"
-Tweet is categorized as Politics
-
-
-Classifying "RT @Karachi_Post: Pakistan's most senior politician Javed Hashmi reveals that Pakistan's military &amp; judges were involved in conspiracy agai…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @Majid_Agha: Javed Hashmi's revealations are no surprise. Nothing happened when Nawaz Sharif was exposed for taking money from Osama to…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @MurtazaGeoNews: Impossible 4 imran khan to defend 2014 Dherna. After javed hashmi, Chaudhry Shujaat confirming Dherna was aimed at parl…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @MurtazaGeoNews: Let’s have mental/illegal drug tests, Javed Hashmi challenges Imran Khan after IK says Hashmi not mentally sound https:…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @MurtazaGeoNews: Script-writers wanted Dr Qadri 2 first attack the parliament followed by Imran Khan's occupation: Javed Hashmi https://…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @RealM_Zubair: IK vs Javed Hashmi reveals the conspiracy hatched by IK to remove constitutionally elected govt. v always knew it but it'…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @SenFaisalAbidi: Javed Hashmi is mentally sick who was involved in the Mehran Scandal, jailed for treason for defaming Pakistan Army. He…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @TabindaSamar: The national Comedian award must be given to Javed Hashmi. Each day his memory retrieves a new twist in the script 😂😂😂"
-Tweet is categorized as Politics
-
-
-Classifying "RT @ZaidZamanHamid: I can say with full knowledge &amp; confidence that all the allegations of Javed Hashmi are not just proposterous, they are…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @ZaidZamanHamid: I just saw dear brother &amp; friend General Tariq Khan defending himself against shameles, silly &amp; perposterous allegation…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @_GhulamMustafa_: Loyalty to cause or ideals is praiseworthy. Only slaves are loyal to one master. What do we have in Pak? Javed Hashmi…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @_GhulamMustafa_: Why is Javed Hashmi targeting Imran Khan and maligning Army and Judiciary in the process now? Linked to Panama Leaks?…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @_Mansoor_Ali: Quetta Comission Report &amp; Panama Leaks issue are very systematically now being covered up by the latest 'Javed Hashmi rev…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @akbar62: I feel pity for Javed Hashmi.He wants to rebuild himself through IK-bashing.But he should know MNS has services of more vigoro…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @asadmunir38: Javed Hashmi being in politics for more than 40 years still doesn't know that a corps commander with CJ can't impose judic…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @azizabadi: #MQM Convener '@nadeem_nusrat demands inquiry over revelations of Makhdoom Javed Hashmi https://t.co/ozcMlL3icn"
-Tweet is categorized as Politics
-
-
-Classifying "RT @batool_haider: #MQM 's Convener Nadeem Nusrat comment on disclosure of Javed Hashmi 31.12.16 https://t.co/7YhydBAx8X"
-Tweet is categorized as Politics
-
-
-Classifying "RT @etribune: ‘Javed Hashmi’s statement aimed at maligning army’
-https://t.co/CFUGMS2MyN"
-Tweet is categorized as Politics
-
-
-Classifying "RT @ijazulhaq: What has Javed Hashmi said which has triggered a heated debate between him and Imran Khan #PTI ? I think one of them is a se…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @kashifviews: Gen Tariq Khan's response to Javed Hashmi's allegations https://t.co/FZAzMJctZT"
-Tweet is categorized as Politics
-
-
-Classifying "RT @murtazasolangi: Allegations by Javed Hashmi against Imran Khan involving Gen Retd Tariq Khan and for CJP are too serious to be thrown u…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @pakistaninews: Javed Hashmi trying to defame army, says Lt Gen (R) Tariq - DunyaNews Pakistan https://t.co/rPYwlbATvU(R https://t.co/w8…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @samart_pk: 2/2.PMLN using his tactics to decline the popularity of IK thorough javed hashmi. But they should know they can't stop IK ca…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @siasatpk: "کبھی ضیاء الحق کی ضمنی کبھی نوازشریف کا سائیڈ کک اسکا آگا پیچھا ہی کوئی نہیں ہے"- حسن نثار 
-#PTi
-#PMLN 
-https://t.co/NyZHHpz…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @siasatpk: Amir Mateen shares video clip of Javed Hashmi during dharna when he was calling Nawaz Sharif 'Lutera' https://t.co/DkBpYdJgmG…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @siasatpk: جاوید ہاشمی کے خلاف ایسی کونسی انکوائری چل رہی تھی جس پر وہ عمران خان سے ناراض تھے اور پارٹی چھوڑگئے؟ 
-@KlasraRauf
-https://t.…"
-Tweet is categorized as Religion
-
-
-Classifying "RT @siasatpk: ہارون رشید نے دلائل سے جاوید ہاشمی کی باتوں کو جھٹلادیا اور اسے احمقانہ خیال اور غیرذمہ دارانہ بیان قراریدیا
-https://t.co/CMA…"
-Tweet is categorized as FoodDrink
-
-
-Classifying "RT @siasatpk: ہمارا وزیراعظم صرف عمران خان ہے کسی اور کا نام لیا تو ہم زبان نکال دیں گے- سنئے دھرنے کےدوران جاوید ہاشمی کی تقریریں https://…"
-Tweet is categorized as FoodDrink
-
-
-Classifying "RT @takentweets: What’s the difference between Javed Ch and Javed Hashmi. Javed Ch starts all his stories from 420BC, Hashmi from 2014 Dhar…"
-Tweet is categorized as Politics
-
-
-Classifying "RT @takentweets: What’s the difference between Meera and Javed Hashmi? Meera lies about her age, Hashmi lies about everything else."
-Classification skipped due to use of invalid characters
-Classifying "RT @takentweets: What’s the difference between Najam Sethi and Javed Hashmi? Najam Sethi got paid for his services, Hashmi is still waiting."
-Classification skipped due to use of invalid characters
-Classifying "RT @takentweets: What’s the similarity between Bilawal Bhutto and Javed Hashmi? Both have failed after being launched by media 5 times."
-Tweet is categorized as Politics
-
-
-Classifying "RT @tehxeebahmed: #عمران_اپنا_ڈوپ_ٹیسٹ_کراو
-Cox we believe in Javed Hashmi's sensibility whereas 😯 https://t.co/pM7Saf1E7Y"
-Tweet is categorized as Politics
-
-
-Classifying "RT @zemtv: جاوید ہاشمی گرگٹ کی طرح رنگ بدلتے ہیں، ن لیگ جب بھی مشکل میں ہوتی ہے جاوید ہاشمی کو باہر نکال لاتی ہے، عارف حمید
-https://t.co/1R…"
-Tweet is categorized as FoodDrink
-
-
-Classifying "RT @zemtv: جنرل طارق نے پہلے بار ٹی وی پر آکر جاوید ہاشمی کے الزامات پر اور عمران خان کے متعلق کیا جواب دیا ؟؟
-https://t.co/P0BVfqL5nh http…"
-Tweet is categorized as FoodDrink
-
-
-Classifying "RT siasatpk: Amir Mateen shares video clip of Javed Hashmi during dharna when he was calling Nawaz Sharif 'Lutera'… …"
-Tweet is categorized as Politics
-
-
-Classifying "Second Wife of Javed Hashmi https://t.co/Iqjq53NL3b https://t.co/2rTkdrWxnR"
-Tweet is categorized as Politics
-
-
-Classifying "Sheikh Rasheed is Telling The Betraying Story of Javed Hashmi: https://t.co/2KibA6y27v via @YouTube"
-Tweet is categorized as Politics
-
-
-Classifying "This Video is Enough to Proved The Dual Face Of Javed Hashmi: https://t.co/kCDAZZtzvM via @YouTube"
-Tweet is categorized as Politics
-
-
-Classifying "جاوید ہاشمی اور عمران خان میں جھگڑا کیوں ہوا ؟؟ شیخ رشید نے دھرنے کے بعد انٹرویو میں کیا بتایا تھا ؟؟… https://t.co/6fZ7lTpicS"
-Classification skipped due to use of invalid characters
-Classifying "جاوید ہاشمی کے عمران خان پر الزامات لگانے میں انکی بیٹی کا کیا تعلق ہے ؟؟ فواد چوہدری کا سنسنی خیز انکشاف... https://t.co/icnQ79faRH"
-Classification skipped due to use of invalid characters
-Classifying "سندھ کے ممتاز رہنما کی تحریک انصاف میں شمولیت کا اعلان https://t.co/Za0eq5Y4K1 #_پاکستان #IMRAN_KHAN #JAVED_HASHMI https://t.co/DMWraY81pm"
-Tweet is categorized as FoodDrink
-
-
-Classifying "میں نے اسی لئے کچھ نہیں کہا کیوں کہ جاوید ہاشمی دل کے مریض ہیں اور ۔۔ جاوید ہاشمی جس جنرل پر فوجی بغاوت کا الزام... https://t.co/DVNvHyYMWM"
-Classification skipped due to use of invalid characters
-Classifying "میں نے اسی لئے کچھ نہیں کہا کیوں کہ جاوید ہاشمی دل کے مریض ہیں اور ۔۔ جاوید ہاشمی جس جنرل پر فوجی بغاوت کا الزام... https://t.co/GD6TuUNOtx"
-Classification skipped due to use of invalid characters
-Classifying "یہ وہ  ویڈیو ہے جس سے ثابت  ہو جاتا ہے کہ ن لیگ جاوید ہاشمی کے ساتھ ملی ہوئی ہے ** دیکھیے... https://t.co/VcVzEV7S0K"
-Classification skipped due to use of invalid characters
-Classifying "یہ ویڈیو وطن فروش جاوید ہاشمی کو بری طرح بے نقاب کر رہی...  یہ ہے جاوید ہاشمی کا اصل چہرہ https://t.co/rQ2Q4ii4ez"
-Classification skipped due to use of invalid characters
-Classifying "‘Javed Hashmi’s statement aimed at maligning army’
-https://t.co/CFUGMS2MyN"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ #Choti_C_Zindagi
-⒎ #PeacefulPakistanAhead
-⒏ Javed Hashmi
-⒐ #OneDayCup
-⒑ Turkey
-
-2017/1/3 11:55 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ #Choti_C_Zindagi
-⒎ #PeacefulPakistanAhead
-⒏ Javed Hashmi
-⒐ Turkey
-⒑ Sarfraz
-
-2017/1/3 13:15 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ #HBLvSSGC
-⒎ Javed Hashmi
-⒏ 2nd Test
-⒐ Shahid Afridi
-⒑ Aleem Dar
-
-2017/1/3 03:35 PKT #trndnl https://t.co/V71IHDeagT"
+Classifying "Shah Rukh Khan proposes a match between Kolkata Knight Riders and Peshawar zalmi ✌😍🔥 https://t.co/HaCda3zCqs"
 Tweet is categorized as SportsGaming
 
 
-Classifying "⒍ #MUFC
-⒎ #کوکین_خان_خون_کی_تلاشی_دو
-⒏ United
-⒐ Aleem Dar
-⒑ Javed Hashmi
-
-2017/1/2 23:35 PKT https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ #Quetta
-⒎ CM Sindh
-⒏ #SamaaUpdates
-⒐ Details Here
-⒑ Javed Hashmi
-
-2017/1/2 16:14 PKT #trndnl https://t.co/QGQh83lB11"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ #سارےبیکارفسادکوتیار
-⒎ #Choti_C_Zindagi
-⒏ #PeacefulPakistanAhead
-⒐ Javed Hashmi
-⒑ #OneDayCup
-
-2017/1/3 11:15 PKT"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ #سارےبیکارفسادکوتیار
-⒎ #Choti_C_Zindagi
-⒏ #PeacefulPakistanAhead
-⒐ Javed Hashmi
-⒑ Turkey
-
-2017/1/3 12:15 PKT"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ #سارےبیکارفسادکوتیار
-⒎ #Choti_C_Zindagi
-⒏ Javed Hashmi
-⒐ Turkey
-⒑ Sarfraz
-
-2017/1/3 13:30 PKT https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ #مہاجرین_انخلا_پھر_مردم_شماری
-⒎ Kock
-⒏ Aleem Dar
-⒐ Javed Hashmi
-⒑ Shahid Afridi
-
-2017/1/2 22:15 PKT"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ #کوکین_خان_خون_کی_تلاشی_دو
-⒎ 2nd Test
-⒏ Javed Hashmi
-⒐ Shahid Afridi
-⒑ Aleem Dar
-
-2017/1/3 00:10 PKT"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ 2nd Test
-⒎ Javed Hashmi
-⒏ #عمران_اپنا_ڈوپ_ٹیسٹ_کراو
-⒐ Shahid Afridi
-⒑ Aleem Dar
-
-2017/1/3 05:35 PKT"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ Birthday
-⒎ Sherlock
-⒏ United
-⒐ #HBLvSSGC
-⒑ Javed Hashmi
-
-2017/1/3 01:55 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ Birthday
-⒎ Sherlock
-⒏ United
-⒐ #HBLvSSGC
-⒑ Javed Hashmi
-
-2017/1/3 02:35 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ Javed Hashmi
-⒎ #OneDayCup
-⒏ #15yearsWithCallFans
-⒐ #NoMorePoliticsOnSKMCH
-⒑ Shahid Afridi
-
-2017/1/3 09:15 PKT https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ Javed Hashmi
-⒎ #OneDayCup
-⒏ #15yearsWithCallFans
-⒐ Shahid Afridi
-⒑ Sherlock
-
-2017/1/3 09:35 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ Javed Hashmi
-⒎ #عمران_اپنا_ڈوپ_ٹیسٹ_کراو
-⒏ #15yearsWithCallFans
-⒐ Shahid Afridi
-⒑ Aleem Dar
-
-2017/1/3 05:55 PKT"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ Javed Hashmi
-⒎ #عمران_اپنا_ڈوپ_ٹیسٹ_کراو
-⒏ #15yearsWithCallFans
-⒐ Shahid Afridi
-⒑ Sherlock
-
-2017/1/3 06:55 PKT"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ Javed Hashmi
-⒎ 2nd Test
-⒏ Shahid Afridi
-⒐ Aleem Dar
-⒑ Sherlock
-
-2017/1/3 03:55 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ Javed Hashmi
-⒎ 2nd Test
-⒏ Shahid Afridi
-⒐ Aleem Dar
-⒑ Sherlock
-
-2017/1/3 04:10 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ Javed Hashmi
-⒎ 2nd Test
-⒏ Shahid Afridi
-⒐ Aleem Dar
-⒑ Sherlock
-
-2017/1/3 04:35 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ Javed Hashmi
-⒎ 2nd Test
-⒏ Shahid Afridi
-⒐ Aleem Dar
-⒑ Sherlock
-
-2017/1/3 04:55 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ Javed Hashmi
-⒎ 2nd Test
-⒏ Shahid Afridi
-⒐ Aleem Dar
-⒑ Sherlock
-
-2017/1/3 05:15 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ Kock
-⒎ #عمران_اپنا_ڈوپ_ٹیسٹ_کراو
-⒏ Aleem Dar
-⒐ Javed Hashmi
-⒑ Shahid Afridi
-
-2017/1/2 22:55 PKT"
-Tweet is categorized as SportsGaming
-
-
-Classifying "⒍ Raheel Sharif
-⒎ Birthday
-⒏ Sherlock
-⒐ Javed Hashmi
-⒑ 2nd Test
-
-2017/1/3 02:55 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ Raheel Sharif
-⒎ Birthday
-⒏ Sherlock
-⒐ Javed Hashmi
-⒑ 2nd Test
-
-2017/1/3 03:15 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ United
-⒎ #HBLvSSGC
-⒏ 2nd Test
-⒐ Javed Hashmi
-⒑ Shahid Afridi
-
-2017/1/3 00:55 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Classifying "⒍ United
-⒎ #HBLvSSGC
-⒏ 2nd Test
-⒐ Javed Hashmi
-⒑ Shahid Afridi
-
-2017/1/3 01:15 PKT #trndnl https://t.co/V71IHDvL8r"
-Tweet is categorized as Politics
-
-
-Javed Hashmi is categorized as Politics
-
-####################################################################
-####################################################################
-
-
-
-********************  Classifying Trend "Christmas" Wait  ********************
-
-
-Classifying ""When your dealer puts drugs in in a Christmas ziploc baggie!" 😂😂😂💀💀💀 #drug"
-Tweet is categorized as Religion
-
-
-Classifying "#Blasphemylaw Son of slain governor Shan Taseer faces death threats after Christmas message.
-#RIPNationalActionPlan"
-Tweet is categorized as Religion
-
-
-Classifying "#Lahore | Lahore: Fun-filled Christmas for children of Christian couple burnt alive - Christians In Pakistan"
-Classification skipped due to use of invalid characters
-Classifying "@GeeNelly ahh, I still have to watch the last two but my favourite so far is either white Christmas or white bear :)"
+Classifying "Shame on you maiza hameed #tz
+ Link:   Kolkata Knight Riders 10 https://t.co/PglsEdTB8z"
 Tweet is categorized as TvMovies
 
 
-Classifying "@SrBachchan  Christmas star ⭐️ reflection in water 💦"
-Tweet is categorized as Religion
-
-
-Classifying "@SrBachchan this is a decorative thing which is used in Christmas"
-Tweet is categorized as Religion
-
-
-Classifying "An inuksuk or a stone Christmas tree. It's all about perspective https://t.co/nP7AfpOaj2"
-Tweet is categorized as Religion
-
-
-Classifying "Christmas TV ratings at all-time low https://t.co/815BM4wii6"
+Classifying "Shame on you maiza hameed #tz
+ Link:   Kolkata Knight Riders 6 https://t.co/GL6I35B0YJ"
 Tweet is categorized as TvMovies
 
 
-Classifying "Loved the Tesco Christmas pudding I had last night! Love Tesco Orchard!
-#TriedForLess"
+Classifying "We Will Not Witness Kolkata Knight Riders Playing Against Peshawar Zalmi @KKRiders @PeshawarZalmi… https://t.co/f5ujjxaBB5"
+Tweet is categorized as SportsGaming
+
+
+Classifying "https://t.co/NvWS5dVzfq... https://t.co/yAAs0RoayR"
+Tweet is categorized as FoodDrink
+
+
+Kolkata Knight Riders is categorized as SportsGaming
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "Interior Minister" Wait  ********************
+
+
+Classifying "FIA presents initial report on PSL spot fixing case to Interior Minister information given by PCB to be forensicall… https://t.co/B20yImEQh7"
+Tweet is categorized as Politics
+
+
+Classifying "German @DerSPIEGEL; #PYD, #YPG, #YPJ flags and 33 other Symbols banned in Germany. Interior Minister de Maizière should read UN Report"
+Tweet is categorized as Politics
+
+
+Classifying "RT @AramKrdstn: German @DerSPIEGEL; #PYD, #YPG, #YPJ flags and 33 other Symbols banned in Germany. Interior Minister de Maizière should rea…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @WorldPTV: FIA presents initial report on PSL spot fixing case to Interior Minister information given by PCB to be forensically tested.…"
+Tweet is categorized as Politics
+
+
+Classifying "پی ایس ایل اسپاٹ فکسنگ،وزیر داخلہ کو ابتدائی رپورٹ پیش کردی
+مزید پڑھئیے:https://t.co/n9ffVQFGwb
+#PSL2017… https://t.co/8kJHiDIYWp"
+Classification skipped due to use of invalid characters
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:35 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:35 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:57 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:57 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 19:14 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Details Here
+⒎ Interior Minister
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 19:14 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Interior Minister
+⒎ Details Here
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 17:57 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Interior Minister
+⒎ Details Here
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 17:57 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Interior Minister
+⒎ Details Here
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:13 PKT #trndnl https://t.co/QGQh83lB11"
+Tweet is categorized as SportsGaming
+
+
+Classifying "⒍ Interior Minister
+⒎ Details Here
+⒏ National Assembly
+⒐ 1st Test
+⒑ South Korean
+
+2017/3/10 18:13 PKT #trndnl https://t.co/V71IHDvL8r"
+Tweet is categorized as SportsGaming
+
+
+Interior Minister is categorized as SportsGaming
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "JAAG" Wait  ********************
+
+
+Classifying ""Ajab Zulm Karti hain Teri Yaadain mujh pAR.
+
+So Jao Tu Utha Dyti Hain, Jaag Jao Tu Rula Dyti Hain,
+
+AnNa https://t.co/LtRpEUDjPL"
 Tweet is categorized as Music
 
 
-Classifying "My roommate just showed me Gucci's Christmas song....LIT"
-Tweet is categorized as Music
+Classifying "*
+لاھور
+دھاندلی اثاثہ جات کیس
+خواجہ داؤد/ممتازبھٹو
+ٹریبونل میں مختصرسماعت
+کےبعداگلی سماعت کیلئے
+سترہ مارچ کی تاریخ مقرر
+آزادسلیمانی گروپ"
+Classification skipped due to use of invalid characters
+Classifying "*
+گوجرانوالہ
+بارش/ژالہ باری
+&amp;
+جھنگ بارش آزاد کشمیر
+برف باری
+&amp;
+سیالکوٹ وقفےوقفے
+سےبارش
+حافظ آباد
+بوندا باندی نارووال
+بارش اور
+ژالہ باری"
+Classification skipped due to use of invalid characters
+Classifying "@Rajendr90902069 @ZeeNewsHindi Sayad hi jaag payega kyuki inko apne Bhai se jyada ek Muslim par viwash hota he"
+Tweet is categorized as Religion
 
 
-Classifying "New: I Am A Heroin Addict: Ghost Of Christmas Past https://t.co/5gMVVsJUeQ"
-Tweet is categorized as TvMovies
+Classifying "Added a new video: "Dayamaya      6,986 views2 years ago  18:01 01-Jaag Jaag Gurudev[Kokila..." https://t.co/kwiHXuTnMR #video"
+Classification skipped due to use of invalid characters
+Classifying "Ae Sardiyo
+Jaag Uthe hn Saare شاعر۔
+😂😂"
+Tweet is categorized as FoodDrink
 
 
-Classifying "News: I Am A Heroin Addict: Ghost Of Christmas Past https://t.co/5gMVVt1v6o"
+Classifying "After Election result in #Punjab "Aam Aadmi sota hua sher hai, ungli mat kr, jaag gaya toh cheer phaad dega"
+
+@ArvindKejriwal @AamAadmiParty"
 Tweet is categorized as Politics
 
 
-Classifying "RT @OpIndia_com: Goan Padre asks devotees at Christmas mass to vote for specific candidates, will SC ruling apply? https://t.co/L2oboNP7lX"
+Classifying "Bas zara c hawa chalny ki dair hai..
+Andar ka IMRAN HASHMI khudiii jaag jata haii...😂"
+Tweet is categorized as Politics
+
+
+Classifying "Maizad Hameed Shamed On you such a shame for women
+ Link:   JAAG 1 https://t.co/Eh8Y3AF7LE"
+Tweet is categorized as TvMovies
+
+
+Classifying "RT @JaagAlerts: #Breaking visuals on JAAG: Worker tortured, arm broken, in Khanpur near Rahimyar Khan, for demanding salary https://t.co/yc…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @JaagAlerts: 2 Pakistanis , mistakenly crossed border, returned by Indian authorities today, watch more on JAAG now https://t.co/pBlHULs…"
+Tweet is categorized as TvMovies
+
+
+Classifying "RT @JaagAlerts: Earlier visuals on JAAG: Indian forces clsoe streets leading to Srinagar Jamia Masjid, no Friday prayers could be offered h…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @ayeshamaria007: Maaa shaa Allah aj jumma wale din sb ka islam jaag jaata hai😂😂😂👏👏👏"
+Tweet is categorized as Religion
+
+
+Classifying "Shame on you maiza hameed #tz
+ Link:   JAAG 15 https://t.co/0lza3QvrYA"
+Tweet is categorized as TvMovies
+
+
+Classifying "Visuals on JAAG: Fire breaks out in a textile factory in Landhi, watch now https://t.co/oLXWHdnYG9"
+Tweet is categorized as TvMovies
+
+
+JAAG is categorized as TvMovies
+
+####################################################################
+####################################################################
+
+
+
+********************  Classifying Trend "President" Wait  ********************
+
+
+Classifying ""Protests Erupt in South Korea After President Park Geun-hye Is Ousted" by THE NEW YORK TIMES via NYT The New York… https://t.co/As4KhNS5Dj"
+Classification skipped due to use of invalid characters
+Classifying ""Protests Erupt in South Korea After President Park Geun-hye Is Ousted" by THE NEW YORK TIMES via NYT The New York… https://t.co/GIHUYE6GGR"
+Classification skipped due to use of invalid characters
+Classifying ""Protests Erupt in South Korea After President Park Geun-hye Is Ousted" by THE NEW YORK TIMES via NYT The New York… https://t.co/HTFTW3ORD7"
+Classification skipped due to use of invalid characters
+Classifying ""Protests Erupt in South Korea After President Park Geun-hye Is Ousted" by THE NEW YORK TIMES via NYT The New York… https://t.co/KdPxB75H75"
+Classification skipped due to use of invalid characters
+Classifying ""Protests Erupt in South Korea After President Park Geun-hye Is Ousted" by THE NEW YORK TIMES via NYT The New York… https://t.co/LMgjC6xgIE"
+Classification skipped due to use of invalid characters
+Classifying ""Protests Erupt in South Korea After President Park Geun-hye Is Ousted" by THE NEW YORK TIMES via NYT The New York… https://t.co/REOEYXebkT"
+Classification skipped due to use of invalid characters
+Classifying ""Protests Erupt in South Korea After President Park Geun-hye Is Ousted" by THE NEW YORK TIMES via NYT The New York… https://t.co/Tu6t5B4Imp"
+Classification skipped due to use of invalid characters
+Classifying ""Protests Erupt in South Korea After President Park Geun-hye Is Ousted" by THE NEW YORK TIMES via NYT The New York… https://t.co/WbArwfyzuM"
+Classification skipped due to use of invalid characters
+Classifying "#TN: How a woman #panchayat president changed lives of a Sylvan beauty
+https://t.co/hUydLKQl4j"
+Tweet is categorized as Politics
+
+
+Classifying "#TehlkaTV: South Korea’s Constitutional Court dismissed the President Park Geun-hye https://t.co/QpIauY4yNZ"
+Tweet is categorized as Politics
+
+
+Classifying "Does Indian Apex Court match this  courage? South Korean court removes president over scandal https://t.co/crBDGKLl78"
+Tweet is categorized as Politics
+
+
+Classifying "Erdogan, Putin, now top players in Syria: Turkish President Recep Tayyip Erdogan visited his Russian counterpart, V… https://t.co/z8TjSzerGW"
+Tweet is categorized as Politics
+
+
+Classifying "Gundogan is such weird man. Why would you argue with some president of a club? Long injures lmao....."
+Tweet is categorized as Politics
+
+
+Classifying "Nigerian President Returns Home After Weeks on Medical Care
+
+Best of Luck
+#JollyLLB2 
+ https://t.co/KMCxHoPEh1 https://t.co/jvKAZCGTqA"
+Tweet is categorized as Health
+
+
+Classifying "Philippines' president says he killed criminals to protect country - The Express Tribune https://t.co/xAnlY12oIr https://t.co/yzK3H5RIdv"
+Tweet is categorized as Politics
+
+
+Classifying "President of India: Take immediate action against fake job companies/consultancies mark them as blacklisted -... https://t.co/1dru77ykMe"
+Tweet is categorized as Politics
+
+
+Classifying "President of India: Take immediate action against fake job companies/consultancies mark them as blacklisted -... https://t.co/TfXbLDK6co"
+Tweet is categorized as Politics
+
+
+Classifying "RT @Atulk66: @kush07 neither will the Captain nor will the #Aaptards be anywhere close to majority. Akali+BJP will win 24+ seats result =Pr…"
+Tweet is categorized as Music
+
+
+Classifying "RT @BabarAwanPK: South Korean constitutional court upholds President's impeachment on "Khurd burd" ہم دیکھیں گے!"
+Tweet is categorized as Politics
+
+
+Classifying "RT @DrPravinTogadia: @realDonaldTrump CONGRATULATIONS, President Trump &amp; wish you  grand success as the 45th President of America in eradic…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @GSDTH: [News] 170310 เพลง Female President ของ Girl’s Day กลับขึ้นมาติดอันดับบน MelOn Rising Chart: https://t.co/0VGmWGJk5e #GirlsDay #…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @ImranKhanPTI: South Korean court upholds President Park’s impeachment, removing her from office https://t.co/ReuAc0l7b2"
+Tweet is categorized as Politics
+
+
+Classifying "RT @IndianExpress: S.Korean court throws President Park Geun-hye out of office, two dead in protests https://t.co/HyzA1LUVcy"
+Tweet is categorized as Politics
+
+
+Classifying "RT @IsraeliPM: PM Netanyahu following his meeting with Russian President Putin: I made it clear that Israel is not opposed to an agreement…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @ItalyinIndia: Fruitful meeting in #Delhi with @ProvinciaBZ delegation headed by President @ArnoKompatscher #foodprocessing #tourism htt…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @KdanialA: #PPPHyd President @SagheerQureshi3 , GenSect #AliMohdSehto &amp; InfoSect @abroahsan welcoming CMSindh SyedMuradShah @ Hyd Airpor…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @MRVChennai: As a reward for his spectacular failure Cong may well make #pappu its national president! What say folks?"
+Tweet is categorized as Politics
+
+
+Classifying "RT @NarendraModi1FC: Mr. Akio Toyoda, President Toyota, and Mr. O. Suzuki, Chairman Suzuki, call on PM -… https://t.co/rBWbWrtdyU #BJP #NaM…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @NavbharatTimes: उलमा काउंसिल के अध्यक्ष आमिर रशादी ने सैफुल्लाह एनकाउंटर को बताया फर्जी, केस दर्ज
+https://t.co/mxge6EpqQ8"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @NavbharatTimes: उलेमा काउंसिल के अध्यक्ष आमिर रशादी ने सैफुल्लाह एनकाउंटर को बताया फर्जी, केस दर्ज
+https://t.co/mxge6EpqQ8"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT @RajaBrar_INC: Congress Vice President Shri Rahul Gandhi Ji adressed a rally at Ḍoḍa Village, in my constituency Gidderbaha, Punjab yest…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @SwarajyaMag: Pak Parliament passed the landmark Hindu marriage bill yesterday; President's signature will make it law. #Replug:
+
+https:…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @TajinderBagga: After MP @MaheishGirri 1.5 Cr Funds for CCTV,BJP Delhi President &amp; MP @ManojTiwariMP issued 2 Cr for CCTV cameras.Where…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @ZaidZamanHamid: President of South Korea disqualified for corruption by the Supreme Court...
+This is a historic moment for Pak SC also…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @Zakapanezai: Iranian intelligence ‘Honey Trapped’ Pakistani President https://t.co/NFxYwPVw3J via @The London Post"
+Tweet is categorized as Politics
+
+
+Classifying "RT @auldtimer: Wherein Compassion Intl is billed as "Christian charity" &amp; RSS as "rightwing Hindu orgn". No wonder their own president call…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @meetuttam: President rule in Uttar Pradesh: The second best option for Narendra Modi’s BJP  via @htTweets https://t.co/dhSdPughlK"
+Tweet is categorized as Politics
+
+
+Classifying "RT @narendramodi: Had a wonderful meeting with Mr. Akio Toyoda, President @ToyotaMotorCorp and Mr. O. Suzuki, Chairman Suzuki. https://t.co…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @spati2012: #LeftistTerror 
+Kerala BJP V President Dr PP Vava brutally injured in heavy Police Action. He lost his left eye. https://t.c…"
+Tweet is categorized as Politics
+
+
+Classifying "RT @themomentumco: #TheMomentum การปลด ‘ปาร์กกึนเฮ’ ภาพสะท้อนพัฒนาการประชาธิปไตยแดนโสม และลมความสัมพันธ์ในภูมิภาคที่อาจเปลี่ยนทิศ https://t…"
+Tweet is categorized as FoodDrink
+
+
+Classifying "RT SriSri: Inaugurated Shashwat Dham with Hon. President of Nepal, Smt. Bidhya Devi Bhandari &amp; addressed the inter… https://t.co/MMLm4C3ogx"
+Tweet is categorized as Politics
+
+
+Classifying "South Korea’s Constitutional Court upholds decision to impeach President Park... https://t.co/3whyleB8hK by #cnnbrk… https://t.co/najUoNpxNm"
+Tweet is categorized as Politics
+
+
+Classifying "The removal of South Korean president Park Geun-hye from office could rewrite relations... https://t.co/lO4NkgcHf8 by #CNN via @c0nvey"
+Tweet is categorized as Politics
+
+
+Classifying "UBL President, Senior Management Stopped From Attending a Foreign Conference https://t.co/LbHmE4PaFd"
+Tweet is categorized as Politics
+
+
+Classifying "Watch election results with @bjym_gujarat president @DrRutvij https://t.co/qpbTbPBz7x"
+Tweet is categorized as TvMovies
+
+
+Classifying "https://t.co/FyCy3luoIY"
+Tweet is categorized as FoodDrink
+
+
+Classifying "https://t.co/fDrRGZpjpd"
+Tweet is categorized as FoodDrink
+
+
+Classifying "https://t.co/oAGHI3y1J8"
+Tweet is categorized as FoodDrink
+
+
+President is categorized as Politics
+
+####################################################################
+####################################################################
+
+ass to vote for specific candidates, will SC ruling apply? https://t.co/L2oboNP7lX"
 Tweet is categorized as ArtDesign
 
 
