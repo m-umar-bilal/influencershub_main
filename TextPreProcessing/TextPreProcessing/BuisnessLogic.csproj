@@ -119,6 +119,7 @@
     <Compile Include="ServerGui.Designer.cs">
       <DependentUpon>ServerGui.cs</DependentUpon>
     </Compile>
+    <Compile Include="Settings1.cs" />
     <Compile Include="Settings1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -129,7 +130,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="Settings1.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>

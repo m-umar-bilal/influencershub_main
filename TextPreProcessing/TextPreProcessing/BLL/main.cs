@@ -13,6 +13,7 @@ namespace TextPreProcessing.BLL
 {
     class main
     {
+        public static double ScheduleTime { get; set; } = ConvertHoursToMilliseconds(Settings1.Default.Time);
         public static void func()
         {
             Console.WriteLine("Hello");
@@ -35,7 +36,7 @@ namespace TextPreProcessing.BLL
             stopwatch.Start();
             
 
-            while (DateTime.UtcNow - startTime < TimeSpan.FromMinutes(5))
+            while (DateTime.UtcNow - startTime < TimeSpan.FromMinutes(Convert.ToInt64(ConvertMillisecondsToMinutes(ScheduleTime))))
             {
                 TimeSpan timeSpan = TimeSpan.FromSeconds(Convert.ToInt32(stopwatch.Elapsed.TotalSeconds));
                 Console.Write(timeSpan.ToString("c"));
@@ -44,11 +45,25 @@ namespace TextPreProcessing.BLL
             Console.Clear();
             GC.Collect();
         }
+        public static double ConvertHoursToMinutes(double hours)
+        {
+            return TimeSpan.FromHours(hours).TotalMinutes;
+        }
+        public static double ConvertHoursToMilliseconds(double hours)
+        {
+            return TimeSpan.FromHours(hours).TotalMilliseconds;
+        }
+        public static double ConvertMillisecondsToMinutes(double milliseconds)
+        {
+            return TimeSpan.FromMilliseconds(milliseconds).TotalMinutes;
+        }
         public static void Main()
         {
             // Create a Timer object that knows to call our TimerCallback
             // method once every 2000 milliseconds.
-            Timer t = new Timer(TimerCallback, null, 0, 300000);
+            //var schedTime=ConvertHoursToMilliseconds(Settings1.Default.Time);
+            //Console.WriteLine(schedTime);
+            Timer t = new Timer(TimerCallback, null, 0, Convert.ToInt64(ScheduleTime));
             // Wait for the user to hit <Enter>
             //Console.WriteLine(DateTime.Today.AddDays(-7));
             //Trends.GetTrendsOfCurrentWeekThatAreClassified();

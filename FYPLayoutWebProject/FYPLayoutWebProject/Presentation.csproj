@@ -166,6 +166,7 @@
     <Content Include="assets\js\jquery.backstretch.min.js" />
     <Content Include="assets\js\jquery.metisMenu.js" />
     <Content Include="assets\js\scripts.js" />
+    <Content Include="ChangeTime.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -215,6 +216,13 @@
     </Compile>
     <Compile Include="Admin-Settings.aspx.designer.cs">
       <DependentUpon>Admin-Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeTime.aspx.cs">
+      <DependentUpon>ChangeTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeTime.aspx.designer.cs">
+      <DependentUpon>ChangeTime.aspx</DependentUpon>
     </Compile>
     <Compile Include="User_InfluencerProfile.aspx.cs">
       <DependentUpon>User_InfluencerProfile.aspx</DependentUpon>

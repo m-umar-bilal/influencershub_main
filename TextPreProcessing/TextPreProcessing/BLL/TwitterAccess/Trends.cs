@@ -223,6 +223,15 @@ namespace TweetsAndTrends
 
         }
 
+        public static void ChangeCategoryOfTrend(string tName,string nCategory, string timestamp)
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+            var Collec = db.GetCollection<BsonDocument>("TrendsCategory");
+            var filter = Builders<BsonDocument>.Filter.Eq("trend", tName) & Builders<BsonDocument>.Filter.Eq("timestamp", timestamp);
+            var update = Builders<BsonDocument>.Update.Set("category", nCategory);
+            Collec.UpdateMany(filter, update);
+        }
         public static List<TrendsCategory> GetTrendsOfCurrentWeekThatAreClassified()
         {
             var Client = new MongoClient();

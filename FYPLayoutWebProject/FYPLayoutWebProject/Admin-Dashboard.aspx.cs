@@ -5,20 +5,26 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using FYPLayoutWebProject;
 using TextClassification;
+using TextPreProcessing;
+
 namespace Views
 {
     public partial class WebForm10 : System.Web.UI.Page
     {
+        public int SchedTime { get; set; } = Settings1.Default.Time;
         protected void Page_Load(object sender, EventArgs e)
         {
             try
             {
                 if (Session["Type"].Equals("Admin"))
                 {
+                    //var a=((bs_binary_admin_MainMaster)this.Master).SchedTime;
                     DropDownList1.Items.Add("5");
                     DropDownList1.Items.Add("10");
                     DropDownList1.Items.Add("15");
+                    Button2.Attributes.Add("onclick", "window.open('ChangeTime.aspx','','height=300,width=300');return false");
                 }
                 else
                 {
@@ -35,43 +41,18 @@ namespace Views
 
         void startApp()
         {
-            ProcessStartInfo startinfo = new ProcessStartInfo();
-            startinfo.FileName = @"C:\\Users\\Umar Bilal\\Documents\\fyp-2\\TextPreProcessing\\TextPreProcessing\\bin\\Debug\\TextPreProcessing.exe";
-            startinfo.CreateNoWindow = false;
-            startinfo.UseShellExecute = false;
-            Process myProcess = Process.Start(startinfo);
-            myProcess.Start();
+
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string time = DropDownList1.SelectedValue;
-            TimeLabel.Text = time;
-            double t = Convert.ToDouble(time);
-            string output="";
-            startApp();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
         }
+
+        /*  protected void Button2_Click(object sender, EventArgs e)
+          {
+
+          }*/
     }
 }

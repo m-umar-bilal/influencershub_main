@@ -5,20 +5,28 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TextClassification;
+using TextPreProcessing.BLL.TextClassification;
 using TweetsAndTrends;
+
 
 namespace Views
 {
     public partial class WebForm7 : System.Web.UI.Page
     {
+        public List<TrendsCategory> WeekTrends { get; set; } = Trends.GetTrendsOfCurrentWeekThatAreClassified();
         protected void Page_Load(object sender, EventArgs e)
         {
             try
             {
                 if (Session["Type"].Equals("Admin"))
                 {
-                    TrendView.DataSource = Category.categorylist;
-                    TrendView.DataBind();
+                    // CatList.DataSource= Category.categorylist;
+                    // CatList.DataBind();
+                    if (!IsPostBack)
+                    {
+                        TrendView.DataSource = Trends.GetTrendsOfCurrentWeekThatAreClassified();
+                        TrendView.DataBind();
+                    }
                 }
                 else
                 {
@@ -39,11 +47,23 @@ namespace Views
 
         }
 
-        protected void CatList_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            getTrends();
-        }
 
-        
+
+           // Label1.Text = ((DropDownList)TrendView.Rows[1].FindControl("CatList")).SelectedItem.Text;
+     
+
+        protected void CatList_OnSelectedIndexChanged(object sender, EventArgs e)
+        {
+            DropDownList dropDownList = (DropDownList)sender;
+            GridViewRow gridViewRow = (GridViewRow)dropDownList.Parent.Parent;
+
+            string trend = Convert.ToString(dropDownList.Attributes["trend"]);
+            string timestamp = Convert.ToString(dropDownList.Attributes["timestamp"]);
+            Trends.ChangeCategoryOfTrend(trend, dropDownList.SelectedItem.Text, timestamp);
+            Label1.Text = "CHANGED " + trend+ "'s category to "+ dropDownList.SelectedItem.Text;
+            TrendView.DataSource = Trends.GetTrendsOfCurrentWeekThatAreClassified();
+            TrendView.DataBind();
+            // Label1.Text = "<b>Name:</b> " + name + " <b>Country:</b> " + country;
+        }
     }
 }

@@ -57,7 +57,7 @@
                 <div class="profile-usermenu">
                   <ul class="nav nav-links">
                     <li class="active"> <a href="Admin-Dashboard.aspx"> <i class="fa fa-heart-o"></i> Dashboard</a> </li>
-                    <li> <a href="Admin-AllTrends.aspx"> <i class="fa fa-group"></i> Trends </a> </li>
+                    <li> <a href="Admin-CatTrends.aspx"> <i class="fa fa-group"></i> Trends </a> </li>
                       <li> <a href="Admin-Tweets.aspx"> <i class="fa fa-group"></i> Tweets </a> </li>
                     <li> <a href="Admin-AddAdmin.aspx"> <i class="fa fa-plus-circle"></i> Add Admin </a> </li>
                     <li> <a href="Admin-Settings.aspx"> <i class="fa fa-cog"></i> Settings </a> </li>
