@@ -119,36 +119,7 @@ namespace TweetsAndTrends
 
         }
 
-        public async Task getTrendsOfWeek(string date, string v)
-        {
-
-            var Client = new MongoClient();
-            var db = Client.GetDatabase("InfluencersHub");
-            var Collec = db.GetCollection<BsonDocument>("trends");
-            var filter = Builders<BsonDocument>.Filter.Gte("DateTime", date);
-            Tweets t = new Tweets();
-            try
-            {
-                using (var cursor = await Collec.FindAsync(filter))
-                {
-
-                    while (await cursor.MoveNextAsync())
-                    {
-                        var batch = cursor.Current;
-                        foreach (var document in batch)
-                        {
-                            BsonSerializer.Deserialize<User>(document);
-                            await t.getTweetsOfTrendsFromDB(document["Trend"].ToString());
-                        }
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                var a = e;
-            }
-
-        }
+   
 
         public async Task ClassifyTrends()
         {
@@ -182,11 +153,10 @@ namespace TweetsAndTrends
             NaiveBayes naivebayes = new NaiveBayes() ;
             foreach (Trends t in trendList)
             {
-                Task.Run(async () =>
-                {
+                
                     try
                     {
-                        temptweet = await tweets.getTweetsOfTrendsFromDB(t.Text);
+                        temptweet = tweets.GetTweetsOfTrendsFromDB(t.Text);
                     }
                     catch (Exception eee)
                     {
@@ -194,7 +164,7 @@ namespace TweetsAndTrends
                         // Perform cleanup here.
                     }
 
-                }).Wait();
+              
                 var now = Convert.ToString(DateTime.Now); 
                 
                 string result = "";

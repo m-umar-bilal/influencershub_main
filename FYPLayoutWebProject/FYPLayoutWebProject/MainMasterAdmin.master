@@ -51,17 +51,20 @@
           <div class="col-md-4"> 
             <!-- Company Information -->
             <div class="sidebar">
-              <h5 class="main-title">Mike Tomlinson</h5>
-              <div class="sidebar-thumbnail"> <img src="assets/user/images/avatar.jpg" alt=""> </div>
+              <h5 class="main-title"> <%=Session["FName"]  %> <%=Session["LName"]   %> </h5>
+                
+               
+              <div class="sidebar-thumbnail"> <img src="assets/img/IFLOGO.jpg" alt=""> </div>
               <div class="sidebar-information">
                 <div class="profile-usermenu">
                   <ul class="nav nav-links">
-                    <li class="active"> <a href="Admin-Dashboard.aspx"> <i class="fa fa-heart-o"></i> Dashboard</a> </li>
+                    <li> <a href="Admin-Dashboard.aspx"> <i class="fa fa-heart-o"></i> Dashboard</a> </li>
                     <li> <a href="Admin-CatTrends.aspx"> <i class="fa fa-group"></i> Trends </a> </li>
                       <li> <a href="Admin-Tweets.aspx"> <i class="fa fa-group"></i> Tweets </a> </li>
-                    <li> <a href="Admin-AddAdmin.aspx"> <i class="fa fa-plus-circle"></i> Add Admin </a> </li>
+                    <li> <a href="Admin-AddAdmin.aspx"> <i class="fa fa-plus-circle"></i> Adminintrator </a> </li>
                     <li> <a href="Admin-Settings.aspx"> <i class="fa fa-cog"></i> Settings </a> </li>
-                    <li> <a  onclick="logout" runat="server"> <i class="fa fa-sign-out"></i> Sign out </a> </li>
+                      
+                    <li> <a  href="Admin.aspx" runat="server"> <i class="fa fa-sign-out"></i> Sign out </a> </li>
                   </ul>
                 </div>
               </div>
@@ -116,7 +119,14 @@
 <script src="assets/user/js/owl.carousel.min.js"></script> 
 <script src="assets/user/js/gmap3.min.js"></script> 
 <script src="assets/user/js/scripts.js"></script>
-   
+<script >
+    function removesession() {
+        Object.keys(sessionStorage).forEach(function (item) {
+            sessionStorage.removeItem(item);
+        });
+        window.location = "http://www.google.com";
+    }
+</script>   
 </body>
 
 

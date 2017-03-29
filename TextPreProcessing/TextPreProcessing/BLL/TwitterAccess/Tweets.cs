@@ -95,7 +95,7 @@ namespace TweetsAndTrends
 
         }
 
-        public async Task<List<String>> getTweetsOfTrendsFromDB(String Trend)
+        public List<String> GetTweetsOfTrendsFromDB(String Trend)
         {
 
             var Client = new MongoClient();
@@ -105,7 +105,7 @@ namespace TweetsAndTrends
 
             try
             {
-                var list = await Collec.Find(filter).Project(Builders<BsonDocument>.Projection.Include("Tweet").Exclude("_id")).ToListAsync();
+                var list = Collec.Find(filter).Project(Builders<BsonDocument>.Projection.Include("Tweet").Exclude("_id")).ToList();
 
                 List<String> tweetlist = new List<String>();
 

@@ -5,12 +5,16 @@
                      <h4> Get tweets of trends</h4>  
                          <form runat="server"> 
                         <h5>Select a trend to get tweets&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:DropDownList ID="TrendList" runat="server" OnSelectedIndexChanged="TrendList_SelectedIndexChanged"></asp:DropDownList>
+                        <asp:DropDownList ID="TrendList" AutoPostBack="true" runat="server" OnSelectedIndexChanged="TrendList_SelectedIndexChanged" >
+                   
+                        </asp:DropDownList>
 
                         </h5>
                         <br />
+                          
+                             <asp:GridView ID="TweetView" runat="server"></asp:GridView>
 
-                        <asp:GridView ID="TweetView" runat="server"></asp:GridView>
+
                         </form>
                        
                     </div>

@@ -13,7 +13,7 @@ namespace Views
 {
     public partial class WebForm7 : System.Web.UI.Page
     {
-        public List<TrendsCategory> WeekTrends { get; set; } = Trends.GetTrendsOfCurrentWeekThatAreClassified();
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             try

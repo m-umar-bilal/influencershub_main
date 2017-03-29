@@ -7,19 +7,14 @@ using System.Web.UI.WebControls;
 using TweetsAndTrends;
 using TextClassification;
 using System.Threading.Tasks;
+using TextPreProcessing.BLL.TextClassification;
 
 namespace Views
 {
     public partial class WebForm8 : System.Web.UI.Page
     {
-        public async Task LoadSomeData()
-        {
-            var getListTask = await DAL.TrendsDb.GetAllTrends();
-            
-            TweetView.DataSource = getListTask;
-            TweetView.DataBind();
 
-        }
+      
         public async Task LoadTweets()
         {
             var getListTask = await DAL.TrendsDb.GetAllTrends();
@@ -35,6 +30,15 @@ namespace Views
                 {
 
                     //RegisterAsyncTask(new PageAsyncTask(LoadSomeData));
+                    if (!IsPostBack)
+                    {
+                        TrendList.DataSource =
+                            Trends.GetTrendsOfCurrentWeekThatAreClassified().Select(x => x.trend).ToArray();
+                        TrendList.DataBind();
+
+                        GetTweets();
+                    }
+
                 }
                 else
                 {
@@ -49,16 +53,16 @@ namespace Views
             }
            
         }
-        public void getTweets()
+        public void GetTweets()
         {
             Tweets tweet = new TweetsAndTrends.Tweets();
-            TweetView.DataSource = tweet.getTweetsOfTrendsToDisplay(TrendList.SelectedItem.ToString());
-
+            TweetView.DataSource = tweet.GetTweetsOfTrendsFromDB(TrendList.SelectedItem.ToString());
+            TweetView.DataBind();
         }
 
         protected void TrendList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            getTweets();
+            GetTweets();
         }
 
        public void getTrendsList()

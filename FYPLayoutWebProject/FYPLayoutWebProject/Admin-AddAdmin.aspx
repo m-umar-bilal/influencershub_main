@@ -14,14 +14,14 @@
                          <div class="col-md-12" style="width:50%">
                         <asp:Label ID="lblError" runat="server" CssClass="text-error"></asp:Label><br/>
                         <label for="firstname">First Name</label>
-                        <input type="text" id="firstname" name="firstname" placeholder="Saint" required title="Saint" pattern="^[A-Z][a-zA-Z]*$"/>
+                        <input type="search" id="firstname" name="firstname" placeholder="Saint" required title="Saint" pattern="^[A-Z][a-zA-Z]*$"/>
                         <label for="lastname">Last Name</label>
-                        <input type="text" id="lastname" name="lastname" placeholder="John" required title="John" pattern="^[A-Z][a-zA-Z]*$"/>
+                        <input type="search" id="lastname" name="lastname" placeholder="John" required title="John" pattern="^[A-Z][a-zA-Z]*$"/>
 
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" placeholder="user@mail.xyz" required/>
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password"  placeholder="A4cd4234" required title="UpperCase, LowerCase and Number" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"/>
+                        <input type="search"  id="password" name="password"  placeholder="A4cd4234" required title="UpperCase, LowerCase and Number" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"/>
 
                          <br />
 

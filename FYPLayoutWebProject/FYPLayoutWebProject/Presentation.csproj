@@ -142,7 +142,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admin-Settings.aspx" />
+    <Content Include="Admin-Dashboard.aspx" />
     <Content Include="assets\font-awesome\fonts\fontawesome-webfontba72.svg" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="assets\img\1.png" />
@@ -156,6 +156,7 @@
     <Content Include="assets\img\find_user.png" />
     <Content Include="assets\img\find_user1.jpg" />
     <Content Include="assets\img\home.png" />
+    <Content Include="assets\img\IFLOGO.jpg" />
     <Content Include="assets\img\iphone.png" />
     <Content Include="assets\img\pattern.jpg" />
     <Content Include="assets\img\pencil.png" />
@@ -192,7 +193,7 @@
     <Content Include="Admin-CatTrends.aspx" />
     <Content Include="Admin-Tweets.aspx" />
     <Content Include="Admin-AddAdmin.aspx" />
-    <Content Include="Admin-Dashboard.aspx" />
+    <Content Include="Admin-Settings.aspx" />
     <Content Include="Admin-User.aspx" />
     <Content Include="User.Master" />
     <Content Include="UserDashboard.aspx" />
@@ -210,12 +211,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin-Settings.aspx.cs">
-      <DependentUpon>Admin-Settings.aspx</DependentUpon>
+    <Compile Include="Admin-Dashboard.aspx.cs">
+      <DependentUpon>Admin-Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin-Settings.aspx.designer.cs">
-      <DependentUpon>Admin-Settings.aspx</DependentUpon>
+    <Compile Include="Admin-Dashboard.aspx.designer.cs">
+      <DependentUpon>Admin-Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="ChangeTime.aspx.cs">
       <DependentUpon>ChangeTime.aspx</DependentUpon>
@@ -307,12 +308,12 @@
     <Compile Include="Admin-AddAdmin.aspx.designer.cs">
       <DependentUpon>Admin-AddAdmin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin-Dashboard.aspx.cs">
-      <DependentUpon>Admin-Dashboard.aspx</DependentUpon>
+    <Compile Include="Admin-Settings.aspx.cs">
+      <DependentUpon>Admin-Settings.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin-Dashboard.aspx.designer.cs">
-      <DependentUpon>Admin-Dashboard.aspx</DependentUpon>
+    <Compile Include="Admin-Settings.aspx.designer.cs">
+      <DependentUpon>Admin-Settings.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin-User.aspx.cs">
       <DependentUpon>Admin-User.aspx</DependentUpon>
