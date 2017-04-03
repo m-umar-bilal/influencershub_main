@@ -14,7 +14,7 @@ namespace TwitterHandler
 {
     public static class TwitterDeveloper
     {
-        static private string passPhrase = "F740692E336C73C2DF878DE1022069B69B12CB6FF581D138969FCEEFADB028DA";
+        private static string passPhrase = "F740692E336C73C2DF878DE1022069B69B12CB6FF581D138969FCEEFADB028DA";
 
         public static byte[] GetHash(string inputString)
         {
@@ -34,24 +34,52 @@ namespace TwitterHandler
         public static SingleUserAuthorizer authorizeTwitter()
         {
             SingleUserAuthorizer authorizer =
-           new SingleUserAuthorizer
-           {
-               CredentialStore =
-
-   new SingleUserInMemoryCredentialStore
-   {
-       ConsumerKey =
-   UserAccess.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["ConsumerKey"], passPhrase),
-       ConsumerSecret =
-   UserAccess.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["ConsumerSecret"], passPhrase),
-       AccessToken =
-   UserAccess.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["AccessToken"], passPhrase),
-       AccessTokenSecret =
-   UserAccess.StringCipher.Decrypt(System.Configuration.ConfigurationManager.AppSettings["AccessTokenSecret"], passPhrase)
-   }
-           };
+                new SingleUserAuthorizer
+                {
+                    CredentialStore =
+                        new SingleUserInMemoryCredentialStore
+                        {
+                            ConsumerKey =
+                                UserAccess.StringCipher.Decrypt(
+                                    System.Configuration.ConfigurationManager.AppSettings["ConsumerKey"], passPhrase),
+                            ConsumerSecret =
+                                UserAccess.StringCipher.Decrypt(
+                                    System.Configuration.ConfigurationManager.AppSettings["ConsumerSecret"], passPhrase),
+                            AccessToken =
+                                UserAccess.StringCipher.Decrypt(
+                                    System.Configuration.ConfigurationManager.AppSettings["AccessToken"], passPhrase),
+                            AccessTokenSecret =
+                                UserAccess.StringCipher.Decrypt(
+                                    System.Configuration.ConfigurationManager.AppSettings["AccessTokenSecret"],
+                                    passPhrase)
+                        }
+                };
             return authorizer;
         }
+
+        public static SingleUserAuthorizer authorizeTwitter(string accessToken, string secret)
+        {
+            SingleUserAuthorizer authorizer =
+                new SingleUserAuthorizer
+                {
+                    CredentialStore =
+                        new SingleUserInMemoryCredentialStore
+                        {
+                            ConsumerKey =
+                                UserAccess.StringCipher.Decrypt(
+                                    System.Configuration.ConfigurationManager.AppSettings["ConsumerKey"], passPhrase),
+                            ConsumerSecret =
+                                UserAccess.StringCipher.Decrypt(
+                                    System.Configuration.ConfigurationManager.AppSettings["ConsumerSecret"], passPhrase),
+                            AccessToken = accessToken,
+                            
+                            AccessTokenSecret = secret
+                              
+                        }
+                };
+            return authorizer;
+        }
+
 
         public static AspNetAuthorizer authorizeTwitterForCustomer(HttpResponse res)
         {

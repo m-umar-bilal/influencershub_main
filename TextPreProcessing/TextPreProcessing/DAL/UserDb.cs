@@ -33,7 +33,8 @@ namespace DAL
                 { "EmailConfirm",user.EmailConfirm},
                 { "Category","false"},
                 { "OauthToken" ,"false" },
-                { "OauthTokenSecret" , "false"}
+                { "OauthTokenSecret" , "false"},
+                { "Image", "false"}
 
 
 
@@ -69,13 +70,13 @@ namespace DAL
 
         }
 
-        public async Task AddTwitterAccountToDB(String Email,String oauthToken,String oauthTokenSecret)
+        public async Task AddTwitterAccountToDB(String Email,String oauthToken,String oauthTokenSecret,String ImageUrl)
         {
             var Client = new MongoClient();
             var db = Client.GetDatabase("InfluencersHub");
             var Collec = db.GetCollection<BsonDocument>("User");
             var filter = Builders<BsonDocument>.Filter.Eq("Email", Email);
-            var update = Builders<BsonDocument>.Update.Set("OauthToken",oauthToken).Set("OauthTokenSecret", oauthTokenSecret);
+            var update = Builders<BsonDocument>.Update.Set("OauthToken",oauthToken).Set("OauthTokenSecret", oauthTokenSecret).Set("ImageUrl",ImageUrl);
             var result = await Collec.UpdateOneAsync(filter, update);
 
         }

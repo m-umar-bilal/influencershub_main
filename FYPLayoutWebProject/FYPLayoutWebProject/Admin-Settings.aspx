@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainMasterAdmin.master" AutoEventWireup="true" CodeBehind="Admin-Settings.aspx.cs" Inherits="Views.WebForm10" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainMasterAdmin.master" AutoEventWireup="true" Async="true" CodeBehind="Admin-Settings.aspx.cs" Inherits="Views.WebForm10" %>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -24,9 +24,13 @@
                     <!-- Members -->
                     <div class="main-mem"> 
                       
-                 
+                       
             
                       
+                        
+                        
+                        
+                         <asp:Button ID="Button2" runat="server" OnClick="UpdateInfluencer" Text="Fill/Update Influencers" />
                       <!-- Tittle -->
                       <div class="folow-persons">
                         

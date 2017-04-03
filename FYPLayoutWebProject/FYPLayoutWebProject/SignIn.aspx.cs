@@ -15,7 +15,7 @@ namespace Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+           Session.Clear();
             
         }
         protected void loginbtn(object sender, EventArgs e)
@@ -43,8 +43,8 @@ namespace Views
                 catch (Exception ex) {
                     
                 }
-               //Influencer i = new Influencer();
-              // i.UpdateAllInfluencersScore();
+               Influencer i = new Influencer();
+              i.UpdateAllInfluencersScore();
             }).Wait();
 
             
@@ -56,9 +56,10 @@ namespace Views
                 Session["Email"] = u.Email;
                 Session["Category"] = u.Category;
                 Session["Token"] = u.OauthToken;
-                Session["TokenSecret"] = u.OauthTokenSecret;
+                Session["Token"] = u.OauthTokenSecret;
                 Session["EmailConfirm"] = u.EmailConfirm;
                 Session["Type"] = "User";
+                Session["Image"] = u.Image;
 
               //  Response.Redirect("~/User-AttachTwitter.aspx", false);
                Response.Redirect("~/UserDashboard.aspx", false);

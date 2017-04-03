@@ -33,12 +33,17 @@ namespace FYPLayoutWebProject
                         {
                             if (Session["EmailConfirm"].Equals("true"))
                             {
-                              //  /RegisterAsyncTask(new PageAsyncTask(LoadInfluencers(Session["Category"].ToString())));
-                              /*  Task.Run(async () =>
+                                //  /RegisterAsyncTask(new PageAsyncTask(LoadInfluencers(Session["Category"].ToString())));
+
+
+                               
+                                    LoadInfluencers(Session["Category"].ToString());
+                                if (!IsPostBack)
                                 {
-                                    await LoadInfluencers(Session["Category"].ToString());
-                                }).Wait();
-                                */
+                                    GridView1.DataSource = InfluencerViewModels;
+                                    GridView1.DataBind();
+                                }
+
                             }
                             else
                             {
@@ -75,34 +80,45 @@ namespace FYPLayoutWebProject
                 
         }
 
-        private async Task LoadInfluencers(String Category)
+        protected void FollowBtn_Click(object sender, EventArgs e)
+        {
+
+          
+
+            Button button = (Button)sender;
+           
+            string name = Convert.ToString(button.Attributes["scrName"]);
+            Response.Redirect("/User_InfluencerProfile.aspx?name="+name, false);
+            Context.ApplicationInstance.CompleteRequest();
+        
+
+    }
+
+        private void LoadInfluencers(String Category)
         {
             foreach (var item in UserAccess.Influencer.GetInfluencersByCategory(Category))
             {
-                
 
-                var userResponse =
-                    await
-                        (from user in TwitterContext.User
-                         where user.Type == UserType.Lookup &&
-                                   user.ScreenNameList == item.ScreenName
-                         select user)
-                            .ToListAsync();
 
-                if (userResponse != null)
-                    userResponse.ForEach(user =>
-                            InfluencerViewModels.Add(new InfluencerViewModel()
-                            {
-                                    Location = user.Location,
-                                    ProfileImageUrl = user.ProfileImageUrl,
-                                    Name = user.Name,
-                                    Category = item.Category,
-                                    Screenname = item.ScreenName
-                            })
-                    );
+
+                InfluencerViewModels.Add(new InfluencerViewModel()
+                {
+                    Location = item.Location,
+                    ProfileImageUrl = item.ImageUrl,
+                    Name = item.Name,
+                    Category = item.Category,
+                    Screenname = item.ScreenName,
+                    Followers = item.result.followers,
+                    Friends = item.result.friends,
+                    Score = item.Score
+
+                });
 
 
             }
+
+            List<InfluencerViewModel> ordered = InfluencerViewModels.OrderByDescending(f => f.Score).ToList();
+            InfluencerViewModels = ordered;
         }
 
      

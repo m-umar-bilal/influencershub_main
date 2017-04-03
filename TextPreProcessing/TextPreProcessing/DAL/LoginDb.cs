@@ -41,6 +41,7 @@ namespace DAL
                                 user.Category = (document["Category"].ToString());
                                 user.OauthToken = (document["OauthToken"].ToString());
                                 user.OauthTokenSecret = (document["OauthTokenSecret"].ToString());
+                                user.Image = (document["Image"].ToString());
                                 return user;
                             }
                         }

@@ -13,5 +13,11 @@ namespace FYPLayoutWebProject.ViewModel
         public string  Category { get; set; }
         public string Screenname { get; set; }
 
+        public int Followers { get; set; }
+
+        public int Friends { get; set; }
+
+        public int Score { get; set; }
+
     }
 }

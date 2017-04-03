@@ -28,12 +28,21 @@ namespace FYPLayoutWebProject
                 var tempCrendentials = auth.CredentialStore;
                 string oauthToken = tempCrendentials.OAuthToken;
                 string oauthTokenSecret = tempCrendentials.OAuthTokenSecret;
-                UserAccess.User user = new UserAccess.User();
-                try
+                           // string image = tempCrendentials.;
+                  var ctx = new TwitterContext(auth);
+                            UserAccess.User user = new UserAccess.User();
+                            var imgURL =
+                await
+                (from User in ctx.User
+                 select User.ProfileImageUrl)
+                .ToListAsync();
+                            try
                 {
-                    await user.AddTwitterAccount(Session["Email"].ToString(), oauthToken, oauthTokenSecret);
+
+                    await user.AddTwitterAccount(Session["Email"].ToString(), oauthToken, oauthTokenSecret,imgURL[0]);
                                 Session["Token"] = oauthToken;
                                 Session["TokenSecret"] = oauthTokenSecret;
+
                                 Response.Redirect("/User-ConfirmEmail.aspx", false);
                      Context.ApplicationInstance.CompleteRequest();
 

@@ -29,9 +29,9 @@ namespace Views
             {
                 try
                 {
-                   
+
                     // Start the task.
-                      admin = await login.getLoginAdmin(email, password);
+                    admin = await login.getLoginAdmin(email, password);
 
                     // Await the task.
 
@@ -49,7 +49,7 @@ namespace Views
                 Session["FName"] = admin.FirstName;
                 Session["LName"] = admin.LastName;
                 Session["Email"] = admin.Email;
-               
+
                 Session["Type"] = "Admin";
                 Response.Redirect("/Admin-Dashboard.aspx", false);
                 Context.ApplicationInstance.CompleteRequest();

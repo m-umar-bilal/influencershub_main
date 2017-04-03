@@ -28,7 +28,7 @@ namespace TextClassification
         double probofClass = 0.1;
         double score = Math.Log(0.1);
 
-       
+
         TrainingData Politics = new TrainingData("Politic");//1
         TrainingData TvMovies = new TrainingData("TvMovies");//2
         TrainingData ScienceTechnology = new TrainingData("ScienceTechnlogy");//3
@@ -39,7 +39,7 @@ namespace TextClassification
         TrainingData Music = new TrainingData("Music");//8
         TrainingData Religion = new TrainingData("Religion");//9
 
-      
+
         public NaiveBayes()
         {
             PrepareTrainingData();
@@ -166,10 +166,10 @@ namespace TextClassification
 
             }
         }
-        private string CalculateScore(string [] tweetarr)
+        private string CalculateScore(string[] tweetarr)
         {
             double[] Score = { score, score, score, score, score, score, score, score, score, score };
-            string [] PoliticsLexicon = { "breaking","news","pti","maryum",
+            string[] PoliticsLexicon = { "breaking","news","pti","maryum",
                                         "morality","politic","politics","political","establishment","humanity","strike",
                                         "conscience","ik",
                                         "law","lawmakers","lawmaker","republican","republic",
@@ -207,130 +207,130 @@ namespace TextClassification
                                         "totalitarianism","reyounger", "peacefulpakistanahead","bcci","crimes",
                                         "revolution",
                                         "socialism"};
-            string [] FoodDrinkLexicon = { "litres", "soup", "pud", "pannettone", "smoked", "salmon", "food","toast","bacon","maple","peanut","butter","cheetos","nutella","cookies","bake","cookie","dough","fries","lobster","kfc","foodporn","caramel","cheesecake","macroni", "noodles","chocolate","parfaits","cupcake", "cupcakes","chocolates","frosting", "cream" ,"brownie","brownies","truffle","oreo","cake","yum","yummy","milkshake"};
-            string [] ScienceTechnologyLexicon = {"technology" };
-            string [] SportsGamingLexicon = { "vs","psl","bouncer","boom","peshawarzalmi", "zalmi","Liverpool", "Afridi", "KeepingScore","umpire", "games","manchester","2ndtest", "ovs", "edgar", "kumara", "United","amla", "duminy", "hits", "test", "ov", "overs", "over", "league", "match", "won","strikers","bowl","football","sixes","fours","strikerate","six","record","mcg","xbox","playbold","played","plays","playing","boxing","fast","bowler", "aleem", "dar", "achievements","batsman","ps4","install","ea","sports","sport","game","gaming","defeat","draw","losers","scored","score","lose","match","innings","training","allrounder","cricket","bowlers","victory"};
-            string [] TvMoviesLexicon = { "watch","sherlock","share","movies","movie","stephen","currys", "walk", "remember", "brknews" };
+            string[] FoodDrinkLexicon = { "litres", "soup", "pud", "pannettone", "smoked", "salmon", "food", "toast", "bacon", "maple", "peanut", "butter", "cheetos", "nutella", "cookies", "bake", "cookie", "dough", "fries", "lobster", "kfc", "foodporn", "caramel", "cheesecake", "macroni", "noodles", "chocolate", "parfaits", "cupcake", "cupcakes", "chocolates", "frosting", "cream", "brownie", "brownies", "truffle", "oreo", "cake", "yum", "yummy", "milkshake" };
+            string[] ScienceTechnologyLexicon = { "technology" };
+            string[] SportsGamingLexicon = { "vs", "psl", "bouncer", "boom", "peshawarzalmi", "zalmi", "Liverpool", "Afridi", "KeepingScore", "umpire", "games", "manchester", "2ndtest", "ovs", "edgar", "kumara", "United", "amla", "duminy", "hits", "test", "ov", "overs", "over", "league", "match", "won", "strikers", "bowl", "football", "sixes", "fours", "strikerate", "six", "record", "mcg", "xbox", "playbold", "played", "plays", "playing", "boxing", "fast", "bowler", "aleem", "dar", "achievements", "batsman", "ps4", "install", "ea", "sports", "sport", "game", "gaming", "defeat", "draw", "losers", "scored", "score", "lose", "match", "innings", "training", "allrounder", "cricket", "bowlers", "victory" };
+            string[] TvMoviesLexicon = { "watch", "sherlock", "share", "movies", "movie", "stephen", "currys", "walk", "remember", "brknews" };
 
-            string [] ArtDesignLexicon = { "arts", "artwork" };
-            string [] FashionLexicon = { "fashion","styles","pattern","earrings" };
-            string [] HealthLexicon = {"sick", "health" , "gurantee","care","afford", "guaranteeing" ,"body"};
-            string [] MusicLexicon = { "music"};
-            string[] ReligionLexicon = { "islamic", "secular","god", "bless", "religions", "religion", "islam", "muslim", "muslims", "jews", "hindus" };
+            string[] ArtDesignLexicon = { "arts", "artwork" };
+            string[] FashionLexicon = { "fashion", "styles", "pattern", "earrings" };
+            string[] HealthLexicon = { "sick", "health", "gurantee", "care", "afford", "guaranteeing", "body" };
+            string[] MusicLexicon = { "music" };
+            string[] ReligionLexicon = { "islamic", "secular", "god", "bless", "religions", "religion", "islam", "muslim", "muslims", "jews", "hindus" };
 
-            string [] winner = { "FoodDrink", "Politics", "TvMovies", "ScienceTechnology", "SportsGaming" , "ArtDesign", "Fashion", "Health", "Music", "Religion" };
-         
-          
+            string[] winner = { "FoodDrink", "Politics", "TvMovies", "ScienceTechnology", "SportsGaming", "ArtDesign", "Fashion", "Health", "Music", "Religion" };
+
+
             double featureScore = 0.2;
-           // var FoodDrinkscore = probofClass);
-           // var bscore = probofClass);
+            // var FoodDrinkscore = probofClass);
+            // var bscore = probofClass);
             foreach (var token in tweetarr)
             {
 
-  
-                    if (FoodDrinkLexicon.Contains(token))
-                    {
-                        Score[0] += featureScore;
-                    }
 
-                    if (FoodDrinkWScore.ContainsKey(token))
-                    { 
-                            Score[0] += FoodDrinkWScore[token];
-                    }
+                if (FoodDrinkLexicon.Contains(token))
+                {
+                    Score[0] += featureScore;
+                }
 
-                    if(PoliticsLexicon.Contains(token))
-                    {
-                        Score[1] += featureScore;
-                    }
-                    if (PoliticsWScore.ContainsKey(token))
-                    {
-                        Score[1] += PoliticsWScore[token];
-                    }
-                
-                    if (TvMoviesLexicon.Contains(token))
-                    {
-                        Score[2] += featureScore;
-                    }
-                    if (TvMoviesWScore.ContainsKey(token))
-                    {
-                        Score[2] += TvMoviesWScore[token];
-                    }
+                if (FoodDrinkWScore.ContainsKey(token))
+                {
+                    Score[0] += FoodDrinkWScore[token];
+                }
 
-                    if (ScienceTechnologyLexicon.Contains(token))
-                    {
-                        Score[3] += featureScore;
-                    }
-                    if (ScienceTechnologyWScore.ContainsKey(token))
-                    {
-                        Score[3] += ScienceTechnologyWScore[token];
-                    }
+                if (PoliticsLexicon.Contains(token))
+                {
+                    Score[1] += featureScore;
+                }
+                if (PoliticsWScore.ContainsKey(token))
+                {
+                    Score[1] += PoliticsWScore[token];
+                }
 
+                if (TvMoviesLexicon.Contains(token))
+                {
+                    Score[2] += featureScore;
+                }
+                if (TvMoviesWScore.ContainsKey(token))
+                {
+                    Score[2] += TvMoviesWScore[token];
+                }
 
-                    if (SportsGamingLexicon.Contains(token))
-                    {
-                        
-                        Score[4] += featureScore;
-                    }
-                    if(SportsGamingWScore.ContainsKey(token))
-                    {
-                        Score[4] += SportsGamingWScore[token];
-                    }
+                if (ScienceTechnologyLexicon.Contains(token))
+                {
+                    Score[3] += featureScore;
+                }
+                if (ScienceTechnologyWScore.ContainsKey(token))
+                {
+                    Score[3] += ScienceTechnologyWScore[token];
+                }
 
 
-                    if (ArtDesignLexicon.Contains(token))
-                    {
+                if (SportsGamingLexicon.Contains(token))
+                {
 
-                        Score[5] += featureScore;
-                    }
-                    if (ArtDesignWScore.ContainsKey(token))
-                    {
-                        Score[5] += ArtDesignWScore[token];
-                    }
-
-                    if (FashionLexicon.Contains(token))
-                    {
-                        Score[6] += featureScore;
-                    }
-                    if(FashionWScore.ContainsKey(token))
-                    {
-                        Score[6] += FashionWScore[token];
-                    }
-
-                    if (HealthLexicon.Contains(token))
-                    {
-
-                        Score[7] += featureScore;
-                    }
-                    if (HealthWScore.ContainsKey(token))
-                    {
-                        Score[7] += HealthWScore[token];
-                    }
+                    Score[4] += featureScore;
+                }
+                if (SportsGamingWScore.ContainsKey(token))
+                {
+                    Score[4] += SportsGamingWScore[token];
+                }
 
 
-                    if (MusicLexicon.Contains(token))
-                    {
-                        Score[8] += featureScore;
-                    }
-                    if (MusicWScore.ContainsKey(token))
-                    {
-                        Score[8] += MusicWScore[token];
-                    }
- 
-                    if (ReligionLexicon.Contains(token))
-                    {
-                        Score[9] += featureScore;
-                    }
-                    if (ReligionWScore.ContainsKey(token))
-                    {
-                        Score[9] += ReligionWScore[token];
-                    }
-                
+                if (ArtDesignLexicon.Contains(token))
+                {
+
+                    Score[5] += featureScore;
+                }
+                if (ArtDesignWScore.ContainsKey(token))
+                {
+                    Score[5] += ArtDesignWScore[token];
+                }
+
+                if (FashionLexicon.Contains(token))
+                {
+                    Score[6] += featureScore;
+                }
+                if (FashionWScore.ContainsKey(token))
+                {
+                    Score[6] += FashionWScore[token];
+                }
+
+                if (HealthLexicon.Contains(token))
+                {
+
+                    Score[7] += featureScore;
+                }
+                if (HealthWScore.ContainsKey(token))
+                {
+                    Score[7] += HealthWScore[token];
+                }
+
+
+                if (MusicLexicon.Contains(token))
+                {
+                    Score[8] += featureScore;
+                }
+                if (MusicWScore.ContainsKey(token))
+                {
+                    Score[8] += MusicWScore[token];
+                }
+
+                if (ReligionLexicon.Contains(token))
+                {
+                    Score[9] += featureScore;
+                }
+                if (ReligionWScore.ContainsKey(token))
+                {
+                    Score[9] += ReligionWScore[token];
+                }
+
 
             }
             double m = Score.Max();
             int p = Array.IndexOf(Score, m);
-           
-            Console.WriteLine("Tweet is categorized as "+winner[p]);
+
+            Console.WriteLine("Tweet is categorized as " + winner[p]);
             Console.WriteLine();
             Console.WriteLine();
             /*  Console.WriteLine("food: "+Score[0]);
@@ -375,42 +375,42 @@ namespace TextClassification
               */
 
             FileStream ostrm;
-             StreamWriter writer;
-             TextWriter oldOut = Console.Out;
-             try
-             {
+            StreamWriter writer;
+            TextWriter oldOut = Console.Out;
+            try
+            {
                 string dateAndTime = DateTime.Now.ToShortDateString() + "-" + DateTime.Now.ToShortTimeString();
                 dateAndTime = dateAndTime.Replace('/', '-');
                 dateAndTime = dateAndTime.Replace(':', '-');
-                ostrm = new FileStream("./"+ dateAndTime + "_LogFile.txt", FileMode.OpenOrCreate, FileAccess.Write);
-                 writer = new StreamWriter(ostrm);
-             }
-             catch (Exception e)
-             {
-                 Console.WriteLine("Cannot open logfile.txt for writing");
-                 Console.WriteLine(e.Message);
-                 return;
-             }
-             Console.SetOut(writer);
-             Task.Run(async () =>
-             {
-                 try
-                 {
-                     Trends newtrend = new Trends();
-                     await newtrend.ClassifyTrends();
-                 }
-                 catch (Exception eee)
-                 {
-                     //Console.WriteLine(e.Message);
-                     // Perform cleanup here.
-                 }
+                ostrm = new FileStream("./" + dateAndTime + "_LogFile.txt", FileMode.OpenOrCreate, FileAccess.Write);
+                writer = new StreamWriter(ostrm);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Cannot open logfile.txt for writing");
+                Console.WriteLine(e.Message);
+                return;
+            }
+            Console.SetOut(writer);
+            Task.Run(async () =>
+            {
+                try
+                {
+                    Trends newtrend = new Trends();
+                    await newtrend.ClassifyTrends();
+                }
+                catch (Exception eee)
+                {
+                    //Console.WriteLine(e.Message);
+                    // Perform cleanup here.
+                }
 
-             }).Wait();
-             Console.SetOut(oldOut);
-             writer.Close();
-             ostrm.Close();
-             Console.WriteLine("Done LogFile Generated");
-             
+            }).Wait();
+            Console.SetOut(oldOut);
+            writer.Close();
+            ostrm.Close();
+            Console.WriteLine("Done LogFile Generated");
+
             /*  using (StreamWriter outputFile = new StreamWriter(@"c:\WriteLines.txt"))
               {
 
@@ -459,8 +459,8 @@ namespace TextClassification
             }
             Console.ReadLine();*/
         }
-      //  static readonly SingleUserAuthorizer Authorizer = TwitterDeveloper.authorizeTwitter();
-      //  static readonly TwitterContext TwitterContext = new TwitterContext(Authorizer);
+        //  static readonly SingleUserAuthorizer Authorizer = TwitterDeveloper.authorizeTwitter();
+        //  static readonly TwitterContext TwitterContext = new TwitterContext(Authorizer);
         private string classifyTweet(string tweet)
         {
             try
@@ -493,13 +493,13 @@ namespace TextClassification
         {
             string x = "";
             Console.WriteLine(); Console.WriteLine();
-            Console.WriteLine("********************  Classifying Trend \""+trend+ "\" Wait  ********************");
+            Console.WriteLine("********************  Classifying Trend \"" + trend + "\" Wait  ********************");
             Console.WriteLine(); Console.WriteLine();
             string[] winner = { "FoodDrink", "Politics", "TvMovies", "ScienceTechnology", "SportsGaming", "ArtDesign", "Fashion", "Health", "Music", "Religion" };
-            int[] score = {0,0,0,0,0,0,0,0,0,0};
+            int[] score = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
             foreach (var tweet in temptweet)
             {
-                
+
                 try
                 {
                     x = classifyTweet(tweet);
@@ -540,13 +540,13 @@ namespace TextClassification
                 Console.WriteLine();
                 return winner[p];
             }
-          
-            
+
+
 
         }
     }
-    }
-  
+}
+
 /* for Categories
          static void Main(string[] args)
          {

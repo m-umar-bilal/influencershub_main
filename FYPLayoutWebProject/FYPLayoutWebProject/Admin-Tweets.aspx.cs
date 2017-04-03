@@ -14,7 +14,7 @@ namespace Views
     public partial class WebForm8 : System.Web.UI.Page
     {
 
-      
+
         public async Task LoadTweets()
         {
             var getListTask = await DAL.TrendsDb.GetAllTrends();
@@ -51,7 +51,7 @@ namespace Views
                 Response.Redirect("/Admin.aspx", false);
                 Context.ApplicationInstance.CompleteRequest();
             }
-           
+
         }
         public void GetTweets()
         {
@@ -65,13 +65,13 @@ namespace Views
             GetTweets();
         }
 
-       public void getTrendsList()
+        public void getTrendsList()
         {
             Trends tre = new Trends();
-            var tem =tre.getTrendList("");
+            var tem = tre.getTrendList("");
             List<String> list = new List<string>(tem.Keys);
             TrendList.DataSource = list;
-            TrendList.DataBind();   
+            TrendList.DataBind();
         }
     }
 }

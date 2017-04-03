@@ -13,7 +13,7 @@ using TwitterHandler;
 
 namespace TweetsAndTrends
 {
-  public  class Tweets
+    public class Tweets
     {
         public ObjectId id { get; set; }
         public string Text { get; set; }
@@ -23,7 +23,7 @@ namespace TweetsAndTrends
 
         public DateTime DateTime { get; set; }
 
-        
+
 
         public Tweets()
         {
@@ -62,7 +62,7 @@ namespace TweetsAndTrends
 
         }
 
-        public async Task addtweetsIntoDb(List<Tweets> tweetlist,string var)
+        public async Task addtweetsIntoDb(List<Tweets> tweetlist, string var)
         {
             var Client = new MongoClient();
             var db = Client.GetDatabase("InfluencersHub");
@@ -73,7 +73,8 @@ namespace TweetsAndTrends
             await Collec.Indexes.CreateOneAsync(keys, options);
             foreach (Tweets t in tweetlist)
             {
-                if (true) {
+                if (true)
+                {
                     var document = new BsonDocument
             {
                  {"Trend",t.Trend},
@@ -172,7 +173,7 @@ namespace TweetsAndTrends
             }
         }
 
-        public async Task StoreCleanedTweetsOfCategory(string collectionName, string category ,string newCollecion)
+        public async Task StoreCleanedTweetsOfCategory(string collectionName, string category, string newCollecion)
         {
             try
             {
@@ -190,11 +191,11 @@ namespace TweetsAndTrends
                         var batch = cursor.Current;
                         foreach (var document in batch)
                         {
-                           // Console.WriteLine(document[0]);
+                            // Console.WriteLine(document[0]);
                             try
                             {
                                 // Start the task.
-                               await InsertCleanedTweet(TextCleaner.cleanText(document[0].ToString()), newCollecion);
+                                await InsertCleanedTweet(TextCleaner.cleanText(document[0].ToString()), newCollecion);
 
                                 // Await the task.
 
@@ -205,7 +206,7 @@ namespace TweetsAndTrends
                                 continue;
                                 // Perform cleanup here.
                             }
-                            
+
 
 
                         }
@@ -238,7 +239,7 @@ namespace TweetsAndTrends
         }
 
 
-        public async Task StoreCleanedTweetsOfCategory(string collectionName,  string newCollecion)
+        public async Task StoreCleanedTweetsOfCategory(string collectionName, string newCollecion)
         {
             try
             {
@@ -264,9 +265,9 @@ namespace TweetsAndTrends
                                 // Await the task.
 
                             }
-                            catch (Exception )
+                            catch (Exception)
                             {
-                               // Console.WriteLine(e.Message);
+                                // Console.WriteLine(e.Message);
                                 continue;
                                 // Perform cleanup here.
                             }

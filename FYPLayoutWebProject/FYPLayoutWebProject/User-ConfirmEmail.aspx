@@ -10,7 +10,7 @@
                          <div class="form-group has-success">
                              <div style="width:30%" >
                       <label id="EnterCode" runat="server" class="control-label" for="Enter Code">Enter Code </label>
-                    &nbsp;<input type="text" class="form-control" runat="server" name="ConfirmCode" id="ConfirmCode">
+                    &nbsp;<input type="search" placeholder="Enter Code Here" runat="server" name="ConfirmCode" id="ConfirmCode">
 
                             &nbsp;&nbsp; 
                              </div>

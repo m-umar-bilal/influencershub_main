@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Views {
-    
-    
-    public partial class WebForm7 {
-        
+namespace Views
+{
+
+
+    public partial class WebForm7
+    {
+
         /// <summary>
         /// TrendView control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView TrendView;
-        
+
         /// <summary>
         /// Label1 control.
         /// </summary>

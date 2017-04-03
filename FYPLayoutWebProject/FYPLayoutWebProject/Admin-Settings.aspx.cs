@@ -9,6 +9,7 @@ using System.Web.UI.WebControls;
 using FYPLayoutWebProject;
 using TextClassification;
 using TextPreProcessing;
+using UserAccess;
 
 namespace Views
 {
@@ -31,8 +32,8 @@ namespace Views
                 if (Session["Type"].Equals("Admin"))
                 {
                     //var a=((bs_binary_admin_MainMaster)this.Master).SchedTime;
-                    StreamReader reader=new StreamReader(@"C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\Settings.txt");
-                    string x= reader.ReadLine();
+                    StreamReader reader = new StreamReader(@"C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\Settings.txt");
+                    string x = reader.ReadLine();
                     this.tcount = x;
                     x = reader.ReadLine();
                     this.tfavourite = x;
@@ -45,11 +46,11 @@ namespace Views
                     x = reader.ReadLine();
                     this.tfollowers = x;
                     x = reader.ReadLine();
-                    this.tretweets=x;
+                    this.tretweets = x;
                     x = reader.ReadLine();
                     this.ttime = x;
                     //Button2.Attributes.Add("onclick", "window.open('ChangeTime.aspx','','height=300,width=300');return false");
-                    
+
                 }
                 else
                 {
@@ -115,9 +116,12 @@ namespace Views
             }
         }
 
-        /*  protected void Button2_Click(object sender, EventArgs e)
-                  {
-        
-                  }*/
+        protected void UpdateInfluencer(object sender, EventArgs e)
+        {
+            Influencer inf = new Influencer();
+            inf.FillInfluencers();
+            Influencer i = new Influencer();
+            i.UpdateAllInfluencersScore();
+        }
     }
 }

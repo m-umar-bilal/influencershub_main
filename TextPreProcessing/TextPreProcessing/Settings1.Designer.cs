@@ -88,14 +88,10 @@ namespace TextPreProcessing {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("4")]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
         public int Time {
             get {
                 return ((int)(this["Time"]));
-            }
-            set
-            {
-                this["Time"] = value;
             }
         }
     }

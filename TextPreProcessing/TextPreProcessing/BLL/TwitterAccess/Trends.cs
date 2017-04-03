@@ -24,15 +24,15 @@ namespace TweetsAndTrends
         public string Text { get; set; }
         public string Country { get; set; }
         public DateTime DateTime { get; set; }
-        
+
         public Trends()
         {
-          
+
         }
-        
+
         public static bool IsEnglish(string inputstring)
         {
-            
+
             MatchCollection matches = regex.Matches(inputstring);
 
             if (matches.Count.Equals(inputstring.Length))
@@ -44,7 +44,7 @@ namespace TweetsAndTrends
         {
             SingleUserAuthorizer authorizer = TwitterDeveloper.authorizeTwitter();
             var twitterContext = new TwitterContext(authorizer);
-            List<Trend> trends =new List<Trend>();
+            List<Trend> trends = new List<Trend>();
             try
             {
                 trends =
@@ -87,7 +87,7 @@ namespace TweetsAndTrends
 
         }
 
-        public async Task addtrendIntoDb(List<Trends> trendlist,string v)
+        public async Task addtrendIntoDb(List<Trends> trendlist, string v)
         {
             var Client = new MongoClient();
             var db = Client.GetDatabase("InfluencersHub");
@@ -96,7 +96,7 @@ namespace TweetsAndTrends
             var options = new CreateIndexOptions();
             options.Unique = true;
             await Collec.Indexes.CreateOneAsync(keys, options);
-          
+
 
             foreach (Trends t in trendlist)
             {
@@ -119,7 +119,7 @@ namespace TweetsAndTrends
 
         }
 
-   
+
 
         public async Task ClassifyTrends()
         {
@@ -132,10 +132,10 @@ namespace TweetsAndTrends
                 }
                 catch (Exception eee)
                 {
-                    
+
                     //Console.WriteLine(e.Message);
                     // Perform cleanup here.
-                   
+
                 }
 
             }).Wait();
@@ -150,36 +150,36 @@ namespace TweetsAndTrends
                 await tweets.GetTweetsOfTrendFromTwitter(tre.Text);
 
             }
-            NaiveBayes naivebayes = new NaiveBayes() ;
+            NaiveBayes naivebayes = new NaiveBayes();
             foreach (Trends t in trendList)
             {
-                
-                    try
-                    {
-                        temptweet = tweets.GetTweetsOfTrendsFromDB(t.Text);
-                    }
-                    catch (Exception eee)
-                    {
-                        //Console.WriteLine(e.Message);
-                        // Perform cleanup here.
-                    }
 
-              
-                var now = Convert.ToString(DateTime.Now); 
-                
+                try
+                {
+                    temptweet = tweets.GetTweetsOfTrendsFromDB(t.Text);
+                }
+                catch (Exception eee)
+                {
+                    //Console.WriteLine(e.Message);
+                    // Perform cleanup here.
+                }
+
+
+                var now = Convert.ToString(DateTime.Now);
+
                 string result = "";
-                result= this.CategorizeTrend(t.Text, temptweet,naivebayes);
+                result = this.CategorizeTrend(t.Text, temptweet, naivebayes);
                 if (!String.IsNullOrWhiteSpace(result))
                 {
                     var collection = DBConnector.Database.GetCollection<BsonDocument>("TrendsCategory");
-                   
-                    
+
+
                     var document = new BsonDocument
                     {
                         {"trend",t.Text },
                         { "category", result },
                         {"timestamp",now }
-                
+
                     };
 
                     await collection.InsertOneAsync(document);
@@ -193,7 +193,7 @@ namespace TweetsAndTrends
 
         }
 
-        public static void ChangeCategoryOfTrend(string tName,string nCategory, string timestamp)
+        public static void ChangeCategoryOfTrend(string tName, string nCategory, string timestamp)
         {
             var Client = new MongoClient();
             var db = Client.GetDatabase("InfluencersHub");
@@ -207,11 +207,11 @@ namespace TweetsAndTrends
             var Client = new MongoClient();
             var db = Client.GetDatabase("InfluencersHub");
             var collection = db.GetCollection<TrendsCategory>("TrendsCategory");
-           // var collection = DBConnector.Database.GetCollection<BsonDocument>("TrendsCategory");
+            // var collection = DBConnector.Database.GetCollection<BsonDocument>("TrendsCategory");
             var builder = Builders<TrendsCategory>.Filter;
             var prevweekdate = DateTime.Today.AddDays(-7).Date.ToString("M/d/yyyy");
-            var filter = builder.Regex("timestamp", "/"+prevweekdate+"/")|builder.Regex("timestamp", "/"+ DateTime.Today.AddDays(-6).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+ DateTime.Today.AddDays(-5).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+DateTime.Today.AddDays(-4).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+DateTime.Today.AddDays(-3).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+ DateTime.Today.AddDays(-2).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+DateTime.Today.AddDays(-1).Date.ToString("M/d/yyyy")+ "/") | builder.Regex("timestamp", "/"+ DateTime.Today.AddDays(0).Date.ToString("M/d/yyyy")+ "/");
-            List<TrendsCategory> result=null;
+            var filter = builder.Regex("timestamp", "/" + prevweekdate + "/") | builder.Regex("timestamp", "/" + DateTime.Today.AddDays(-6).Date.ToString("M/d/yyyy") + "/") | builder.Regex("timestamp", "/" + DateTime.Today.AddDays(-5).Date.ToString("M/d/yyyy") + "/") | builder.Regex("timestamp", "/" + DateTime.Today.AddDays(-4).Date.ToString("M/d/yyyy") + "/") | builder.Regex("timestamp", "/" + DateTime.Today.AddDays(-3).Date.ToString("M/d/yyyy") + "/") | builder.Regex("timestamp", "/" + DateTime.Today.AddDays(-2).Date.ToString("M/d/yyyy") + "/") | builder.Regex("timestamp", "/" + DateTime.Today.AddDays(-1).Date.ToString("M/d/yyyy") + "/") | builder.Regex("timestamp", "/" + DateTime.Today.AddDays(0).Date.ToString("M/d/yyyy") + "/");
+            List<TrendsCategory> result = null;
 
             try
             {
@@ -221,9 +221,9 @@ namespace TweetsAndTrends
             {
                 Console.WriteLine(e);
                 throw;
-            } 
-            
-           // Console.WriteLine(DateTime.Today.AddDays(-1).Date.ToString("M/d/y"));
+            }
+
+            // Console.WriteLine(DateTime.Today.AddDays(-1).Date.ToString("M/d/y"));
 
 
             return result;

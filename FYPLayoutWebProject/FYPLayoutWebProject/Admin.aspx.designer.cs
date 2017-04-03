@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Views {
-    
-    
-    public partial class WebForm4 {
-        
+namespace Views
+{
+
+
+    public partial class WebForm4
+    {
+
         /// <summary>
         /// lblError control.
         /// </summary>

@@ -27,6 +27,8 @@ namespace UserAccess
 
         public String OauthToken { get; set; }
         public String OauthTokenSecret { get; set; }
+
+        public String Image { get; set; }
         public static string PassSalt
         {
             get
@@ -99,10 +101,10 @@ namespace UserAccess
             return await ub.ConfirmEmailDB(Email,Code);
         }
 
-        public async Task AddTwitterAccount(String Email, String oauthToken, String oauthTokenSecret)
+        public async Task AddTwitterAccount(String Email, String oauthToken, String oauthTokenSecret, String ImageUrl)
         {
             UserDb ub = new UserDb();
-            await ub.AddTwitterAccountToDB(Email, oauthToken, oauthTokenSecret);
+            await ub.AddTwitterAccountToDB(Email, oauthToken, oauthTokenSecret,ImageUrl);
         }
 
         public async Task AddCategory(String Email, String Category)

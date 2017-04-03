@@ -25,16 +25,16 @@ namespace TextPreProcessing.BLL
             Console.WriteLine("\nClassifying Trends Started At : " + DateTime.Now);
             var watch = System.Diagnostics.Stopwatch.StartNew();
             // the code that you want to measure comes here
-            
+
             NaiveBayes.Classify();
             watch.Stop();
             var elapsedMs = watch.ElapsedMilliseconds;
             //var time = elapsedMs / 1000;
-            Console.WriteLine("Function finished in "+ TimeSpan.FromMilliseconds(elapsedMs).ToString() + " minutes");
+            Console.WriteLine("Function finished in " + TimeSpan.FromMilliseconds(elapsedMs).ToString() + " minutes");
             // Force a garbage collection to occur for this demo.
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            
+
 
             while (DateTime.UtcNow - startTime < TimeSpan.FromMinutes(Convert.ToInt64(ConvertMillisecondsToMinutes(ScheduleTime))))
             {
