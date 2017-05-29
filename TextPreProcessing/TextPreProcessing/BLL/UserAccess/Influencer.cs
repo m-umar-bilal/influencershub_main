@@ -101,8 +101,8 @@ namespace UserAccess
             options.Unique = true;
             await Collectemp.Indexes.CreateOneAsync(keys, options);
 
-            try
-            {
+//            try
+//            {
                 var list = await Collec.Aggregate().Lookup("TrendsCategory", "Trend", "trend", "second").ToListAsync();
 
                 foreach (var document in list)
@@ -117,11 +117,11 @@ namespace UserAccess
                     AddInfluencerToDb(document["UserName"].AsString, temp);
                 }
 
-            }
-            catch (Exception e)
-            {
-
-            }
+//            }
+//            catch (Exception e)
+//            {
+//
+//            }
 
         }
         public void UpdateAllInfluencersScore()
@@ -141,10 +141,17 @@ namespace UserAccess
             {
                 Influencer tempInf = new Influencer();
                 Result score = new Result();
-               // Task.Run(async () =>
-                //{
-                    score.getScoreofInfluencer(Convert.ToString(document["ScreenName"]));
-                //}).Wait();
+                try
+                {
+                    Task.Run(async () =>
+                    {
+                        await score.getScoreofInfluencer(Convert.ToString(document["ScreenName"]));
+                    }).Wait();
+                }
+                catch (Exception exception)
+                {
+                    continue;
+                }
 
             }
            
@@ -172,11 +179,96 @@ namespace UserAccess
         {
             var Client = new MongoClient();
             var db = Client.GetDatabase("InfluencersHub");
-            var collection = db.GetCollection<BsonDocument>("Influencers");
-            var builder = Builders<BsonDocument>.Filter;
+            var collection = db.GetCollection<Influencer>("Influencers");
+            var builder = Builders<Influencer>.Filter;
             var filter = builder.Eq("ScreenName", inf.ScreenName);
-            var update = Builders<BsonDocument>.Update.Set("Score", inf.Score).Set("Location",inf.Location).Set("ImageUrl",inf.ImageUrl).Set("Name",inf.Name).Set("result.favourites", inf.result.favourites).Set("result.retweets", inf.result.retweets).Set("result.totalFav", inf.result.totalFav).Set("result.followers", inf.result.followers).Set("result.statuses", inf.result.statuses).Set("result.friends", inf.result.friends);
+            var update =
+                Builders<Influencer>.Update.Set("Score", inf.Score)
+                    .Set("Location", inf.Location)
+                    .Set("ImageUrl", inf.ImageUrl)
+                    .Set("Name", inf.Name)
+                    .Set("result", inf.result);
+//                    .Set("result.retweets", inf.result.retweets)
+//                    .Set("result.totalFav", inf.result.totalFav)
+//                    .Set("result.followers", inf.result.followers)
+//                    .Set("result.statuses", inf.result.statuses)
+//                    .Set("result.friends", inf.result.friends);
             var result = await collection.UpdateManyAsync(filter, update);
+        }
+
+
+
+        public bool bookMarkInfluencer(String email, string username)
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+            var Collec = db.GetCollection<BsonDocument>("BookMarked");
+
+
+            var document = new BsonDocument
+            {
+                {"Email", email},
+                {"Username", username}
+
+
+            };
+            try
+            {
+
+                Collec.InsertOneAsync(document);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+
+        }
+
+        public static bool CheckBookmark(string email, string username)
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+
+            var Collec = db.GetCollection<BsonDocument>("BookMarked");
+            var filter = Builders<BsonDocument>.Filter.Eq("Email", email) & Builders<BsonDocument>.Filter.Eq("Username", username);
+            List<BsonDocument> inf = new List<BsonDocument>();
+            Task.Run(async () =>
+            {
+                inf = await Collec.Find(filter).ToListAsync();
+            }).Wait();
+
+            if (inf.Count==0)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public static List<Influencer> GetBookMarkedInfluencers(string email)
+        {
+            var Client = new MongoClient();
+            var db = Client.GetDatabase("InfluencersHub");
+
+            var Collec = db.GetCollection<BsonDocument>("BookMarked");
+            var filter = Builders<BsonDocument>.Filter.Eq("Email", email);
+            List<BsonDocument> inf = new List<BsonDocument>();
+            Task.Run(async () =>
+            {
+                inf = await Collec.Find(filter).ToListAsync();
+            }).Wait();
+
+
+            List<Influencer> infList = new List<Influencer>();
+            foreach (var document in inf)
+            {
+ 
+                infList.Add(Influencer.GetInfluencer(Convert.ToString(document["Username"])));
+            }
+
+            return infList;
+
+
         }
     }
 }

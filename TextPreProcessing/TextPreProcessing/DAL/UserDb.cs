@@ -76,7 +76,7 @@ namespace DAL
             var db = Client.GetDatabase("InfluencersHub");
             var Collec = db.GetCollection<BsonDocument>("User");
             var filter = Builders<BsonDocument>.Filter.Eq("Email", Email);
-            var update = Builders<BsonDocument>.Update.Set("OauthToken",oauthToken).Set("OauthTokenSecret", oauthTokenSecret).Set("ImageUrl",ImageUrl);
+            var update = Builders<BsonDocument>.Update.Set("OauthToken",oauthToken).Set("OauthTokenSecret", oauthTokenSecret).Set("Image",ImageUrl);
             var result = await Collec.UpdateOneAsync(filter, update);
 
         }

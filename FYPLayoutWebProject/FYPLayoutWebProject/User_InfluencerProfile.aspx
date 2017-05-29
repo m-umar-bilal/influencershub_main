@@ -48,9 +48,10 @@
         
         <!-- Top Riht Button -->
         <div class="right-top-bnr">
-          <div class="connect"> <a href="#." data-toggle="modal" data-target="#myModal"><i class="fa fa-user-plus"></i> Connect</a> 
-              <a href="#."><i class="fa fa-share-alt"></i> Share</a>
-                <asp:Button ID="Button1" runat="server"  Text="Message" OnClick="BtnSend_Click" />
+          <div class="connect">
+             
+                   <asp:Button ID="Button2"  class="btn btn-secondary" runat="server" Text="Bookmark" OnClick="BtnBookmark_Click" />
+                <asp:Button ID="Button1" class="btn btn-secondary" runat="server"  Text="Message" OnClick="BtnSend_Click" />
             <div class="bt-ns"> <a href="#."><i class="fa fa-bookmark-o"></i>
 
                        </a> <a href="#."><i class="fa fa-envelope-o"></i> </a> <a href="#.">

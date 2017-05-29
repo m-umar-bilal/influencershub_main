@@ -113,7 +113,7 @@ namespace TextPreProcessing.BLL.UserAccess
 
             
 
-            return Convert.ToInt32(Math.Round(Math.Log(temp_Fav,10) + Math.Log(temp_Friends,10) + Math.Log(temp_Retweets,10) + Math.Log(temp_Status,10) + Math.Log(temp_TotalFav,10) + Math.Log(temp_Followers,10)));
+            return Convert.ToInt32(Math.Round(temp_Fav + temp_Friends + temp_Retweets + temp_Status + temp_TotalFav + temp_Followers));
 
 
         }

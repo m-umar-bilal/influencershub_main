@@ -32,7 +32,7 @@ namespace Views
                 if (Session["Type"].Equals("Admin"))
                 {
                     //var a=((bs_binary_admin_MainMaster)this.Master).SchedTime;
-                    StreamReader reader = new StreamReader(@"C:\Users\Umar Bilal\Documents\fyp-2\TextPreProcessing\TextPreProcessing\Settings.txt");
+                    StreamReader reader = new StreamReader(@"C:\Users\Umar Bilal\Documents\influencershub\TextPreProcessing\TextPreProcessing\Settings.txt");
                     string x = reader.ReadLine();
                     this.tcount = x;
                     x = reader.ReadLine();

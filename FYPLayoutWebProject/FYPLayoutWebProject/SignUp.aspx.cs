@@ -36,9 +36,29 @@ namespace Views
             string email = Request.Form["email"];
             string password = Request.Form["password"];
 
-            User u = new User();
-            u = u.addUser(fname, lname, email, password);
-            if(u !=null)
+            User a = new User();
+            a = a.addUser(fname, lname, email, password);
+            UserAccess.Login login = new UserAccess.Login();
+            User u = null;
+            Task.Run(async () =>
+            {
+                try
+                {
+                    u = await login.getLogin(email, password);
+
+
+                    //Influencer inf = new Influencer();
+                    // inf.FillInfluencers();
+
+                }
+
+                catch (Exception ex)
+                {
+
+                }
+
+            }).Wait();
+            if (u !=null)
             {
 
                 Session["FName"] = u.FirstName;

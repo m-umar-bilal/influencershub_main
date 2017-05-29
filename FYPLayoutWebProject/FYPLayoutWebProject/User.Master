@@ -56,10 +56,10 @@
               <div class="sidebar-information">
                 <div class="profile-usermenu">
                   <ul class="nav nav-links">
-                    <li class="active"> <a href="#."> <i class="fa fa-heart-o"></i> Influencers' List</a> </li>
-                    <li> <a href="#."> <i class="fa fa-group"></i> Bookmarked Influencers </a> </li>
+                    <li class="active"> <a href="UserDashboard.aspx"> <i class="fa fa-heart-o"></i> Influencers' List</a> </li>
+                    <li> <a href="BookmarksView.aspx"> <i class="fa fa-group"></i> Bookmarked Influencers </a> </li>
                     <li> <a href="#."> <i class="fa fa-plus-circle"></i> My Account </a> </li>
-                    <li> <a href="#."> <i class="fa fa-cog"></i> Account Settings </a> </li>
+                    <li> <a href="User-Settings.aspx"> <i class="fa fa-cog"></i> Account Settings </a> </li>
                     <li> <a href="SignIn.aspx"> <i class="fa fa-sign-out"></i> Sign out </a> </li>
                   </ul>
                 </div>

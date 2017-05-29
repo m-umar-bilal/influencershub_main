@@ -3,7 +3,7 @@
    <div class="col-md-8">
             <div class="network">
                      <h4>Dashboard</h4>   
-                <h6> Wellcome Admin! Dashboard Page is Under Construction :)</h6>
+                <h6> Wellcome Admin!</h6>
                        
                         
                         

@@ -29,17 +29,17 @@ namespace FYPLayoutWebProject
                 string oauthToken = tempCrendentials.OAuthToken;
                 string oauthTokenSecret = tempCrendentials.OAuthTokenSecret;
                            // string image = tempCrendentials.;
-                  var ctx = new TwitterContext(auth);
+//                  var ctx = new TwitterContext(auth);
                             UserAccess.User user = new UserAccess.User();
-                            var imgURL =
-                await
-                (from User in ctx.User
-                 select User.ProfileImageUrl)
-                .ToListAsync();
+                var imgURL = "https://pbs.twimg.com/profile_images/453219211154694144/_3mXZzxU_400x400.jpeg";
+//                await
+//                (from User in ctx.User
+//                 select User.ProfileImageUrl)
+//                .ToListAsync();
                             try
                 {
 
-                    await user.AddTwitterAccount(Session["Email"].ToString(), oauthToken, oauthTokenSecret,imgURL[0]);
+                    await user.AddTwitterAccount(Session["Email"].ToString(), oauthToken, oauthTokenSecret,imgURL);
                                 Session["Token"] = oauthToken;
                                 Session["TokenSecret"] = oauthTokenSecret;
 

@@ -166,6 +166,7 @@
     <Content Include="assets\js\jquery.backstretch.min.js" />
     <Content Include="assets\js\jquery.metisMenu.js" />
     <Content Include="assets\js\scripts.js" />
+    <Content Include="BookmarksView.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -193,6 +194,7 @@
     <Content Include="Admin-AddAdmin.aspx" />
     <Content Include="Admin-Dashboard.aspx" />
     <Content Include="Admin-User.aspx" />
+    <Content Include="User-Settings.aspx" />
     <Content Include="User.Master" />
     <Content Include="UserDashboard.aspx" />
     <Content Include="User-AttachTwitter.aspx" />
@@ -217,7 +219,21 @@
     <Compile Include="Admin-Settings.aspx.designer.cs">
       <DependentUpon>Admin-Settings.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BookmarksView.aspx.cs">
+      <DependentUpon>BookmarksView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookmarksView.aspx.designer.cs">
+      <DependentUpon>BookmarksView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Infleunce.cs" />
+    <Compile Include="User-Settings.aspx.cs">
+      <DependentUpon>User-Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User-Settings.aspx.designer.cs">
+      <DependentUpon>User-Settings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User_InfluencerProfile.aspx.cs">
       <DependentUpon>User_InfluencerProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

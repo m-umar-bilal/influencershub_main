@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
@@ -13,6 +14,7 @@ namespace Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ConfirmCode.ForeColor = Color.Black;
             try
             {
                 if (Session["Type"].Equals("User"))
@@ -54,12 +56,13 @@ namespace Views
         {
             User u = new User();
             bool answer = false;
-            String code = ConfirmCode.Value;
+            String code = ConfirmCode.Text;
             Task.Run(async () =>
             {
                 try
                 {
-                  answer =  await u.ConfirmEmail(Session["Email"].ToString(), code);
+                 await u.ConfirmEmail(Session["Email"].ToString(), code);
+                   
                 }
                 catch (Exception eee)
                 {
@@ -68,17 +71,21 @@ namespace Views
                 }
 
             }).Wait();
-
-            if (answer)
+            ConfirmMessage.Text = Convert.ToString(Session["EmailConfirm"]);
+            if (Convert.ToString(Session["EmailConfirm"]) == code)
             {
-                Session["Email"] = true;
+                answer = true;
+            }
+           if (answer)
+            {
+                Session["EmailConfirm"] = "true";
                 ConfirmMessage.Text = "Your Email Is Confirmed";
                 //ConfirmMessage.ApplyStyle =
 
                 ConfirmCode.Visible = false;
                 Button1.Visible = false;
                 EnterCode.Visible = false;
-                Response.Redirect("/UserDashboard.aspx", false);
+                Response.Redirect("~/UserDashboard.aspx", false);
                 Context.ApplicationInstance.CompleteRequest();
             }
             else

@@ -43,8 +43,8 @@ namespace Views
                 catch (Exception ex) {
                     
                 }
-               Influencer i = new Influencer();
-              i.UpdateAllInfluencersScore();
+//               Influencer i = new Influencer();
+//              i.UpdateAllInfluencersScore();
             }).Wait();
 
             

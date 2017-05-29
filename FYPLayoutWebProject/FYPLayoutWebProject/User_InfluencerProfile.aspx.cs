@@ -8,6 +8,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using TextPreProcessing.BLL.TwitterAccess;
 using TextPreProcessing.BLL.UserAccess;
+using UserAccess;
+
 namespace FYPLayoutWebProject
 {
     public partial class User_InfluencerProfile : System.Web.UI.Page
@@ -21,7 +23,11 @@ namespace FYPLayoutWebProject
             pScrName= (string)Request.QueryString["name"];
 
             LoadInfluencer(pScrName);
-            int a = 1 + 2;
+            if (Influencer.CheckBookmark(Convert.ToString(Session["Email"]), influencer.ScreenName))
+            {
+                Button2.Enabled = false;
+                Button2.Visible = false;
+            }
         }
         private void LoadInfluencer(String name)
         {
@@ -60,6 +66,18 @@ namespace FYPLayoutWebProject
             Session["TempScrnName"] = influencer.ScreenName;
             Response.Redirect("~/User-Message.aspx", false);
             Context.ApplicationInstance.CompleteRequest();
+
+        }
+
+
+        protected void BtnBookmark_Click(object sender, EventArgs e)
+        {
+            Influencer bmInfluencer = new Influencer();
+            bmInfluencer.bookMarkInfluencer(Convert.ToString(Session["Email"]), influencer.ScreenName);
+            Response.Redirect("/User_InfluencerProfile.aspx?name=" + influencer.ScreenName, false);
+            Context.ApplicationInstance.CompleteRequest();
+
+
 
         }
     }
